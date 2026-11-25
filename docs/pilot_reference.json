@@ -1,0 +1,8 @@
+{
+  "review_date": "2026-11-24",
+  "basis": "Manual cross-check of archived final standings win-frequency groups; these are entitlement totals, not claim-ledger observations.",
+  "events": {
+    "atlanta-friday": {"roster_rows_extracted":1020,"standings_rows_extracted":1019,"participants_with_match_evidence":1018,"published_entitlement_tickets_known":9432,"unknown_payout_rows":0,"unknown_eligibility_rows":0,"row_issue_count":0,"event_issues":"roster_entries_without_standings:1","payout_bins":{"0":687,"24":225,"36":92,"48":15},"missing_registration_ids":[3084340]},
+    "atlanta-sunday": {"roster_rows_extracted":612,"standings_rows_extracted":612,"participants_with_match_evidence":612,"published_entitlement_tickets_known":5496,"unknown_payout_rows":0,"unknown_eligibility_rows":0,"row_issue_count":0,"event_issues":"","payout_bins":{"0":419,"24":130,"36":54,"48":9},"missing_registration_ids":[]}
+  }
+}

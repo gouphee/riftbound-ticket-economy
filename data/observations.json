@@ -1,0 +1,14 @@
+{
+  "top8_equal_split": {
+    "tickets_per_player": 216,
+    "ticket_pool": 1728,
+    "players": 8,
+    "evidence_class": "reported_historical_practice_event_agreement_unverified",
+    "user_brief_date": "2026-11-24",
+    "event_ids_with_verified_split_agreements": [],
+    "community_corroboration_url": "https://www.reddit.com/r/riftboundtcg/comments/1vxb7j8/regionals_in_singapore_solo/",
+    "web_search_excerpt": "A full split is 216 each and allows you to actually make the line to buy metal cards.",
+    "excerpt_representation": "Manually preserved web search tool excerpt retrieved 2026-11-24; not the original HTML. Direct HTTP retrieval returned a JavaScript challenge despite HTTP 200.",
+    "notes": "The community post recommends the practice before Singapore. It does not prove a completed split at Singapore or any other scoped event. Every event-specific split output is therefore an explicit scenario."
+  }
+}

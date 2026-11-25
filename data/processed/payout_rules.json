@@ -1,0 +1,1242 @@
+[
+  {
+    "event_key": "atlanta-friday",
+    "source": {
+      "source_id": "sha256:3f85b59d001261a0cdfe4ac65cee56bb854f917f677d841ccd3c1e609b04839f",
+      "url": "https://uvsgames.com/rq-atlanta-schedule/",
+      "final_url": "https://uvsgames.com/rq-atlanta-schedule/",
+      "retrieved_at": "2026-11-24T23:40:04.125514+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "3f85b59d001261a0cdfe4ac65cee56bb854f917f677d841ccd3c1e609b04839f",
+      "raw_path": "data/raw/objects/3f85b59d001261a0cdfe4ac65cee56bb854f917f677d841ccd3c1e609b04839f.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:40:04 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "kind": "wins",
+    "rounds": 6,
+    "win_tickets": {
+      "6": 48,
+      "5": 36,
+      "4": 24
+    },
+    "payout_cell": "• 6 Wins : 48 PW Tickets, Round 1 bye for tomorrow’s Regional Qualifier • 5 Wins : 36 PW Tickets • 4 Wins : 24 PW Tickets",
+    "schedule_row": [
+      "1:00 PM",
+      "Pre-Regional Challenge",
+      "• Swiss • 60m time limit • NO Top Cut • Best of Three",
+      "7hr:30m",
+      "• 6 Wins : 48 PW Tickets, Round 1 bye for tomorrow’s Regional Qualifier • 5 Wins : 36 PW Tickets • 4 Wins : 24 PW Tickets",
+      "$50 Purchase",
+      "2",
+      "1024",
+      "You must have an RQ Atlanta Competitor or Premium Competitor badge to enroll in this event. Prepare for tomorrow’s event in this Pre-RQ Challenge. Go undefeated to get a Round 1 bye! This event is excellent for competitive Riftbound players. Event cap is 1024 players. Competitors will play 1v1 Constructed. 6 Rounds. Best of 3. Rounds have a 60 minute time limit. Prizes are awarded by the end of Round 6."
+    ],
+    "published_capacity": 1024
+  },
+  {
+    "event_key": "atlanta-sunday",
+    "source": {
+      "source_id": "sha256:3f85b59d001261a0cdfe4ac65cee56bb854f917f677d841ccd3c1e609b04839f",
+      "url": "https://uvsgames.com/rq-atlanta-schedule/",
+      "final_url": "https://uvsgames.com/rq-atlanta-schedule/",
+      "retrieved_at": "2026-11-24T23:40:04.125514+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "3f85b59d001261a0cdfe4ac65cee56bb854f917f677d841ccd3c1e609b04839f",
+      "raw_path": "data/raw/objects/3f85b59d001261a0cdfe4ac65cee56bb854f917f677d841ccd3c1e609b04839f.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:40:04 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "kind": "wins",
+    "rounds": 6,
+    "win_tickets": {
+      "6": 48,
+      "5": 36,
+      "4": 24
+    },
+    "payout_cell": "• 6 Wins : 48 PW Tickets, guaranteed priority to a free Standard Competitor badge for a future RQ in 2026 (even one that is sold out!) • 5 Wins : 36 PW Tickets • 4 Wins : 24 PW Tickets",
+    "schedule_row": [
+      "10:00 AM",
+      "Regional Rebound",
+      "• Swiss • 60m time limit • NO Top Cut • Best of Three",
+      "7hr:30m",
+      "• 6 Wins : 48 PW Tickets, guaranteed priority to a free Standard Competitor badge for a future RQ in 2026 (even one that is sold out!) • 5 Wins : 36 PW Tickets • 4 Wins : 24 PW Tickets",
+      "$50 Purchase",
+      "2",
+      "1024",
+      "You must have an RQ Atlanta badge to enroll in this event. Finish off the weekend with a bang! This event is excellent for competitive Riftbound players. Event cap is 1024 players. Competitors will play 1v1 Constructed. 6 Rounds. Best of 3. Rounds have a 60 minute time limit. Prizes are awarded by the end of Round 6."
+    ],
+    "published_capacity": 1024
+  },
+  {
+    "event_key": "atlanta-saturday",
+    "source": {
+      "source_id": "sha256:3f85b59d001261a0cdfe4ac65cee56bb854f917f677d841ccd3c1e609b04839f",
+      "url": "https://uvsgames.com/rq-atlanta-schedule/",
+      "final_url": "https://uvsgames.com/rq-atlanta-schedule/",
+      "retrieved_at": "2026-11-24T23:40:04.125514+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "3f85b59d001261a0cdfe4ac65cee56bb854f917f677d841ccd3c1e609b04839f",
+      "raw_path": "data/raw/objects/3f85b59d001261a0cdfe4ac65cee56bb854f917f677d841ccd3c1e609b04839f.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:40:04 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "kind": "placement",
+    "rounds": 7,
+    "top_cut": 8,
+    "tiers": [
+      [
+        1,
+        1,
+        432
+      ],
+      [
+        2,
+        2,
+        288
+      ],
+      [
+        3,
+        4,
+        216
+      ],
+      [
+        5,
+        8,
+        144
+      ],
+      [
+        9,
+        16,
+        72
+      ],
+      [
+        17,
+        32,
+        48
+      ],
+      [
+        33,
+        64,
+        24
+      ],
+      [
+        65,
+        128,
+        18
+      ]
+    ],
+    "payout_cell": "• 1st : 432 PW Tickets • 2nd : 288 PW Tickets • 3rd/4th : 216 PW Tickets • 5th-8th : 144 PW Tickets • 9th-16th : 72 PW Tickets • 17th-32nd : 48 PW Tickets • 33rd-64th : 24 PW Tickets • 65th-128th : 18 PW Tickets",
+    "schedule_row": [
+      "11:00 AM",
+      "Super Saturday Standard Challenge",
+      "• Swiss • Best of Three • 60m time limit",
+      "12hr:15m",
+      "• 1st : 432 PW Tickets • 2nd : 288 PW Tickets • 3rd/4th : 216 PW Tickets • 5th-8th : 144 PW Tickets • 9th-16th : 72 PW Tickets • 17th-32nd : 48 PW Tickets • 33rd-64th : 24 PW Tickets • 65th-128th : 18 PW Tickets",
+      "$50 Purchase",
+      "2",
+      "512",
+      "You must have an RQ Atlanta badge to enroll in this event. Forge a new path in the Super Saturday Standard Challenge! This event is excellent for competitive Riftbound players. Event cap is 512 players. Competitors will play 1v1 Constructed. 7 Rounds. Best of 3. Rounds have a 60 minute time limit. After 7 Rounds, there will be a cut to the Top 8 players. Prizes are awarded at the end of Round 7, and after each round in the top cut."
+    ],
+    "published_capacity": 512
+  },
+  {
+    "event_key": "sydney-friday",
+    "source": {
+      "source_id": "sha256:4b6e16ab10252e32ded64dcb094921ad903fc3be333e30dfcbdbdbaff12bbd84",
+      "url": "https://uvsgames.com/rq-sydney-schedule/",
+      "final_url": "https://uvsgames.com/rq-sydney-schedule/",
+      "retrieved_at": "2026-11-24T23:40:06.098116+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "4b6e16ab10252e32ded64dcb094921ad903fc3be333e30dfcbdbdbaff12bbd84",
+      "raw_path": "data/raw/objects/4b6e16ab10252e32ded64dcb094921ad903fc3be333e30dfcbdbdbaff12bbd84.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:40:05 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "kind": "wins",
+    "rounds": 5,
+    "win_tickets": {
+      "5": 45,
+      "4": 30,
+      "3": 15
+    },
+    "payout_cell": "• 5 Wins : 45 PW Tickets • 4 Wins : 30 PW Tickets • 3 Wins : 15 PW Tickets",
+    "schedule_row": [
+      "1:00 PM",
+      "Pre-Regional Challenge",
+      "• Swiss • 60m time limit • NO Top Cut • Best of Three",
+      "7hr:00m",
+      "• 5 Wins : 45 PW Tickets • 4 Wins : 30 PW Tickets • 3 Wins : 15 PW Tickets",
+      "$70 Purchase",
+      "2",
+      "1536",
+      "Prepare for tomorrow’s event in this Pre-Regional Challenge. This event is excellent for competitive Riftbound players. Event cap is 1536 players. Competitors will play 1v1 Constructed. This event required decklist submission. 5 Rounds. Best of 3. Rounds have a 60 minute time limit. Prizes are awarded by the end of Round 6."
+    ],
+    "published_capacity": 1536
+  },
+  {
+    "event_key": "sydney-saturday",
+    "source": {
+      "source_id": "sha256:4b6e16ab10252e32ded64dcb094921ad903fc3be333e30dfcbdbdbaff12bbd84",
+      "url": "https://uvsgames.com/rq-sydney-schedule/",
+      "final_url": "https://uvsgames.com/rq-sydney-schedule/",
+      "retrieved_at": "2026-11-24T23:40:06.098116+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "4b6e16ab10252e32ded64dcb094921ad903fc3be333e30dfcbdbdbaff12bbd84",
+      "raw_path": "data/raw/objects/4b6e16ab10252e32ded64dcb094921ad903fc3be333e30dfcbdbdbaff12bbd84.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:40:05 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "kind": "placement",
+    "rounds": 7,
+    "top_cut": 8,
+    "tiers": [
+      [
+        1,
+        1,
+        432
+      ],
+      [
+        2,
+        2,
+        288
+      ],
+      [
+        3,
+        4,
+        216
+      ],
+      [
+        5,
+        8,
+        144
+      ],
+      [
+        9,
+        16,
+        72
+      ],
+      [
+        17,
+        32,
+        48
+      ],
+      [
+        33,
+        64,
+        24
+      ],
+      [
+        65,
+        128,
+        18
+      ]
+    ],
+    "payout_cell": "• 1st : 432 PW Tickets • 2nd : 288 PW Tickets • 3rd/4th : 216 PW Tickets • 5th-8th : 144 PW Tickets • 9th-16th : 72 PW Tickets • 17th-32nd : 48 PW Tickets • 33rd-64th : 24 PW Tickets • 65th-128th : 18 PW Tickets",
+    "schedule_row": [
+      "10:00 AM",
+      "Super Saturday Standard Challenge",
+      "• Swiss • Best of Three • 60m time limit",
+      "12hr:45m",
+      "• 1st : 432 PW Tickets • 2nd : 288 PW Tickets • 3rd/4th : 216 PW Tickets • 5th-8th : 144 PW Tickets • 9th-16th : 72 PW Tickets • 17th-32nd : 48 PW Tickets • 33rd-64th : 24 PW Tickets • 65th-128th : 18 PW Tickets",
+      "$70 Purchase",
+      "2",
+      "512",
+      "Forge a new path in the Super Saturday Standard Challenge! This event is excellent for competitive Riftbound players. Event cap is 512 players. Competitors will play 1v1 Constructed. This event required decklist submission. 7 Rounds. Best of 3. Rounds have a 60 minute time limit. After 7 Rounds, there will be a cut to the Top 8 players. Prizes are awarded at the end of Round 7, and after each round in the top cut."
+    ],
+    "published_capacity": 512
+  },
+  {
+    "event_key": "sydney-sunday",
+    "source": {
+      "source_id": "sha256:4b6e16ab10252e32ded64dcb094921ad903fc3be333e30dfcbdbdbaff12bbd84",
+      "url": "https://uvsgames.com/rq-sydney-schedule/",
+      "final_url": "https://uvsgames.com/rq-sydney-schedule/",
+      "retrieved_at": "2026-11-24T23:40:06.098116+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "4b6e16ab10252e32ded64dcb094921ad903fc3be333e30dfcbdbdbaff12bbd84",
+      "raw_path": "data/raw/objects/4b6e16ab10252e32ded64dcb094921ad903fc3be333e30dfcbdbdbaff12bbd84.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:40:05 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "kind": "wins",
+    "rounds": 6,
+    "win_tickets": {
+      "6": 40,
+      "5": 40,
+      "4": 30
+    },
+    "payout_cell": "• 6 Wins : 40 PW Tickets, guaranteed priority to a free Standard Competitor badge for a future RQ in 2026 (even one that is sold out!) • 5 Wins : 40 PW Tickets • 4 Wins : 30 PW Tickets",
+    "schedule_row": [
+      "11:00 AM",
+      "Regional Rebound",
+      "• Swiss • 60m time limit • NO Top Cut • Best of Three",
+      "7hr:30m",
+      "• 6 Wins : 40 PW Tickets, guaranteed priority to a free Standard Competitor badge for a future RQ in 2026 (even one that is sold out!) • 5 Wins : 40 PW Tickets • 4 Wins : 30 PW Tickets",
+      "$70 Purchase",
+      "2",
+      "1024",
+      "Finish off the weekend with a bang! This event is excellent for competitive Riftbound players. Event cap is 1024 players. Competitors will play 1v1 Constructed. This event required decklist submission. 6 Rounds. Best of 3. Rounds have a 60 minute time limit. Prizes are awarded by the end of Round 6."
+    ],
+    "published_capacity": 1024
+  },
+  {
+    "event_key": "vancouver-friday",
+    "source": {
+      "source_id": "sha256:2b233b2bee96b439caae7386eaff650133737041cc744cfaf3985f72d8883952",
+      "url": "https://uvsgames.com/rq-vancouver-schedule/",
+      "final_url": "https://uvsgames.com/rq-vancouver-schedule/",
+      "retrieved_at": "2026-11-24T23:42:53.166716+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "2b233b2bee96b439caae7386eaff650133737041cc744cfaf3985f72d8883952",
+      "raw_path": "data/raw/objects/2b233b2bee96b439caae7386eaff650133737041cc744cfaf3985f72d8883952.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:42:53 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "kind": "wins",
+    "rounds": 5,
+    "win_tickets": {
+      "5": 45,
+      "4": 30,
+      "3": 15
+    },
+    "payout_cell": "• 5 Wins : 45 PW Tickets • 4 Wins : 30 PW Tickets • 3 Wins : 15 PW Tickets",
+    "schedule_row": [
+      "1:00 PM",
+      "Pre-Regional Challenge",
+      "• Swiss • 60m time limit • NO Top Cut • Best of Three",
+      "7hr:00m",
+      "• 5 Wins : 45 PW Tickets • 4 Wins : 30 PW Tickets • 3 Wins : 15 PW Tickets",
+      "CA$70 Purchase",
+      "2",
+      "1536",
+      "Prepare for tomorrow’s event in this Pre-Regional Challenge. This event is excellent for competitive Riftbound players. Event cap is 1536 players. Competitors will play 1v1 Constructed. This event requires a decklist submission. 5 Rounds. Best of 3. Rounds have a 60 minute time limit. Prizes are awarded by the end of Round 5."
+    ],
+    "published_capacity": 1536
+  },
+  {
+    "event_key": "vancouver-saturday",
+    "source": {
+      "source_id": "sha256:2b233b2bee96b439caae7386eaff650133737041cc744cfaf3985f72d8883952",
+      "url": "https://uvsgames.com/rq-vancouver-schedule/",
+      "final_url": "https://uvsgames.com/rq-vancouver-schedule/",
+      "retrieved_at": "2026-11-24T23:42:53.166716+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "2b233b2bee96b439caae7386eaff650133737041cc744cfaf3985f72d8883952",
+      "raw_path": "data/raw/objects/2b233b2bee96b439caae7386eaff650133737041cc744cfaf3985f72d8883952.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:42:53 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "kind": "placement",
+    "rounds": 7,
+    "top_cut": 8,
+    "tiers": [
+      [
+        1,
+        1,
+        432
+      ],
+      [
+        2,
+        2,
+        288
+      ],
+      [
+        3,
+        4,
+        216
+      ],
+      [
+        5,
+        8,
+        144
+      ],
+      [
+        9,
+        16,
+        72
+      ],
+      [
+        17,
+        32,
+        48
+      ],
+      [
+        33,
+        64,
+        24
+      ],
+      [
+        65,
+        128,
+        18
+      ]
+    ],
+    "payout_cell": "• 1st : 432 PW Tickets • 2nd : 288 PW Tickets • 3rd/4th : 216 PW Tickets • 5th-8th : 144 PW Tickets • 9th-16th : 72 PW Tickets • 17th-32nd : 48 PW Tickets • 33rd-64th : 24 PW Tickets • 65th-128th : 18 PW Tickets",
+    "schedule_row": [
+      "10:00 AM",
+      "Super Saturday Standard Challenge",
+      "• Swiss • Best of Three • 60m time limit",
+      "12hr:45m",
+      "• 1st : 432 PW Tickets • 2nd : 288 PW Tickets • 3rd/4th : 216 PW Tickets • 5th-8th : 144 PW Tickets • 9th-16th : 72 PW Tickets • 17th-32nd : 48 PW Tickets • 33rd-64th : 24 PW Tickets • 65th-128th : 18 PW Tickets",
+      "CA$70 Purchase",
+      "2",
+      "512",
+      "Forge a new path in the Super Saturday Standard Challenge! This event is excellent for competitive Riftbound players. Event cap is 512 players. Competitors will play 1v1 Constructed. This event requires a decklist submission. 7 Rounds. Best of 3. Rounds have a 60 minute time limit. After 7 Rounds, there will be a cut to the Top 8 players. Prizes are awarded at the end of Round 7, and after each round in the top cut."
+    ],
+    "published_capacity": 512
+  },
+  {
+    "event_key": "vancouver-sunday",
+    "source": {
+      "source_id": "sha256:2b233b2bee96b439caae7386eaff650133737041cc744cfaf3985f72d8883952",
+      "url": "https://uvsgames.com/rq-vancouver-schedule/",
+      "final_url": "https://uvsgames.com/rq-vancouver-schedule/",
+      "retrieved_at": "2026-11-24T23:42:53.166716+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "2b233b2bee96b439caae7386eaff650133737041cc744cfaf3985f72d8883952",
+      "raw_path": "data/raw/objects/2b233b2bee96b439caae7386eaff650133737041cc744cfaf3985f72d8883952.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:42:53 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "kind": "wins",
+    "rounds": 6,
+    "win_tickets": {
+      "6": 40,
+      "5": 40,
+      "4": 30
+    },
+    "payout_cell": "• 6 Wins : 40 PW Tickets, guaranteed priority to a free Standard Competitor badge for a future RQ in 2026 (even one that is sold out!) • 5 Wins : 40 PW Tickets • 4 Wins : 30 PW Tickets",
+    "schedule_row": [
+      "11:00 AM",
+      "Regional Rebound",
+      "• Swiss • 60m time limit • NO Top Cut • Best of Three",
+      "7hr:30m",
+      "• 6 Wins : 40 PW Tickets, guaranteed priority to a free Standard Competitor badge for a future RQ in 2026 (even one that is sold out!) • 5 Wins : 40 PW Tickets • 4 Wins : 30 PW Tickets",
+      "CA$70 Purchase",
+      "2",
+      "1024",
+      "Finish off the weekend with a bang! This event is excellent for competitive Riftbound players. Event cap is 1024 players. Competitors will play 1v1 Constructed. This event requires a decklist submission. 6 Rounds. Best of 3. Rounds have a 60 minute time limit. Prizes are awarded by the end of Round 6."
+    ],
+    "published_capacity": 1024
+  },
+  {
+    "event_key": "utrecht-friday",
+    "source": {
+      "source_id": "sha256:ce6c98eb392cf1ad0d684ac631152a336ae2fa6e118b53d7f099f25c9d4539e8",
+      "url": "https://uvsgames.com/rq-utrecht-schedule/",
+      "final_url": "https://uvsgames.com/rq-utrecht-schedule/",
+      "retrieved_at": "2026-11-24T23:42:54.630062+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "ce6c98eb392cf1ad0d684ac631152a336ae2fa6e118b53d7f099f25c9d4539e8",
+      "raw_path": "data/raw/objects/ce6c98eb392cf1ad0d684ac631152a336ae2fa6e118b53d7f099f25c9d4539e8.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:42:54 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "kind": "wins",
+    "rounds": 5,
+    "win_tickets": {
+      "5": 45,
+      "4": 30,
+      "3": 15
+    },
+    "payout_cell": "• 5 Wins : 45 PW Tickets • 4 Wins : 30 PW Tickets • 3 Wins : 15 PW Tickets",
+    "schedule_row": [
+      "1:00 PM",
+      "Pre-Regional Challenge",
+      "• Swiss • 60m time limit • NO Top Cut • Best of Three",
+      "7hr:00m",
+      "• 5 Wins : 45 PW Tickets • 4 Wins : 30 PW Tickets • 3 Wins : 15 PW Tickets",
+      "€50 Purchase",
+      "2",
+      "1536",
+      "Prepare for tomorrow’s event in this Pre-Regional Challenge. This event is excellent for competitive Riftbound players. Event cap is 1536 players. Competitors will play 1v1 Constructed. This event required decklist submission. 5 Rounds. Best of 3. Rounds have a 60 minute time limit. Prizes are awarded by the end of Round 6."
+    ],
+    "published_capacity": 1536
+  },
+  {
+    "event_key": "utrecht-saturday",
+    "source": {
+      "source_id": "sha256:ce6c98eb392cf1ad0d684ac631152a336ae2fa6e118b53d7f099f25c9d4539e8",
+      "url": "https://uvsgames.com/rq-utrecht-schedule/",
+      "final_url": "https://uvsgames.com/rq-utrecht-schedule/",
+      "retrieved_at": "2026-11-24T23:42:54.630062+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "ce6c98eb392cf1ad0d684ac631152a336ae2fa6e118b53d7f099f25c9d4539e8",
+      "raw_path": "data/raw/objects/ce6c98eb392cf1ad0d684ac631152a336ae2fa6e118b53d7f099f25c9d4539e8.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:42:54 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "kind": "placement",
+    "rounds": 7,
+    "top_cut": 8,
+    "tiers": [
+      [
+        1,
+        1,
+        432
+      ],
+      [
+        2,
+        2,
+        288
+      ],
+      [
+        3,
+        4,
+        216
+      ],
+      [
+        5,
+        8,
+        144
+      ],
+      [
+        9,
+        16,
+        72
+      ],
+      [
+        17,
+        32,
+        48
+      ],
+      [
+        33,
+        64,
+        24
+      ],
+      [
+        65,
+        128,
+        18
+      ]
+    ],
+    "payout_cell": "• 1st : 432 PW Tickets • 2nd : 288 PW Tickets • 3rd/4th : 216 PW Tickets • 5th-8th : 144 PW Tickets • 9th-16th : 72 PW Tickets • 17th-32nd : 48 PW Tickets • 33rd-64th : 24 PW Tickets • 65th-128th : 18 PW Tickets",
+    "schedule_row": [
+      "10:00 AM",
+      "Super Saturday Standard Challenge",
+      "• Swiss • Best of Three • 60m time limit",
+      "12hr:45m",
+      "• 1st : 432 PW Tickets • 2nd : 288 PW Tickets • 3rd/4th : 216 PW Tickets • 5th-8th : 144 PW Tickets • 9th-16th : 72 PW Tickets • 17th-32nd : 48 PW Tickets • 33rd-64th : 24 PW Tickets • 65th-128th : 18 PW Tickets",
+      "€50 Purchase",
+      "2",
+      "512",
+      "Forge a new path in the Super Saturday Standard Challenge! This event is excellent for competitive Riftbound players. Event cap is 512 players. Competitors will play 1v1 Constructed. This event required decklist submission. 7 Rounds. Best of 3. Rounds have a 60 minute time limit. After 7 Rounds, there will be a cut to the Top 8 players. Prizes are awarded at the end of Round 7, and after each round in the top cut."
+    ],
+    "published_capacity": 512
+  },
+  {
+    "event_key": "utrecht-sunday",
+    "source": {
+      "source_id": "sha256:ce6c98eb392cf1ad0d684ac631152a336ae2fa6e118b53d7f099f25c9d4539e8",
+      "url": "https://uvsgames.com/rq-utrecht-schedule/",
+      "final_url": "https://uvsgames.com/rq-utrecht-schedule/",
+      "retrieved_at": "2026-11-24T23:42:54.630062+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "ce6c98eb392cf1ad0d684ac631152a336ae2fa6e118b53d7f099f25c9d4539e8",
+      "raw_path": "data/raw/objects/ce6c98eb392cf1ad0d684ac631152a336ae2fa6e118b53d7f099f25c9d4539e8.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:42:54 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "kind": "wins",
+    "rounds": 6,
+    "win_tickets": {
+      "6": 40,
+      "5": 40,
+      "4": 30
+    },
+    "payout_cell": "• 6 Wins : 40 PW Tickets, guaranteed priority to a free Standard Competitor badge for a future RQ in 2026 (even one that is sold out!) • 5 Wins : 40 PW Tickets • 4 Wins : 30 PW Tickets",
+    "schedule_row": [
+      "11:00 AM",
+      "Regional Rebound",
+      "• Swiss • 60m time limit • NO Top Cut • Best of Three",
+      "7hr:30m",
+      "• 6 Wins : 40 PW Tickets, guaranteed priority to a free Standard Competitor badge for a future RQ in 2026 (even one that is sold out!) • 5 Wins : 40 PW Tickets • 4 Wins : 30 PW Tickets",
+      "€50 Purchase",
+      "2",
+      "1024",
+      "Finish off the weekend with a bang! This event is excellent for competitive Riftbound players. Event cap is 1024 players. Competitors will play 1v1 Constructed. This event required decklist submission. 6 Rounds. Best of 3. Rounds have a 60 minute time limit. Prizes are awarded by the end of Round 6."
+    ],
+    "published_capacity": 1024
+  },
+  {
+    "event_key": "hartford-friday",
+    "source": {
+      "source_id": "sha256:857f7da12a30824235d2bbc59ddd31f0e10280f27a39299aa8015caf328a05a1",
+      "url": "https://uvsgames.com/rq-hartford-schedule/",
+      "final_url": "https://uvsgames.com/rq-hartford-schedule/",
+      "retrieved_at": "2026-11-24T23:42:56.068565+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "857f7da12a30824235d2bbc59ddd31f0e10280f27a39299aa8015caf328a05a1",
+      "raw_path": "data/raw/objects/857f7da12a30824235d2bbc59ddd31f0e10280f27a39299aa8015caf328a05a1.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:42:55 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "kind": "wins",
+    "rounds": 5,
+    "win_tickets": {
+      "5": 45,
+      "4": 30,
+      "3": 15
+    },
+    "payout_cell": "• 5 Wins : 45 PW Tickets • 4 Wins : 30 PW Tickets • 3 Wins : 15 PW Tickets",
+    "schedule_row": [
+      "1:00 PM",
+      "Pre-Regional Challenge",
+      "• Swiss • 60m time limit • NO Top Cut • Best of Three",
+      "7hr:00m",
+      "• 5 Wins : 45 PW Tickets • 4 Wins : 30 PW Tickets • 3 Wins : 15 PW Tickets",
+      "$50 Purchase",
+      "2",
+      "1536",
+      "Prepare for tomorrow’s event in this Pre-Regional Challenge. This event is excellent for competitive Riftbound players. Event cap is 1536 players. Competitors will play 1v1 Constructed. This event required decklist submission. 5 Rounds. Best of 3. Rounds have a 60 minute time limit. Prizes are awarded by the end of Round 6."
+    ],
+    "published_capacity": 1536
+  },
+  {
+    "event_key": "hartford-saturday",
+    "source": {
+      "source_id": "sha256:857f7da12a30824235d2bbc59ddd31f0e10280f27a39299aa8015caf328a05a1",
+      "url": "https://uvsgames.com/rq-hartford-schedule/",
+      "final_url": "https://uvsgames.com/rq-hartford-schedule/",
+      "retrieved_at": "2026-11-24T23:42:56.068565+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "857f7da12a30824235d2bbc59ddd31f0e10280f27a39299aa8015caf328a05a1",
+      "raw_path": "data/raw/objects/857f7da12a30824235d2bbc59ddd31f0e10280f27a39299aa8015caf328a05a1.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:42:55 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "kind": "placement",
+    "rounds": 7,
+    "top_cut": 8,
+    "tiers": [
+      [
+        1,
+        1,
+        432
+      ],
+      [
+        2,
+        2,
+        288
+      ],
+      [
+        3,
+        4,
+        216
+      ],
+      [
+        5,
+        8,
+        144
+      ],
+      [
+        9,
+        16,
+        72
+      ],
+      [
+        17,
+        32,
+        48
+      ],
+      [
+        33,
+        64,
+        24
+      ],
+      [
+        65,
+        128,
+        18
+      ]
+    ],
+    "payout_cell": "• 1st : 432 PW Tickets • 2nd : 288 PW Tickets • 3rd/4th : 216 PW Tickets • 5th-8th : 144 PW Tickets • 9th-16th : 72 PW Tickets • 17th-32nd : 48 PW Tickets • 33rd-64th : 24 PW Tickets • 65th-128th : 18 PW Tickets",
+    "schedule_row": [
+      "10:00 AM",
+      "Super Saturday Standard Challenge",
+      "• Swiss • Best of Three • 60m time limit",
+      "12hr:45m",
+      "• 1st : 432 PW Tickets • 2nd : 288 PW Tickets • 3rd/4th : 216 PW Tickets • 5th-8th : 144 PW Tickets • 9th-16th : 72 PW Tickets • 17th-32nd : 48 PW Tickets • 33rd-64th : 24 PW Tickets • 65th-128th : 18 PW Tickets",
+      "$50 Purchase",
+      "2",
+      "512",
+      "Forge a new path in the Super Saturday Standard Challenge! This event is excellent for competitive Riftbound players. Event cap is 512 players. Competitors will play 1v1 Constructed. This event required decklist submission. 7 Rounds. Best of 3. Rounds have a 60 minute time limit. After 7 Rounds, there will be a cut to the Top 8 players. Prizes are awarded at the end of Round 7, and after each round in the top cut."
+    ],
+    "published_capacity": 512
+  },
+  {
+    "event_key": "hartford-sunday",
+    "source": {
+      "source_id": "sha256:857f7da12a30824235d2bbc59ddd31f0e10280f27a39299aa8015caf328a05a1",
+      "url": "https://uvsgames.com/rq-hartford-schedule/",
+      "final_url": "https://uvsgames.com/rq-hartford-schedule/",
+      "retrieved_at": "2026-11-24T23:42:56.068565+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "857f7da12a30824235d2bbc59ddd31f0e10280f27a39299aa8015caf328a05a1",
+      "raw_path": "data/raw/objects/857f7da12a30824235d2bbc59ddd31f0e10280f27a39299aa8015caf328a05a1.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:42:55 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "kind": "wins",
+    "rounds": 6,
+    "win_tickets": {
+      "6": 40,
+      "5": 40,
+      "4": 30
+    },
+    "payout_cell": "• 6 Wins : 40 PW Tickets, guaranteed priority to a free Standard Competitor badge for a future RQ in 2026 (even one that is sold out!) • 5 Wins : 40 PW Tickets • 4 Wins : 30 PW Tickets",
+    "schedule_row": [
+      "11:00 AM",
+      "Regional Rebound",
+      "• Swiss • 60m time limit • NO Top Cut • Best of Three",
+      "7hr:30m",
+      "• 6 Wins : 40 PW Tickets, guaranteed priority to a free Standard Competitor badge for a future RQ in 2026 (even one that is sold out!) • 5 Wins : 40 PW Tickets • 4 Wins : 30 PW Tickets",
+      "$50 Purchase",
+      "2",
+      "1024",
+      "Finish off the weekend with a bang! This event is excellent for competitive Riftbound players. Event cap is 1024 players. Competitors will play 1v1 Constructed. This event required decklist submission. 6 Rounds. Best of 3. Rounds have a 60 minute time limit. Prizes are awarded by the end of Round 6."
+    ],
+    "published_capacity": 1024
+  },
+  {
+    "event_key": "barcelona-friday",
+    "source": {
+      "source_id": "sha256:39e50c0f5de5f724b8f3b63ff79b6ca0d357e032abd7902685ea73a65938c013",
+      "url": "https://uvsgames.com/rq-barcelona-schedule/",
+      "final_url": "https://uvsgames.com/rq-barcelona-schedule/",
+      "retrieved_at": "2026-11-24T23:42:57.576132+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "39e50c0f5de5f724b8f3b63ff79b6ca0d357e032abd7902685ea73a65938c013",
+      "raw_path": "data/raw/objects/39e50c0f5de5f724b8f3b63ff79b6ca0d357e032abd7902685ea73a65938c013.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:42:57 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "kind": "wins",
+    "rounds": 5,
+    "win_tickets": {
+      "5": 50,
+      "4": 30,
+      "3": 15
+    },
+    "payout_cell": "• 5 Wins : 50 PW Tickets • 4 Wins : 30 PW Tickets • 3 Wins : 15 PW Tickets",
+    "schedule_row": [
+      "1:00 PM",
+      "Pre-Regional Challenge",
+      "• Swiss • 60m time limit • NO Top Cut • Best of Three",
+      "7hr:00m",
+      "• 5 Wins : 50 PW Tickets • 4 Wins : 30 PW Tickets • 3 Wins : 15 PW Tickets",
+      "€50 Purchase",
+      "2 Per Player",
+      "1536",
+      "Prepare for tomorrow’s event in this Pre-Regional Challenge. This event is excellent for competitive Riftbound players. Event cap is 1536 players. Competitors will play 1v1 Constructed. This event requires a decklist submission. 5 Rounds. Best of 3. Rounds have a 60 minute time limit. Prizes are awarded by the end of Round 5."
+    ],
+    "published_capacity": 1536
+  },
+  {
+    "event_key": "barcelona-saturday",
+    "source": {
+      "source_id": "sha256:39e50c0f5de5f724b8f3b63ff79b6ca0d357e032abd7902685ea73a65938c013",
+      "url": "https://uvsgames.com/rq-barcelona-schedule/",
+      "final_url": "https://uvsgames.com/rq-barcelona-schedule/",
+      "retrieved_at": "2026-11-24T23:42:57.576132+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "39e50c0f5de5f724b8f3b63ff79b6ca0d357e032abd7902685ea73a65938c013",
+      "raw_path": "data/raw/objects/39e50c0f5de5f724b8f3b63ff79b6ca0d357e032abd7902685ea73a65938c013.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:42:57 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "kind": "placement",
+    "rounds": 7,
+    "top_cut": 8,
+    "tiers": [
+      [
+        1,
+        1,
+        432
+      ],
+      [
+        2,
+        2,
+        288
+      ],
+      [
+        3,
+        4,
+        216
+      ],
+      [
+        5,
+        8,
+        144
+      ],
+      [
+        9,
+        16,
+        72
+      ],
+      [
+        17,
+        32,
+        48
+      ],
+      [
+        33,
+        64,
+        24
+      ],
+      [
+        65,
+        128,
+        18
+      ]
+    ],
+    "payout_cell": "• 1st : 432 PW Tickets • 2nd : 288 PW Tickets • 3rd/4th : 216 PW Tickets • 5th-8th : 144 PW Tickets • 9th-16th : 72 PW Tickets • 17th-32nd : 48 PW Tickets • 33rd-64th : 24 PW Tickets • 65th-128th : 18 PW Tickets",
+    "schedule_row": [
+      "10:00 AM",
+      "Super Saturday Standard Challenge",
+      "• Swiss • Best of Three • 60m time limit",
+      "12hr:45m",
+      "• 1st : 432 PW Tickets • 2nd : 288 PW Tickets • 3rd/4th : 216 PW Tickets • 5th-8th : 144 PW Tickets • 9th-16th : 72 PW Tickets • 17th-32nd : 48 PW Tickets • 33rd-64th : 24 PW Tickets • 65th-128th : 18 PW Tickets",
+      "€50 Purchase",
+      "2 Per Player",
+      "512",
+      "Forge a new path in the Super Saturday Standard Challenge! This event is excellent for competitive Riftbound players. Event cap is 512 players. Competitors will play 1v1 Constructed. This event requires a decklist submission. 7 Rounds. Best of 3. Rounds have a 60 minute time limit. After 7 Rounds, there will be a cut to the Top 8 players. Prizes are awarded at the end of Round 7, and after each round in the top cut."
+    ],
+    "published_capacity": 512
+  },
+  {
+    "event_key": "barcelona-sunday",
+    "source": {
+      "source_id": "sha256:39e50c0f5de5f724b8f3b63ff79b6ca0d357e032abd7902685ea73a65938c013",
+      "url": "https://uvsgames.com/rq-barcelona-schedule/",
+      "final_url": "https://uvsgames.com/rq-barcelona-schedule/",
+      "retrieved_at": "2026-11-24T23:42:57.576132+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "39e50c0f5de5f724b8f3b63ff79b6ca0d357e032abd7902685ea73a65938c013",
+      "raw_path": "data/raw/objects/39e50c0f5de5f724b8f3b63ff79b6ca0d357e032abd7902685ea73a65938c013.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:42:57 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "kind": "wins",
+    "rounds": 6,
+    "win_tickets": {
+      "6": 40,
+      "5": 40,
+      "4": 30
+    },
+    "payout_cell": "• 6 Wins : 40 PW Tickets, Choice of Secretlab TITAN Evo League of Legends Edition chair • 5 Wins : 40 PW Tickets • 4 Wins : 30 PW Tickets",
+    "schedule_row": [
+      "11:00 AM",
+      "Secretlab Regional Rebound",
+      "• Swiss • 60m time limit • NO Top Cut • Best of Three",
+      "7hr:30m",
+      "• 6 Wins : 40 PW Tickets, Choice of Secretlab TITAN Evo League of Legends Edition chair • 5 Wins : 40 PW Tickets • 4 Wins : 30 PW Tickets",
+      "€50 Purchase",
+      "2 Per Player",
+      "1024",
+      "Secure your seat among the elite in this exclusive side event—perfect for competitive Riftbound players looking to upgrade their home setup. Undefeated competitors will each be awarded a Secretlab TITAN Evo League of Legends Edition chair of their choice. Event cap is 1024 players. Competitors will play 1v1 Constructed. This event requires a decklist submission. 6 Rounds. Best of 3. Rounds have a 60 minute time limit. Prizes are awarded by the end of Round 6. Prize Conditions & Eligibility: Chair prizes are available to participants based in the US, EU, UK, SG, and MY. Please note that fulfillment may not be available to certain states and rural areas. Styles and sizes are subject to regional availability. You can view the current options for your region at secretlab.co/leagueoflegends , though stock may vary at the time of prize redemption. Within a week following the event, a Secretlab representative will contact the winners directly to confirm their preferred design and size, as well as their delivery details to fulfill the prize. Players residing outside of the eligible regions are still welcome to compete. Should an ineligible player finish with a perfect record, they will receive a Secretlab Lumbar Pillow League of Legends Edition and a Standard Competitor badge for a future Regional Qualifier in lieu of the physical chair prize."
+    ],
+    "published_capacity": 1024
+  },
+  {
+    "event_key": "singapore-friday",
+    "source": {
+      "source_id": "sha256:07304ab6f9ab6e845ccdfd2869fad4693e2feee354e66a6b8a000eed9949f763",
+      "url": "https://uvsgames.com/rq-singapore-schedule/",
+      "final_url": "https://uvsgames.com/rq-singapore-schedule/",
+      "retrieved_at": "2026-11-24T23:42:59.220093+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "07304ab6f9ab6e845ccdfd2869fad4693e2feee354e66a6b8a000eed9949f763",
+      "raw_path": "data/raw/objects/07304ab6f9ab6e845ccdfd2869fad4693e2feee354e66a6b8a000eed9949f763.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:42:59 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "kind": "wins",
+    "rounds": 5,
+    "win_tickets": {
+      "5": 50,
+      "4": 30,
+      "3": 15
+    },
+    "payout_cell": "• 5 Wins : 50 PW Tickets • 4 Wins : 30 PW Tickets • 3 Wins : 15 PW Tickets",
+    "schedule_row": [
+      "1:00 PM",
+      "Pre-Regional Challenge",
+      "• Swiss • 60m time limit • NO Top Cut • Best of Three",
+      "7hr:00m",
+      "• 5 Wins : 50 PW Tickets • 4 Wins : 30 PW Tickets • 3 Wins : 15 PW Tickets",
+      "$60 Purchase",
+      "2 Per Player",
+      "1536",
+      "Prepare for tomorrow’s event in this Pre-Regional Challenge. This event is excellent for competitive Riftbound players. Event cap is 1536 players. Competitors will play 1v1 Constructed. This event requires a decklist submission. 5 Rounds. Best of 3. Rounds have a 60 minute time limit. Prizes are awarded by the end of Round 5."
+    ],
+    "published_capacity": 1536
+  },
+  {
+    "event_key": "singapore-saturday",
+    "source": {
+      "source_id": "sha256:07304ab6f9ab6e845ccdfd2869fad4693e2feee354e66a6b8a000eed9949f763",
+      "url": "https://uvsgames.com/rq-singapore-schedule/",
+      "final_url": "https://uvsgames.com/rq-singapore-schedule/",
+      "retrieved_at": "2026-11-24T23:42:59.220093+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "07304ab6f9ab6e845ccdfd2869fad4693e2feee354e66a6b8a000eed9949f763",
+      "raw_path": "data/raw/objects/07304ab6f9ab6e845ccdfd2869fad4693e2feee354e66a6b8a000eed9949f763.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:42:59 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "kind": "placement",
+    "rounds": 7,
+    "top_cut": 8,
+    "tiers": [
+      [
+        1,
+        1,
+        432
+      ],
+      [
+        2,
+        2,
+        288
+      ],
+      [
+        3,
+        4,
+        216
+      ],
+      [
+        5,
+        8,
+        144
+      ],
+      [
+        9,
+        16,
+        72
+      ],
+      [
+        17,
+        32,
+        48
+      ],
+      [
+        33,
+        64,
+        24
+      ],
+      [
+        65,
+        128,
+        18
+      ]
+    ],
+    "payout_cell": "• 1st : 432 PW Tickets • 2nd : 288 PW Tickets • 3rd/4th : 216 PW Tickets • 5th-8th : 144 PW Tickets • 9th-16th : 72 PW Tickets • 17th-32nd : 48 PW Tickets • 33rd-64th : 24 PW Tickets • 65th-128th : 18 PW Tickets",
+    "schedule_row": [
+      "10:00 AM",
+      "Super Saturday Standard Challenge",
+      "• Swiss • Best of Three • 60m time limit",
+      "12hr:45m",
+      "• 1st : 432 PW Tickets • 2nd : 288 PW Tickets • 3rd/4th : 216 PW Tickets • 5th-8th : 144 PW Tickets • 9th-16th : 72 PW Tickets • 17th-32nd : 48 PW Tickets • 33rd-64th : 24 PW Tickets • 65th-128th : 18 PW Tickets",
+      "$60 Purchase",
+      "2 Per Player",
+      "512",
+      "Forge a new path in the Super Saturday Standard Challenge! This event is excellent for competitive Riftbound players. Event cap is 512 players. Competitors will play 1v1 Constructed. This event requires a decklist submission. 7 Rounds. Best of 3. Rounds have a 60 minute time limit. After 7 Rounds, there will be a cut to the Top 8 players. Prizes are awarded at the end of Round 7, and after each round in the top cut."
+    ],
+    "published_capacity": 512
+  },
+  {
+    "event_key": "singapore-sunday",
+    "source": {
+      "source_id": "sha256:07304ab6f9ab6e845ccdfd2869fad4693e2feee354e66a6b8a000eed9949f763",
+      "url": "https://uvsgames.com/rq-singapore-schedule/",
+      "final_url": "https://uvsgames.com/rq-singapore-schedule/",
+      "retrieved_at": "2026-11-24T23:42:59.220093+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "07304ab6f9ab6e845ccdfd2869fad4693e2feee354e66a6b8a000eed9949f763",
+      "raw_path": "data/raw/objects/07304ab6f9ab6e845ccdfd2869fad4693e2feee354e66a6b8a000eed9949f763.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:42:59 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "kind": "wins",
+    "rounds": 6,
+    "win_tickets": {
+      "6": 40,
+      "5": 40,
+      "4": 30
+    },
+    "payout_cell": "• 6 Wins : 40 PW Tickets, Choice of Secretlab TITAN Evo League of Legends Edition chair • 5 Wins : 40 PW Tickets • 4 Wins : 30 PW Tickets",
+    "schedule_row": [
+      "11:00 AM",
+      "Secretlab Regional Rebound",
+      "• Swiss • 60m time limit • NO Top Cut • Best of Three",
+      "7hr:30m",
+      "• 6 Wins : 40 PW Tickets, Choice of Secretlab TITAN Evo League of Legends Edition chair • 5 Wins : 40 PW Tickets • 4 Wins : 30 PW Tickets",
+      "$60 Purchase",
+      "2 Per Player",
+      "1024",
+      "Secure your seat among the elite in this exclusive side event—perfect for competitive Riftbound players looking to upgrade their home setup. Undefeated competitors will each be awarded a Secretlab TITAN Evo League of Legends Edition chair of their choice. Event cap is 1024 players. Competitors will play 1v1 Constructed. This event requires a decklist submission. 6 Rounds. Best of 3. Rounds have a 60 minute time limit. Prizes are awarded by the end of Round 6. Prize Conditions & Eligibility: Chair prizes are available to participants based in the US, EU, UK, SG, and MY. Please note that fulfillment may not be available to certain states and rural areas. Styles and sizes are subject to regional availability. You can view the current options for your region at secretlab.co/leagueoflegends , though stock may vary at the time of prize redemption. Within a week following the event, a Secretlab representative will contact the winners directly to confirm their preferred design and size, as well as their delivery details to fulfill the prize. Players residing outside of the eligible regions are still welcome to compete. Should an ineligible player finish with a perfect record, they will receive a Secretlab Lumbar Pillow League of Legends Edition and a Standard Competitor badge for a future Regional Qualifier in lieu of the physical chair prize."
+    ],
+    "published_capacity": 1024
+  },
+  {
+    "event_key": "los-angeles-friday",
+    "source": {
+      "source_id": "sha256:6eab863851478901fc9584e905e603761dedf1a663a85bfb90962db26d471c37",
+      "url": "https://uvsgames.com/rq-los-angeles-schedule/",
+      "final_url": "https://riftboundop.com/rq-los-angeles-schedule/",
+      "retrieved_at": "2026-11-24T23:43:04.964741+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "6eab863851478901fc9584e905e603761dedf1a663a85bfb90962db26d471c37",
+      "raw_path": "data/raw/objects/6eab863851478901fc9584e905e603761dedf1a663a85bfb90962db26d471c37.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:43:04 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "kind": "wins",
+    "rounds": 5,
+    "win_tickets": {
+      "5": 50,
+      "4": 30,
+      "3": 15
+    },
+    "payout_cell": "• 5 Wins : 50 PW Tickets • 4 Wins : 30 PW Tickets • 3 Wins : 15 PW Tickets",
+    "schedule_row": [
+      "1:00 PM",
+      "Pre-Regional Challenge",
+      "• Swiss • 60m time limit • NO Top Cut • Best of Three",
+      "7hr:00m",
+      "• 5 Wins : 50 PW Tickets • 4 Wins : 30 PW Tickets • 3 Wins : 15 PW Tickets",
+      "$50 Purchase",
+      "2 Per Player",
+      "2048",
+      "Prepare for tomorrow’s event in this Pre-Regional Challenge. This event is excellent for competitive Riftbound players. Event cap is 2048 players. Competitors will play 1v1 Constructed. This event requires a decklist submission. 5 Rounds. Best of 3. Rounds have a 60 minute time limit. Prizes are awarded by the end of Round 5. Non-Competitors are eligible to compete in this event."
+    ],
+    "published_capacity": 2048
+  },
+  {
+    "event_key": "los-angeles-saturday",
+    "source": {
+      "source_id": "sha256:6eab863851478901fc9584e905e603761dedf1a663a85bfb90962db26d471c37",
+      "url": "https://uvsgames.com/rq-los-angeles-schedule/",
+      "final_url": "https://riftboundop.com/rq-los-angeles-schedule/",
+      "retrieved_at": "2026-11-24T23:43:04.964741+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "6eab863851478901fc9584e905e603761dedf1a663a85bfb90962db26d471c37",
+      "raw_path": "data/raw/objects/6eab863851478901fc9584e905e603761dedf1a663a85bfb90962db26d471c37.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:43:04 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "kind": "placement",
+    "rounds": 7,
+    "top_cut": 8,
+    "tiers": [
+      [
+        1,
+        1,
+        432
+      ],
+      [
+        2,
+        2,
+        288
+      ],
+      [
+        3,
+        4,
+        216
+      ],
+      [
+        5,
+        8,
+        144
+      ],
+      [
+        9,
+        16,
+        72
+      ],
+      [
+        17,
+        32,
+        48
+      ],
+      [
+        33,
+        64,
+        24
+      ],
+      [
+        65,
+        128,
+        18
+      ]
+    ],
+    "payout_cell": "• 1st : 432 PW Tickets • 2nd : 288 PW Tickets • 3rd/4th : 216 PW Tickets • 5th-8th : 144 PW Tickets • 9th-16th : 72 PW Tickets • 17th-32nd : 48 PW Tickets • 33rd-64th : 24 PW Tickets • 65th-128th : 18 PW Tickets",
+    "schedule_row": [
+      "10:00 AM",
+      "Super Saturday Standard Challenge",
+      "• Swiss • Best of Three • 60m time limit",
+      "12hr:45m",
+      "• 1st : 432 PW Tickets • 2nd : 288 PW Tickets • 3rd/4th : 216 PW Tickets • 5th-8th : 144 PW Tickets • 9th-16th : 72 PW Tickets • 17th-32nd : 48 PW Tickets • 33rd-64th : 24 PW Tickets • 65th-128th : 18 PW Tickets",
+      "$50 Purchase",
+      "2 Per Player",
+      "512",
+      "Forge a new path in the Super Saturday Standard Challenge! This event is excellent for competitive Riftbound players. Event cap is 512 players. Competitors will play 1v1 Constructed. This event requires a decklist submission. 7 Rounds. Best of 3. Rounds have a 60 minute time limit. After 7 Rounds, there will be a cut to the Top 8 players. Prizes are awarded at the end of Round 7, and after each round in the top cut."
+    ],
+    "published_capacity": 512
+  },
+  {
+    "event_key": "los-angeles-sunday",
+    "source": {
+      "source_id": "sha256:6eab863851478901fc9584e905e603761dedf1a663a85bfb90962db26d471c37",
+      "url": "https://uvsgames.com/rq-los-angeles-schedule/",
+      "final_url": "https://riftboundop.com/rq-los-angeles-schedule/",
+      "retrieved_at": "2026-11-24T23:43:04.964741+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "6eab863851478901fc9584e905e603761dedf1a663a85bfb90962db26d471c37",
+      "raw_path": "data/raw/objects/6eab863851478901fc9584e905e603761dedf1a663a85bfb90962db26d471c37.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:43:04 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "kind": "wins",
+    "rounds": 6,
+    "win_tickets": {
+      "6": 40,
+      "5": 40,
+      "4": 30
+    },
+    "payout_cell": "• 6 Wins : 40 PW Tickets, Choice of Secretlab TITAN Evo League of Legends Edition chair • 5 Wins : 40 PW Tickets • 4 Wins : 30 PW Tickets",
+    "schedule_row": [
+      "11:00 AM",
+      "Secretlab Regional Rebound",
+      "• Swiss • 60m time limit • NO Top Cut • Best of Three",
+      "7hr:30m",
+      "• 6 Wins : 40 PW Tickets, Choice of Secretlab TITAN Evo League of Legends Edition chair • 5 Wins : 40 PW Tickets • 4 Wins : 30 PW Tickets",
+      "$50 Purchase",
+      "2 Per Player",
+      "1024",
+      "Secure your seat among the elite in this exclusive side event—perfect for competitive Riftbound players looking to upgrade their home setup. Undefeated competitors will each be awarded a Secretlab TITAN Evo League of Legends Edition chair of their choice. Event cap is 1024 players. Competitors will play 1v1 Constructed. This event requires a decklist submission. 6 Rounds. Best of 3. Rounds have a 60 minute time limit. Prizes are awarded by the end of Round 6. Prize Conditions & Eligibility: Chair prizes are available to participants based in the US, EU, UK, SG, and MY. Please note that fulfillment may not be available to certain states and rural areas. Styles and sizes are subject to regional availability. You can view the current options for your region at secretlab.co/leagueoflegends , though stock may vary at the time of prize redemption. Within a week following the event, a Secretlab representative will contact the winners directly to confirm their preferred design and size, as well as their delivery details to fulfill the prize. Players residing outside of the eligible regions are still welcome to compete. Should an ineligible player finish with a perfect record, they will receive a Secretlab Lumbar Pillow League of Legends Edition and a Standard Competitor badge for a future Regional Qualifier in lieu of the physical chair prize. Non-Competitors are eligible to compete in this event."
+    ],
+    "published_capacity": 1024
+  }
+]

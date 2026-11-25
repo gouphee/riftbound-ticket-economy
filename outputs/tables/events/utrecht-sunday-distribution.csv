@@ -1,0 +1,8 @@
+event_key,basis,tickets_per_player,player_rows,tickets_total,evidence_class
+utrecht-sunday,published_ticket_entitlement,0,677,0,reconstructed_published_entitlement
+utrecht-sunday,published_ticket_entitlement,30,224,6720,reconstructed_published_entitlement
+utrecht-sunday,published_ticket_entitlement,40,105,4200,reconstructed_published_entitlement
+utrecht-sunday,supported_eligible_tickets,,268,,reconstructed_published_entitlement
+utrecht-sunday,supported_eligible_tickets,0,677,0,reconstructed_published_entitlement
+utrecht-sunday,supported_eligible_tickets,30,36,1080,reconstructed_published_entitlement
+utrecht-sunday,supported_eligible_tickets,40,25,1000,reconstructed_published_entitlement

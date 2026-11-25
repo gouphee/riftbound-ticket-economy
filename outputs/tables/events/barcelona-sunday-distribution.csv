@@ -1,0 +1,8 @@
+event_key,basis,tickets_per_player,player_rows,tickets_total,evidence_class
+barcelona-sunday,published_ticket_entitlement,0,693,0,reconstructed_published_entitlement
+barcelona-sunday,published_ticket_entitlement,30,212,6360,reconstructed_published_entitlement
+barcelona-sunday,published_ticket_entitlement,40,98,3920,reconstructed_published_entitlement
+barcelona-sunday,supported_eligible_tickets,,22,,reconstructed_published_entitlement
+barcelona-sunday,supported_eligible_tickets,0,693,0,reconstructed_published_entitlement
+barcelona-sunday,supported_eligible_tickets,30,194,5820,reconstructed_published_entitlement
+barcelona-sunday,supported_eligible_tickets,40,94,3760,reconstructed_published_entitlement

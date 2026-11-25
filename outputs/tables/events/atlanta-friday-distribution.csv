@@ -1,0 +1,9 @@
+event_key,basis,tickets_per_player,player_rows,tickets_total,evidence_class
+atlanta-friday,published_ticket_entitlement,0,687,0,reconstructed_published_entitlement
+atlanta-friday,published_ticket_entitlement,24,225,5400,reconstructed_published_entitlement
+atlanta-friday,published_ticket_entitlement,36,92,3312,reconstructed_published_entitlement
+atlanta-friday,published_ticket_entitlement,48,15,720,reconstructed_published_entitlement
+atlanta-friday,supported_eligible_tickets,0,687,0,reconstructed_published_entitlement
+atlanta-friday,supported_eligible_tickets,24,225,5400,reconstructed_published_entitlement
+atlanta-friday,supported_eligible_tickets,36,92,3312,reconstructed_published_entitlement
+atlanta-friday,supported_eligible_tickets,48,15,720,reconstructed_published_entitlement

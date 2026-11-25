@@ -1,0 +1,8 @@
+event_key,basis,tickets_per_player,player_rows,tickets_total,evidence_class
+hartford-sunday,published_ticket_entitlement,0,472,0,reconstructed_published_entitlement
+hartford-sunday,published_ticket_entitlement,30,150,4500,reconstructed_published_entitlement
+hartford-sunday,published_ticket_entitlement,40,70,2800,reconstructed_published_entitlement
+hartford-sunday,supported_eligible_tickets,,1,,reconstructed_published_entitlement
+hartford-sunday,supported_eligible_tickets,0,472,0,reconstructed_published_entitlement
+hartford-sunday,supported_eligible_tickets,30,149,4470,reconstructed_published_entitlement
+hartford-sunday,supported_eligible_tickets,40,70,2800,reconstructed_published_entitlement

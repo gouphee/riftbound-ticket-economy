@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "events": 24,
+  "standings_rows": 20651,
+  "roster_rows": 20652,
+  "match_player_observations": 100960,
+  "complete_published_entitlement_reconstructions": 6,
+  "actual_issuance_verified": false,
+  "archive": {
+    "retrievals": 464,
+    "unique_objects_verified": 459
+  },
+  "input_sha256": {
+    "data/events.json": "b7b4c5bd9463856f59ad702ae6ba1a7465e3fce17e488871fe62474bb6f22767",
+    "data/raw/retrievals.jsonl": "d2a74a7e11013c92a03a27cde82a5bf6b8c106649b66828159ce07ecbf1e3f00",
+    "docs/pilot_reference.json": "cb1c92618cf51f7bcc36afa72680d9ab26ec0107d7c5a42456888a42aba66d45",
+    "src/riftbound_tickets/__init__.py": "dae7b100fb4bf851673fef54cab4d85c8a0528a86a010302115ef42b33517822",
+    "src/riftbound_tickets/cli.py": "9d4db1132c66db1c087ecabc23188cf59b2060b6a2832e41822fb3960f7ee660",
+    "src/riftbound_tickets/collectors/__init__.py": "33bcb53ec4d9f45c2317047dcbf53c2ce97cdaa3529e82d3a2565efbdbe3c432",
+    "src/riftbound_tickets/collectors/evidence.py": "d9cf7036886894c553076695d4cf769a37c0639e62ad042e4daca7a1cf039367",
+    "src/riftbound_tickets/collectors/flight.py": "438b2259d6e488956483ddbecc4098b3ca7efdb8639ac021c1729f105b8f83a1",
+    "src/riftbound_tickets/collectors/locator.py": "369ba271e9d91765ee90bb3bf14285241aa778fe2ae787d991b59d0347653e31",
+    "src/riftbound_tickets/collectors/schedules.py": "b49519fbd007fedc512c22c8c8156624df50425ae079647b8d68977f1e1d7b5d",
+    "src/riftbound_tickets/payouts/__init__.py": "49e989ce364a0822640ebd083f569840e05f4f0ac5ff7e17c547217a35935ff1",
+    "src/riftbound_tickets/payouts/rules.py": "8cde724307816634cbb850db1da299ec7a5960f33de52f56c7ebb05cc1e807fb",
+    "src/riftbound_tickets/pipeline.py": "48992535d219623d3577473fef97b8d6f7773f41d0ff04896767fde8e608d215",
+    "src/riftbound_tickets/validation.py": "2425efa016e5a216af8112b864912a4d18e71d8b891025079d0d62f375cf09f2"
+  }
+}

@@ -1,0 +1,8 @@
+event_key,basis,tickets_per_player,player_rows,tickets_total,evidence_class
+los-angeles-sunday,published_ticket_entitlement,0,663,0,reconstructed_published_entitlement
+los-angeles-sunday,published_ticket_entitlement,30,175,5250,reconstructed_published_entitlement
+los-angeles-sunday,published_ticket_entitlement,40,93,3720,reconstructed_published_entitlement
+los-angeles-sunday,supported_eligible_tickets,,4,,reconstructed_published_entitlement
+los-angeles-sunday,supported_eligible_tickets,0,663,0,reconstructed_published_entitlement
+los-angeles-sunday,supported_eligible_tickets,30,171,5130,reconstructed_published_entitlement
+los-angeles-sunday,supported_eligible_tickets,40,93,3720,reconstructed_published_entitlement

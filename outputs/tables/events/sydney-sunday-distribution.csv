@@ -1,0 +1,8 @@
+event_key,basis,tickets_per_player,player_rows,tickets_total,evidence_class
+sydney-sunday,published_ticket_entitlement,0,173,0,reconstructed_published_entitlement
+sydney-sunday,published_ticket_entitlement,30,55,1650,reconstructed_published_entitlement
+sydney-sunday,published_ticket_entitlement,40,27,1080,reconstructed_published_entitlement
+sydney-sunday,supported_eligible_tickets,,2,,reconstructed_published_entitlement
+sydney-sunday,supported_eligible_tickets,0,173,0,reconstructed_published_entitlement
+sydney-sunday,supported_eligible_tickets,30,54,1620,reconstructed_published_entitlement
+sydney-sunday,supported_eligible_tickets,40,26,1040,reconstructed_published_entitlement

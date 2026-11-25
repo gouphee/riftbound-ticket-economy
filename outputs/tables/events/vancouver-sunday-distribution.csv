@@ -1,0 +1,8 @@
+event_key,basis,tickets_per_player,player_rows,tickets_total,evidence_class
+vancouver-sunday,published_ticket_entitlement,0,369,0,reconstructed_published_entitlement
+vancouver-sunday,published_ticket_entitlement,30,115,3450,reconstructed_published_entitlement
+vancouver-sunday,published_ticket_entitlement,40,56,2240,reconstructed_published_entitlement
+vancouver-sunday,supported_eligible_tickets,,1,,reconstructed_published_entitlement
+vancouver-sunday,supported_eligible_tickets,0,369,0,reconstructed_published_entitlement
+vancouver-sunday,supported_eligible_tickets,30,115,3450,reconstructed_published_entitlement
+vancouver-sunday,supported_eligible_tickets,40,55,2200,reconstructed_published_entitlement

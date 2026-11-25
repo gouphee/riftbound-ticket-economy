@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "riftbound-ticket-economy"
+version = "0.1.0"
+description = "Evidence-first reconstruction of 2026 Riftbound side-event prize-wall tickets"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+riftbound-tickets = "riftbound_tickets.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

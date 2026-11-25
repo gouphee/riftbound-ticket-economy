@@ -1,0 +1,10 @@
+event_key,basis,tickets_per_player,player_rows,tickets_total,evidence_class
+sydney-friday,published_ticket_entitlement,0,375,0,reconstructed_published_entitlement
+sydney-friday,published_ticket_entitlement,15,212,3180,reconstructed_published_entitlement
+sydney-friday,published_ticket_entitlement,30,106,3180,reconstructed_published_entitlement
+sydney-friday,published_ticket_entitlement,45,21,945,reconstructed_published_entitlement
+sydney-friday,supported_eligible_tickets,,2,,reconstructed_published_entitlement
+sydney-friday,supported_eligible_tickets,0,375,0,reconstructed_published_entitlement
+sydney-friday,supported_eligible_tickets,15,211,3165,reconstructed_published_entitlement
+sydney-friday,supported_eligible_tickets,30,106,3180,reconstructed_published_entitlement
+sydney-friday,supported_eligible_tickets,45,20,900,reconstructed_published_entitlement

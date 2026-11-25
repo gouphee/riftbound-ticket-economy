@@ -1,0 +1,8 @@
+event_key,basis,tickets_per_player,player_rows,tickets_total,evidence_class
+singapore-sunday,published_ticket_entitlement,0,600,0,reconstructed_published_entitlement
+singapore-sunday,published_ticket_entitlement,30,187,5610,reconstructed_published_entitlement
+singapore-sunday,published_ticket_entitlement,40,89,3560,reconstructed_published_entitlement
+singapore-sunday,supported_eligible_tickets,,4,,reconstructed_published_entitlement
+singapore-sunday,supported_eligible_tickets,0,600,0,reconstructed_published_entitlement
+singapore-sunday,supported_eligible_tickets,30,183,5490,reconstructed_published_entitlement
+singapore-sunday,supported_eligible_tickets,40,89,3560,reconstructed_published_entitlement

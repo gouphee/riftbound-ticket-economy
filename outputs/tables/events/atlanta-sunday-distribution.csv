@@ -1,0 +1,9 @@
+event_key,basis,tickets_per_player,player_rows,tickets_total,evidence_class
+atlanta-sunday,published_ticket_entitlement,0,419,0,reconstructed_published_entitlement
+atlanta-sunday,published_ticket_entitlement,24,130,3120,reconstructed_published_entitlement
+atlanta-sunday,published_ticket_entitlement,36,54,1944,reconstructed_published_entitlement
+atlanta-sunday,published_ticket_entitlement,48,9,432,reconstructed_published_entitlement
+atlanta-sunday,supported_eligible_tickets,0,419,0,reconstructed_published_entitlement
+atlanta-sunday,supported_eligible_tickets,24,130,3120,reconstructed_published_entitlement
+atlanta-sunday,supported_eligible_tickets,36,54,1944,reconstructed_published_entitlement
+atlanta-sunday,supported_eligible_tickets,48,9,432,reconstructed_published_entitlement

@@ -1,0 +1,9 @@
+event_key,basis,tickets_per_player,player_rows,tickets_total,evidence_class
+los-angeles-friday,published_ticket_entitlement,0,1062,0,reconstructed_published_entitlement
+los-angeles-friday,published_ticket_entitlement,15,592,8880,reconstructed_published_entitlement
+los-angeles-friday,published_ticket_entitlement,30,306,9180,reconstructed_published_entitlement
+los-angeles-friday,published_ticket_entitlement,50,62,3100,reconstructed_published_entitlement
+los-angeles-friday,supported_eligible_tickets,0,1062,0,reconstructed_published_entitlement
+los-angeles-friday,supported_eligible_tickets,15,592,8880,reconstructed_published_entitlement
+los-angeles-friday,supported_eligible_tickets,30,306,9180,reconstructed_published_entitlement
+los-angeles-friday,supported_eligible_tickets,50,62,3100,reconstructed_published_entitlement
