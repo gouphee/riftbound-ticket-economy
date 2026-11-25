@@ -1,3 +1,5 @@
-Reserved for later ticket/time analysis. No Monte Carlo model is implemented.
-Historical extraction and issuance/eligibility gaps must be assessed before
-modeling. Synthetic results must never be merged into the historical tables.
+`historical_bounds.py` provides a proved win-budget ceiling and a deterministic
+feasible Swiss construction for the no-draw historical reference. Neither is an
+exact Swiss maximum or an expected payout. Witnesses live under
+`outputs/phase2/constructions/`, separate from observed records. No Monte Carlo,
+Vegas time-to-40, or coordination simulation is implemented.

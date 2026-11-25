@@ -1,0 +1,171 @@
+{
+  "client_research_date": "2026-11-25",
+  "base_commit": "3d473f50fa1d103d66543620ae7a32b3cff3f949",
+  "commands_executed": [
+    {
+      "label": "unittest",
+      "argv": [
+        "python3.12",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "started_at_utc": "2026-11-25T06:37:21.154903+00:00",
+      "finished_at_utc": "2026-11-25T06:37:47.813635+00:00",
+      "exit_code": 0,
+      "log_path": "outputs/phase2/validation/unittest.log",
+      "tests_run": 55
+    },
+    {
+      "label": "build",
+      "argv": [
+        "python3.12",
+        "-m",
+        "riftbound_tickets.cli",
+        "build"
+      ],
+      "started_at_utc": "2026-11-25T06:37:47.813920+00:00",
+      "finished_at_utc": "2026-11-25T06:37:52.774041+00:00",
+      "exit_code": 0,
+      "log_path": "outputs/phase2/validation/build.log"
+    },
+    {
+      "label": "verify",
+      "argv": [
+        "python3.12",
+        "-m",
+        "riftbound_tickets.cli",
+        "verify"
+      ],
+      "started_at_utc": "2026-11-25T06:37:52.774215+00:00",
+      "finished_at_utc": "2026-11-25T06:37:53.171078+00:00",
+      "exit_code": 0,
+      "log_path": "outputs/phase2/validation/verify.log"
+    },
+    {
+      "label": "audit",
+      "argv": [
+        "python3.12",
+        "-m",
+        "riftbound_tickets.cli",
+        "audit"
+      ],
+      "started_at_utc": "2026-11-25T06:37:53.171248+00:00",
+      "finished_at_utc": "2026-11-25T06:37:54.146255+00:00",
+      "exit_code": 0,
+      "log_path": "outputs/phase2/validation/audit.log"
+    },
+    {
+      "label": "validate-pilot",
+      "argv": [
+        "python3.12",
+        "-m",
+        "riftbound_tickets.cli",
+        "validate-pilot"
+      ],
+      "started_at_utc": "2026-11-25T06:37:54.146437+00:00",
+      "finished_at_utc": "2026-11-25T06:37:59.717696+00:00",
+      "exit_code": 0,
+      "log_path": "outputs/phase2/validation/validate-pilot.log"
+    },
+    {
+      "label": "phase2",
+      "argv": [
+        "python3.12",
+        "-m",
+        "riftbound_tickets.cli",
+        "phase2"
+      ],
+      "started_at_utc": "2026-11-25T06:37:59.717892+00:00",
+      "finished_at_utc": "2026-11-25T06:38:06.939374+00:00",
+      "exit_code": 0,
+      "log_path": "outputs/phase2/validation/phase2.log"
+    },
+    {
+      "label": "audit-phase2",
+      "argv": [
+        "python3.12",
+        "-m",
+        "riftbound_tickets.cli",
+        "audit-phase2"
+      ],
+      "started_at_utc": "2026-11-25T06:38:06.939578+00:00",
+      "finished_at_utc": "2026-11-25T06:38:09.145861+00:00",
+      "exit_code": 0,
+      "log_path": "outputs/phase2/validation/audit-phase2.log"
+    },
+    {
+      "label": "phase2-figures",
+      "argv": [
+        ".venv-figures/bin/python",
+        "-m",
+        "riftbound_tickets.cli",
+        "phase2-figures"
+      ],
+      "started_at_utc": "2026-11-25T06:38:09.146054+00:00",
+      "finished_at_utc": "2026-11-25T06:38:10.357770+00:00",
+      "exit_code": 0,
+      "log_path": "outputs/phase2/validation/phase2-figures.log"
+    },
+    {
+      "label": "phase2-final",
+      "argv": [
+        "python3.12",
+        "-m",
+        "riftbound_tickets.cli",
+        "phase2"
+      ],
+      "started_at_utc": "2026-11-25T06:44:52.545737+00:00",
+      "finished_at_utc": "2026-11-25T06:44:59.945309+00:00",
+      "exit_code": 0,
+      "log_path": "outputs/phase2/validation/phase2-final.log",
+      "reason": "Final visual QA moved construction markers away from observed-value labels; refreshed code hashes and rendered outputs."
+    },
+    {
+      "label": "audit-phase2-final",
+      "argv": [
+        "python3.12",
+        "-m",
+        "riftbound_tickets.cli",
+        "audit-phase2"
+      ],
+      "started_at_utc": "2026-11-25T06:44:59.945566+00:00",
+      "finished_at_utc": "2026-11-25T06:45:02.105531+00:00",
+      "exit_code": 0,
+      "log_path": "outputs/phase2/validation/audit-phase2-final.log",
+      "reason": "Final visual QA moved construction markers away from observed-value labels; refreshed code hashes and rendered outputs."
+    },
+    {
+      "label": "figures-final",
+      "argv": [
+        ".venv-figures/bin/python",
+        "-m",
+        "riftbound_tickets.cli",
+        "phase2-figures"
+      ],
+      "started_at_utc": "2026-11-25T06:45:02.105755+00:00",
+      "finished_at_utc": "2026-11-25T06:45:03.343355+00:00",
+      "exit_code": 0,
+      "log_path": "outputs/phase2/validation/figures-final.log",
+      "reason": "Final visual QA moved construction markers away from observed-value labels; refreshed code hashes and rendered outputs."
+    },
+    {
+      "label": "legacy-audit-final",
+      "argv": [
+        "python3.12",
+        "-m",
+        "riftbound_tickets.cli",
+        "audit"
+      ],
+      "started_at_utc": "2026-11-25T06:46:08.002904+00:00",
+      "finished_at_utc": "2026-11-25T06:46:08.976405+00:00",
+      "exit_code": 0,
+      "log_path": "outputs/phase2/validation/legacy-audit-final.log",
+      "reason": "Refresh legacy validation report code hashes after the final figure-only adjustment."
+    }
+  ],
+  "passed": true
+}

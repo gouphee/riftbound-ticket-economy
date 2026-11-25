@@ -1,5 +1,12 @@
 # Output dictionary
 
+The fields below describe the original strict exports. The additive Phase 2
+files and primary reporting rules are documented in
+[PHASE2_HISTORICAL_ANALYSIS.md](PHASE2_HISTORICAL_ANALYSIS.md). In particular,
+`observed_standings_implied_tickets` includes qualifying dropped records and
+`conditional_schedule_pool` is the fixed funded Saturday scenario. Neither
+replaces `supported_eligible_tickets` or establishes physical issuance.
+
 CSV blanks mean **unknown/not applicable**, never a numeric zero. Boolean cells
 use `True`/`False`. Ticket values are nonnegative integer ticket units, not money.
 

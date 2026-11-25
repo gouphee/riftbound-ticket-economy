@@ -11,7 +11,14 @@ The research proceeds in auditable stages. Historical observations, counterfactu
 
 **Exit criterion:** source-to-export checks validated, errors tracked, reported test suite independently run by an execution environment. Don't represent archived validation output as a fresh test run.
 
-## Stage 1 — usable historical totals and uncertainty (NEXT)
+## Stage 1 — usable historical totals and uncertainty (implemented with labeled bounds)
+
+**2026-11-25 implementation:** the task called Phase 2 now supplies additive
+historical outputs, draw rates, proof certificates, feasible no-draw Swiss
+constructions, and figures. See [the implementation report](PHASE2_HISTORICAL_ANALYSIS.md).
+Exact Swiss maxima remain unresolved; labeled proved relaxed ceilings are used.
+Command results are recorded in `historical_execution_validation.json` after
+execution. This does not start the following Vegas comparison/simulation stages.
 
 - For Friday and Sunday publish **two primary numbers** per event: (a) observed standings-implied prize allocation including qualifying `DROPPED` records, and (b) a theoretically feasible maximum at the observed attendance, or a labeled proved upper bound if feasibility cannot be established. Optional capacity-normalized results are secondary. For Saturday use the conditional published **4,992-ticket Top 128 pool** as the primary fixed-schedule comparison, independent of Top 8 bracket completion. See `MODELING_SPEC.md`.
 - Derive empirical **draw rates by event, format and Swiss round**, deduplicating match/player relationships and excluding byes and incomplete matches. Include match coverage and uncertainty; use these rates to calibrate Vegas simulations.

@@ -1,5 +1,15 @@
 # Evidence and calculation method
 
+**2026-11-25 reporting addition:** [Phase 2](PHASE2_HISTORICAL_ANALYSIS.md) adds
+the primary standings-implied result requested in `MODELING_SPEC.md`: qualifying
+Friday/Sunday records count regardless of `DROPPED`; Saturday uses a conditional
+4,992-ticket funded pool. The strict exclusion/gating rules described below
+continue to own the original exports and serve as a conservative sensitivity.
+No raw source, historical payout amount, or original conservative CSV is changed.
+New results live in `outputs/tables/historical_*` and separate figure/witness
+directories. See the Phase 2 document for the bound proof, match exclusions,
+denominators, and remaining uncertainty about the exact Swiss maximum.
+
 The official organizer calls these events **Regional Qualifiers (RQs)**. This
 repository covers the three requested flagship side events at eight 2026 RQs;
 it does not include main-event cash prizes or other side events.

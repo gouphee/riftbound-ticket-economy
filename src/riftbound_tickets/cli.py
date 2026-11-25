@@ -24,6 +24,10 @@ def main():
     sub.add_parser('validate-pilot',help='Check archived Friday/Sunday pilot and explicit gap')
     sub.add_parser('verify',help='Verify every raw object against its original SHA-256')
     sub.add_parser('audit',help='Reconcile all CSVs, distributions, and preserved evidence')
+    phase2=sub.add_parser('phase2',help='Add historical primary totals, no-draw bounds, and empirical draw rates offline')
+    phase2.add_argument('--figures',action='store_true',help='Also render standalone figures (requires Matplotlib)')
+    sub.add_parser('phase2-figures',help='Render figures from the Phase 2 CSVs (requires Matplotlib)')
+    sub.add_parser('audit-phase2',help='Verify additive outputs, draw denominators, bound witnesses, and archive preservation')
     args=parser.parse_args();root=args.root.resolve()
     if args.command=='collect':
         specs=json.loads((root/'data/events.json').read_text())
@@ -53,6 +57,19 @@ def main():
         print(json.dumps(verify_archive(root),indent=2))
     elif args.command=='audit':
         print(json.dumps(audit_outputs(root),indent=2))
+    elif args.command=='phase2':
+        from .phase2 import build_phase2
+        report=build_phase2(root)
+        print(json.dumps({k:report[k] for k in ['events','standings_entries','friday_standings_implied_tickets','sunday_standings_implied_tickets','saturday_conditional_pool']},indent=2))
+        if args.figures:
+            from .charts.historical import render_historical_figures
+            print(json.dumps({'figures':render_historical_figures(root)},indent=2))
+    elif args.command=='phase2-figures':
+        from .charts.historical import render_historical_figures
+        print(json.dumps({'figures':render_historical_figures(root)},indent=2))
+    elif args.command=='audit-phase2':
+        from .phase2 import audit_phase2
+        print(json.dumps(audit_phase2(root),indent=2))
 
 
 if __name__=='__main__':main()

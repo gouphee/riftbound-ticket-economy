@@ -1,7 +1,7 @@
 PYTHON ?= python3.12
 export PYTHONPATH := src
 
-.PHONY: test build verify audit pilot collect
+.PHONY: test build verify audit pilot collect phase2 audit-phase2
 test:
 	$(PYTHON) -m unittest discover -s tests -v
 build:
@@ -14,3 +14,7 @@ pilot:
 	$(PYTHON) -m riftbound_tickets.cli validate-pilot
 collect:
 	$(PYTHON) -m riftbound_tickets.cli collect --scope all --workers 3
+phase2:
+	$(PYTHON) -m riftbound_tickets.cli phase2
+audit-phase2:
+	$(PYTHON) -m riftbound_tickets.cli audit-phase2

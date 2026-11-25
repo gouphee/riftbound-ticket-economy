@@ -1,0 +1,23 @@
+{
+  "renderer": "matplotlib",
+  "version": "3.11.2",
+  "figures": [
+    "outputs/figures/historical_friday_observed_vs_bound.svg",
+    "outputs/figures/historical_friday_observed_vs_bound.png",
+    "outputs/figures/historical_sunday_observed_vs_bound.svg",
+    "outputs/figures/historical_sunday_observed_vs_bound.png",
+    "outputs/figures/historical_tickets_per_entry.svg",
+    "outputs/figures/historical_tickets_per_entry.png",
+    "outputs/figures/historical_saturday_fixed_pool.svg",
+    "outputs/figures/historical_saturday_fixed_pool.png",
+    "outputs/figures/historical_individual_award_distribution.svg",
+    "outputs/figures/historical_individual_award_distribution.png",
+    "outputs/figures/historical_draw_rates.svg",
+    "outputs/figures/historical_draw_rates.png"
+  ],
+  "input_sha256": {
+    "outputs/tables/historical_ticket_economy.csv": "00b64498e3218b505388f2ad1b714cbfa6096072a92e9311ffb031d436033edc",
+    "outputs/tables/historical_draw_rates.csv": "d360c3c10465ffc9531860192ec225c5f1a4f322d669c6cf03d6bdb82136475f",
+    "outputs/tables/historical_award_distribution.csv": "36f54f9609b78f8c060554e32d70eaf3cd4a3b6941c7758ffebecbf8665b1473"
+  }
+}

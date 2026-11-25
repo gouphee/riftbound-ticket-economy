@@ -40,6 +40,11 @@ When comparing Friday/Sunday against Vegas, present a no-draw benchmark and a dr
 
 ## Outputs requested for Codex
 
+Implementation and limitations: [Phase 2 historical analysis](PHASE2_HISTORICAL_ANALYSIS.md),
+added 2026-11-25. The maximum is reported as a proved win-budget ceiling with
+Swiss constraints relaxed, alongside an independently replayable feasible
+Swiss example. No exact Swiss maximum or expected draw-free payout is claimed.
+
 - `outputs/tables/historical_ticket_economy.csv`: per-event observed ticket total, theoretical maximum/bound and status, observed N, relevant cap, payouts per entrant, threshold counts, exclusions/unknown records, and source links.
 - `outputs/tables/historical_draw_rates.csv`: by event / Swiss round / event format, completed non-bye matches, drawn matches, draw-rate, uncertain/excluded match counts.
 - Historical comparison figures (Friday, Sunday, Saturday separately), with observed versus maximum side-by-side for win-based events and fixed 4,992-ticket pool for Saturday.

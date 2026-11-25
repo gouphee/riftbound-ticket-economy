@@ -1,0 +1,16 @@
+{
+  "figures": [
+    "outputs/figures/historical_friday_observed_vs_bound.svg",
+    "outputs/figures/historical_friday_observed_vs_bound.png",
+    "outputs/figures/historical_sunday_observed_vs_bound.svg",
+    "outputs/figures/historical_sunday_observed_vs_bound.png",
+    "outputs/figures/historical_tickets_per_entry.svg",
+    "outputs/figures/historical_tickets_per_entry.png",
+    "outputs/figures/historical_saturday_fixed_pool.svg",
+    "outputs/figures/historical_saturday_fixed_pool.png",
+    "outputs/figures/historical_individual_award_distribution.svg",
+    "outputs/figures/historical_individual_award_distribution.png",
+    "outputs/figures/historical_draw_rates.svg",
+    "outputs/figures/historical_draw_rates.png"
+  ]
+}

@@ -10,6 +10,29 @@ bye/match evidence, and each city's historical payout tables. It reconstructs
 published ticket entitlements. **Actual physical ticket issuance is unverified:**
 no claim/distribution ledger was recovered, so verified-issuance fields are blank.
 
+## Phase 2 historical analysis
+
+The [historical analysis](docs/PHASE2_HISTORICAL_ANALYSIS.md) adds primary
+standings-implied totals including qualifying `DROPPED` records, the conditional
+4,992-ticket Saturday pools, no-draw feasible Swiss constructions and proved
+upper bounds, and match-weighted empirical draw rates. The exact Swiss maximum
+is not claimed. Original strict exports and eligibility sensitivities remain.
+
+Start with [Phase 2 event comparisons](outputs/tables/historical_ticket_economy.csv),
+[cohort summaries](outputs/tables/historical_cohort_summary.csv), and
+[draw rates](outputs/tables/historical_draw_rates.csv). Six PNG/SVG figure pairs
+are available under `outputs/figures/historical_*`.
+
+```sh
+PYTHONPATH=src python3.12 -m riftbound_tickets.cli phase2
+PYTHONPATH=src python3.12 -m riftbound_tickets.cli audit-phase2
+```
+
+For optional Matplotlib figures, see the pinned environment instructions in
+[the Phase 2 method](docs/PHASE2_HISTORICAL_ANALYSIS.md#files-and-reproducibility).
+
+## Original strict extraction and audit
+
 Start with [event totals](outputs/tables/event_summary.csv),
 [payout distributions](outputs/tables/payout_distribution.csv), and the
 [coverage and gaps](docs/COVERAGE.md). A known subtotal is not an exact event total.
@@ -89,8 +112,8 @@ data/events.json                Explicit official identifier registry
 data/sources.csv                Source URLs, retrievals, hashes, raw paths
 src/riftbound_tickets/collectors Public-source extraction and pagination
 src/riftbound_tickets/payouts/   Independently testable historical payout functions
-src/riftbound_tickets/models/    Reserved; no simulation
-src/riftbound_tickets/charts/    Reserved for figures
+src/riftbound_tickets/models/    Deterministic historical bounds; no Monte Carlo
+src/riftbound_tickets/charts/    Standalone historical research figures
 tests/                         Unit tests and archived pilot regression checks
 notebooks/                     Exploration guidance
 outputs/tables/                Event summaries, distributions, and issue ledger
