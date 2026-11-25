@@ -6,18 +6,19 @@ The research proceeds in auditable stages. Historical observations, counterfactu
 
 - 24 historical events, 20,651 standings rows, 20,652 roster rows, with source URLs and archived retrieval hashes.
 - Payout functions, pilot checks, offline rebuilds and a reported passing validation report.
-- Six exact published-entitlement reconstructions; remaining events have documented missing evidence and/or uncertain eligibility.
+- Six events passed a **stricter full-evidence/eligibility reconstruction gate**. The other 18 events remain useful for standings-implied totals and conditional published Saturday prize pools; see `MODELING_SPEC.md`.
 - Initial repository audit: `docs/AUDIT_2026-11-24.md`.
 
 **Exit criterion:** source-to-export checks validated, errors tracked, reported test suite independently run by an execution environment. Don't represent archived validation output as a fresh test run.
 
 ## Stage 1 — usable historical totals and uncertainty (NEXT)
 
-- For each event produce: recorded standings participants, known published-rule tickets, supported-eligibility tickets, unknown payout/eligibility count, conditional published rank-slot pool (Saturday), and a defensible lower/upper bound or unbounded/unknown status.
-- Resolve discrepancies from `docs/KNOWN_GAPS.md` where the official archives allow; prioritize Utrecht Sunday (268 drop-eligibility records), Vancouver/Singapore/Los Angeles unfinished Saturday cuts, Hartford Friday match gap, Atlanta Friday roster-only row, and Singapore Friday round mismatch.
+- For Friday and Sunday publish **two primary numbers** per event: (a) observed standings-implied prize allocation including qualifying `DROPPED` records, and (b) a theoretically feasible maximum at the observed attendance, or a labeled proved upper bound if feasibility cannot be established. Optional capacity-normalized results are secondary. For Saturday use the conditional published **4,992-ticket Top 128 pool** as the primary fixed-schedule comparison, independent of Top 8 bracket completion. See `MODELING_SPEC.md`.
+- Derive empirical **draw rates by event, format and Swiss round**, deduplicating match/player relationships and excluding byes and incomplete matches. Include match coverage and uncertainty; use these rates to calibrate Vegas simulations.
+- Preserve anomalies from `docs/KNOWN_GAPS.md` as provenance and uncertainty flags. `DROPPED` does not disqualify a qualifying result from the primary standings-implied figure, and missing Saturday bracket winners do not affect the fixed Top 128 schedule total. Still investigate Hartford Friday's missing match observation, Atlanta Friday's roster-only row, Singapore Friday's extra empty round, and explicit disqualifications where documented.
 - Distinguish exact reconstructions from partial totals; never call either actual physical issuance.
 - Add source-driven tests for each corrected assumption and record a before/after audit.
-- Prepare three separate historical visualizations: Friday, Saturday, and Sunday **ticket entitlements by event** (with uncertainty annotations).
+- Prepare three historical views: Friday and Sunday **observed tickets versus theoretical maximum/bound** and draw rates; Saturday **fixed published prize pool and participant-normalized ticket availability**. Keep audit qualifications visible.
 
 **Exit criterion:** 24 events have clearly labeled numerical outputs and confidence/status fields suitable for interpretation, even if some remain unresolved.
 
@@ -34,7 +35,7 @@ The research proceeds in auditable stages. Historical observations, counterfactu
 ## Stage 3 — individual time-to-metal model
 
 - Simulate real weekend constraints: scheduled starts/ends, conflicts, check-in windows, ODE queue times and 45/60/90/135-minute completion scenarios.
-- Model varied match skill and strength of field, draws, drops, eligibility and budget sensitivity; state whether 60% match win rate is a hypothetical baseline.
+- Model varied match skill and strength of field, draws (calibrated against deduplicated historical completed matches), tournament participation constraints and budget sensitivity; state whether 60% match win rate is a hypothetical baseline. Do not use the raw UVS `DROPPED` flag as automatic prize ineligibility.
 - Output probability of reaching 40 tickets by elapsed time, distribution of tickets per attendee, risk of zero payout, and expected tickets per participant-hour.
 - Independently verify exact small-event formulas before running Monte Carlo; reproducible random seeds and convergence checks.
 
