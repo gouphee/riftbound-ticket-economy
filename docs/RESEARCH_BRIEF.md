@@ -40,4 +40,4 @@ TFT events at Convergence Fest contribute to the same prize-wall ticket economy 
 
 Use the repository's `docs/METHODOLOGY.md`, `docs/DATA_DICTIONARY.md`, and `docs/KNOWN_GAPS.md`. A community photo or first-person account can motivate a hypothesis but should not be used to calculate aggregate prevalence. Source the latest official rules for prohibitions on sales, transfers, pooling, concessions and organized play before asserting an official policy. Riot's claim about increasing tickets for revised **2v2** payouts is not automatically a claim about all 1v1 events.
 
-See `docs/AUDIT_2026-11-24.md` for the initial static repository review, and `docs/RESEARCH_ROADMAP.md` for the prioritized next tasks.
+See `docs/AUDIT_2026-11-24.md` for the initial static repository review, `docs/MODELING_SPEC.md` for the updated **observed versus theoretical maximum** and draw-rate requirements, and `docs/RESEARCH_ROADMAP.md` for the prioritized next tasks.
