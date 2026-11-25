@@ -1,5 +1,7 @@
 import csv
 import json
+import shutil
+import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
@@ -9,17 +11,25 @@ from riftbound_tickets.phase2 import audit_phase2, build_phase2
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def read_csv(name):
-    with (ROOT / 'outputs/tables' / name).open(newline='') as stream:
+def read_csv(name, root=ROOT):
+    with (root / 'outputs/tables' / name).open(newline='') as stream:
         return list(csv.DictReader(stream))
 
 
 class Phase2ArchivedIntegrationTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
+        # Rebuild in disposable outputs: the report inventories all current code,
+        # so additive analytical modules must not rewrite the archived report.
+        temporary = tempfile.TemporaryDirectory(prefix='riftbound-phase2-test-')
+        cls.addClassCleanup(temporary.cleanup)
+        cls.root = Path(temporary.name)
+        (cls.root / 'data').symlink_to(ROOT / 'data', target_is_directory=True)
+        (cls.root / 'src').symlink_to(ROOT / 'src', target_is_directory=True)
+        shutil.copytree(ROOT / 'outputs/tables', cls.root / 'outputs/tables')
         with patch('riftbound_tickets.collectors.evidence.urlopen', side_effect=AssertionError('Phase 2 must be offline')):
-            cls.report = build_phase2(ROOT)
-        cls.summaries = {s['event_key']:s for s in read_csv('historical_ticket_economy.csv')}
+            cls.report = build_phase2(cls.root)
+        cls.summaries = {s['event_key']:s for s in read_csv('historical_ticket_economy.csv', cls.root)}
 
     def test_primary_totals_include_all_dropped_qualifying_records(self):
         self.assertEqual(self.report['friday_standings_implied_tickets'],119587)
@@ -47,7 +57,7 @@ class Phase2ArchivedIntegrationTests(unittest.TestCase):
         atl = self.summaries['atlanta-friday']
         self.assertEqual((atl['observed_n'],atl['roster_entries']),('1019','1020'))
         self.assertEqual(atl['observed_standings_implied_tickets'],'9432')
-        people = read_csv('historical_individual_awards.csv')
+        people = read_csv('historical_individual_awards.csv', self.root)
         self.assertNotIn(('atlanta-friday','3084340'),{(p['event_key'],p['registration_id']) for p in people})
         hartford = next(p for p in people if p['event_key']=='hartford-friday' and p['registration_id']=='3913085')
         self.assertEqual(hartford['match_record_original'],'0-3-0')
@@ -55,14 +65,14 @@ class Phase2ArchivedIntegrationTests(unittest.TestCase):
         self.assertEqual(hartford['legacy_strict_published_entitlement'],'')
 
     def test_empty_round_and_unresolved_cut_draw_credits_stay_visible(self):
-        rates = read_csv('historical_draw_rates.csv')
+        rates = read_csv('historical_draw_rates.csv', self.root)
         empty = next(r for r in rates if r['event_key']=='singapore-friday' and r['group_type']=='event_round' and r['round_number']=='6')
         self.assertEqual((empty['completed_played_matches'],empty['draw_rate']),('0',''))
-        rec = next(r for r in read_csv('historical_draw_reconciliation.csv') if r['event_key']=='utrecht-saturday')
+        rec = next(r for r in read_csv('historical_draw_reconciliation.csv', self.root) if r['event_key']=='utrecht-saturday')
         self.assertEqual(rec['unreconciled_draw_credits'],'6')
 
     def test_additive_exports_and_all_witnesses_audit(self):
-        result = audit_phase2(ROOT)
+        result = audit_phase2(self.root)
         self.assertTrue(result['passed'])
         self.assertTrue(result['raw_and_legacy_artifacts_unchanged'])
         self.assertEqual(result['standings_entries'],20651)

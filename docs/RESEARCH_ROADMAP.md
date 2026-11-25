@@ -31,6 +31,13 @@ execution. This does not start the following Vegas comparison/simulation stages.
 
 ## Stage 2 — controlled old/new event comparisons
 
+**2026-11-25 Phase 3A:** the [Saturday analytical comparison](PHASE3A_SATURDAY_COMPARISON.md)
+implements the historical placement pool versus updated 11-round Vegas Rebound
+with exact equal-skill probabilities, a correctly ordered Day 2 gate, common
+attendance scenarios and separate published-cap comparisons. This completes
+only the initial Saturday no-draw benchmark. Draw sensitivity, other formats,
+individual weekend/time models, and simulations remain future stages.
+
 - Old Saturday 4,992-ticket published Top 128 pool versus the Vegas two-day Standard Rebound **using both published full caps and equal-entrant scenarios**, with draws excluded in the first benchmark. Distinguish mathematical upper bounds from one no-draw tournament distribution.
 - Friday Pre-Regional and six-round Sunday Rebound versus Vegas Sunday five-round Challenge; don't conflate event-day labels.
 - Compare ticket totals, per-entrant tickets, share attaining 40+, share earning zero, and payout concentration, not only maxima.

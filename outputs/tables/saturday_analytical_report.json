@@ -1,0 +1,56 @@
+{
+  "model": "exact_fraction_equal_skill_marginal_no_draw_no_bye_no_drop",
+  "vegas_rounds": 11,
+  "historical_observed_fields": {
+    "atlanta-saturday": 392,
+    "sydney-saturday": 132,
+    "vancouver-saturday": 264,
+    "utrecht-saturday": 505,
+    "hartford-saturday": 397,
+    "barcelona-saturday": 518,
+    "singapore-saturday": 496,
+    "los-angeles-saturday": 461
+  },
+  "historical_capacity_exception": "Barcelona observed 518 entries exceeds archived advertised cap 512; retained as source exception.",
+  "stale_source_round_references": [
+    10,
+    10
+  ],
+  "announcement_verification": {
+    "verified_primary_announcement_content": true,
+    "published_time": "2026-11-18T03:08:12.000Z",
+    "author": "https://x.com/RiotSherman",
+    "verification_basis": "Canonical post URL, author metadata, and explicit Standard Rebound 11th-round statement in captured h1 post text; HTTP 200 alone is insufficient."
+  },
+  "qualification_probability_exact": "11/32",
+  "vegas_expected_tickets_per_entrant_exact": "5795/1024",
+  "vegas_at_least_40_probability_exact": "67/2048",
+  "historical_40_probability_formula": "32/N",
+  "historical_expected_tickets_formula": "4992/N",
+  "historical_top8_pool_share_exact": "9/26",
+  "comparison_rows": 24,
+  "scenario_count": 12,
+  "concentration_scope": "Vegas marginal PMF Gini/Lorenz; not expected realized field Gini or joint finishing distribution.",
+  "input_sha256": {
+    "outputs/tables/historical_ticket_economy.csv": "00b64498e3218b505388f2ad1b714cbfa6096072a92e9311ffb031d436033edc",
+    "data/raw/retrievals.jsonl": "d2a74a7e11013c92a03a27cde82a5bf6b8c106649b66828159ce07ecbf1e3f00",
+    "data/raw/phase3a/retrievals.jsonl": "f99b7f8a380fe93023824cfb02cb90505f63e79f22dae38d2aef30fdf3fd10f5",
+    "data/phase3a/preserved_artifacts.json": "acec153871bcecabef3ed015289928930f2ac0c6f3d8f1c03b882fbc547aadad",
+    "data/phase3a/vegas_rules.json": "b70c3a0fbfbf6122edb4cbc03b58a02ded37345c0827c200d65a6267e0ca7dbd",
+    "data/phase3a/sources.csv": "6287b307327d628a3544879a819d6fcb6dd7ade996cbc3acedcd1b60e0eaf7c5"
+  },
+  "code_sha256": {
+    "src/riftbound_tickets/collectors/phase3a_sources.py": "53a9ce7abc9f6413837076ddb346b69d296bfdca16e9ac82c12bfd6cef59231b",
+    "src/riftbound_tickets/models/saturday_analytical.py": "54e99bf9341d88f51189a54ceeb9774a6e8dfcd120fcf69fe568f9b1ab03a9ad",
+    "src/riftbound_tickets/phase3a.py": "8c16508727aeaa24f8722a9522aa585d1d30fa0d010d9fe6d85f3b5458e5c656",
+    "src/riftbound_tickets/charts/saturday_analytical.py": "fd791d6751fdcd9c26d1985eb439877ffff79f542aa7a5151892efad5c324055"
+  },
+  "output_sha256": {
+    "outputs/tables/saturday_analytical_comparison.csv": "4f4016fb3e240d2cc1cd464eb060c9e73b241c217844574b6470b555bbc836b0",
+    "outputs/tables/saturday_ticket_distributions.csv": "8dbf5d095be07110b8e15ad053232da3228192f94fd118299197170a7be3f661",
+    "outputs/tables/saturday_vegas_paths.csv": "798dc0ec956330fdb9542bc1788f4f22fd76c83267f95b9002abda5dc515b510",
+    "outputs/tables/saturday_stage_probabilities.csv": "ddd1606fbfbbcd030a41390dca47adc54c465e423435974ca32d683cc37e35f0",
+    "outputs/tables/saturday_payout_thresholds.csv": "7ff049292ceae0832f96d61a0075369456a08ac32faae27cc61f3c3695e23d95",
+    "outputs/tables/saturday_ticket_concentration.csv": "cb3ecf15226ff8683b8b835c62f7aa9fb66aab90cfefe2f61dc6391cd0168396"
+  }
+}

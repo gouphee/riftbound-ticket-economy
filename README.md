@@ -10,6 +10,35 @@ bye/match evidence, and each city's historical payout tables. It reconstructs
 published ticket entitlements. **Actual physical ticket issuance is unverified:**
 no claim/distribution ledger was recovered, so verified-issuance fields are blank.
 
+## Phase 3A Saturday analytical comparison
+
+The [Saturday comparison](docs/PHASE3A_SATURDAY_COMPARISON.md) compares the
+historical fixed placement pool with Vegas Standard Rebound's updated **6 + 5
+rounds**, using exact equal-skill probabilities and the Day 2 qualification gate.
+At 512 entrants, the modeled chance of earning 40+ tickets is **6.25% historical
+versus 3.2715% Vegas**; expected tickets per entrant are **9.75 versus 5.6592**.
+These are structural benchmarks, not observed Vegas results or physical claims.
+
+See the [attendance comparisons](outputs/tables/saturday_analytical_comparison.csv),
+[complete award distributions](outputs/tables/saturday_ticket_distributions.csv),
+and five SVG/PNG figure pairs under `outputs/figures/saturday_analytical_*`.
+Published full caps, hypothetical attendance, and eight recorded historical
+field sizes are distinguished, including Barcelona's over-advertised-cap record.
+The historical Top 8 split is a separate scenario conserving the same pool.
+
+```sh
+PYTHONPATH=src python3.12 -m riftbound_tickets.phase3a build
+PYTHONPATH=src python3.12 -m riftbound_tickets.phase3a audit
+python3.12 scripts/validate_phase3a.py
+# Optional figures using the pinned Matplotlib environment:
+PYTHONPATH=src .venv-figures/bin/python -m riftbound_tickets.phase3a figures
+```
+
+The source snapshots and ledger are isolated under `data/raw/phase3a/`.
+Historical and Phase 2 artifacts remain unchanged; the existing Phase 2
+integration tests now rebuild into disposable outputs. No Monte Carlo, player
+ratings, Swiss simulator, pooling model, or script is included in this stage.
+
 ## Phase 2 historical analysis
 
 The [historical analysis](docs/PHASE2_HISTORICAL_ANALYSIS.md) adds primary

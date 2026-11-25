@@ -1,0 +1,25 @@
+{
+  "matplotlib_version": "3.11.2",
+  "renderer_sha256": "fd791d6751fdcd9c26d1985eb439877ffff79f542aa7a5151892efad5c324055",
+  "input_sha256": {
+    "outputs/tables/saturday_analytical_comparison.csv": "4f4016fb3e240d2cc1cd464eb060c9e73b241c217844574b6470b555bbc836b0",
+    "outputs/tables/saturday_ticket_distributions.csv": "8dbf5d095be07110b8e15ad053232da3228192f94fd118299197170a7be3f661",
+    "outputs/tables/saturday_vegas_paths.csv": "798dc0ec956330fdb9542bc1788f4f22fd76c83267f95b9002abda5dc515b510",
+    "outputs/tables/saturday_stage_probabilities.csv": "ddd1606fbfbbcd030a41390dca47adc54c465e423435974ca32d683cc37e35f0",
+    "outputs/tables/saturday_payout_thresholds.csv": "7ff049292ceae0832f96d61a0075369456a08ac32faae27cc61f3c3695e23d95",
+    "outputs/tables/saturday_ticket_concentration.csv": "cb3ecf15226ff8683b8b835c62f7aa9fb66aab90cfefe2f61dc6391cd0168396"
+  },
+  "figure_sha256": {
+    "outputs/figures/saturday_analytical_chance_40.svg": "90f7fe7954ff089446cd2b6abefb819af70acbd986ff04fc1d0aaf9c0cb81a82",
+    "outputs/figures/saturday_analytical_chance_40.png": "f63b581e91aeca3bebc2bd179bbb0f9c99685888b1db2e514ad13a206f1688ed",
+    "outputs/figures/saturday_analytical_ticket_distribution.svg": "a0373e29d99122502bc64875016be06a683fdf652a80f4b4483ad4bbb01d7bb5",
+    "outputs/figures/saturday_analytical_ticket_distribution.png": "5b0ac9f0cc3bb068dfa3f38646b1172a5be471ed51fcc3a86e5e5e5d8d886e8e",
+    "outputs/figures/saturday_analytical_expected_tickets.svg": "09b4b82236fd7be9d4f937fbd58423eefe6ff62f83692e31d828e978bbfcc060",
+    "outputs/figures/saturday_analytical_expected_tickets.png": "279e3dd244cfb03516d2b058e4bcdefed1bedd39fe4079675d2fafa7554cc948",
+    "outputs/figures/saturday_analytical_concentration.svg": "a42cfaaaa9132dc73610f78abc547e8786447a76fbba6dcd93c653b851a4c6e6",
+    "outputs/figures/saturday_analytical_concentration.png": "204c37cd1d714f7fe067fa155a9b05510b3265602da4cc30f692fad253311271",
+    "outputs/figures/saturday_analytical_reward_thresholds.svg": "311448caf30c091e0ba2d2fe6a2e25294ede3d1e77855fbeeaa89f16f66f0172",
+    "outputs/figures/saturday_analytical_reward_thresholds.png": "e2abd4c55a2d28d4aa0c1be96afaa5694550dee512c6d99e9e4b8247529c723e"
+  },
+  "scope": "Phase 3A analytical benchmarks only; historical figures untouched"
+}
