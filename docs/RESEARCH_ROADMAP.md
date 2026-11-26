@@ -2,6 +2,22 @@
 
 The research proceeds in auditable stages. Historical observations, counterfactual calculations, and behavioral simulations must remain separate data products.
 
+## 2026-11-26 Phase 5 status
+
+[Team and group research](PHASE5_GROUP_AND_TEAM_ECONOMICS.md) completes the core
+aggregation stage with exact groups 1/2/4/8, historical hypergeometric sampling,
+independent Vegas/weekend benchmarks, shared Friday team outcomes and two
+partial-contribution protocols. Four focused figure pairs and a video-findings
+table preserve both the increased pooling success advantage and contrary
+capacity/throughput findings. Current ticket-transfer/redemption permission,
+Friday fee units and individual team ownership remain unresolved.
+
+The next task is **focused competitive field-composition assessment and final
+recommendation synthesis**, followed later by authorized scripting/production.
+The first video targets 15–18 minutes. Beginner prize-wall education and buying
+recommendations are separate videos. No full historical weekend optimizer,
+ratings simulator, misconduct investigation or policy redesign was started.
+
 ## 2026-11-25 Phase 4 status
 
 [Individual acquisition research](PHASE4_INDIVIDUAL_ACQUISITION.md) now implements

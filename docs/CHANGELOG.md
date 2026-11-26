@@ -1,5 +1,35 @@
 # Research changes
 
+## 2026-11-26 — Phase 5 teams and aggregation
+
+- Added isolated current schedule/policy evidence, the Rules Hub-linked October 9
+  tournament rules PDF, extraction metadata and visual checks of pages 1/48.
+  General conditional prize-sharing provisions do not establish unrestricted
+  ticket pooling; vendor detail retrieval remains blocked by HTTP 403.
+- Added exact team W/D/L PMFs and hypothetical integer allocations for four
+  Riftbound team formats, including Friday 2v2 and repeatable team ODEs. Friday
+  fee alternatives remain scenarios. Shared team awards are allocated once.
+- Added group 1/2/4/8 threshold/unit/remainder accounting, exact historical
+  without-replacement versus independent sampling, Vegas draw sensitivities,
+  partial contribution protocols and stopped-weekend resource comparisons.
+- Added a concrete Friday-team mixed weekend extension with shared teammate
+  outcomes and separate later paths. No shared-target optimizer or continued
+  production after personal stopping is inferred from stopped distributions.
+- Verified competitive ODE offers in all eight archived cities. Their equal-
+  skill mean per pod matches Vegas; ceilings, formats and published time differ.
+  All eight also offered the matching casual format, so this is not a new Vegas
+  throughput improvement.
+  Historical currency symbols and unknown desk hours remain explicit.
+- Added fourteen focused CSVs, four SVG/PNG pairs, an auditable report summary,
+  video-claim qualifications and an isolated validator preserving 875 prior
+  tracked artifacts. The general validation inventory may refresh code hashes.
+- Fresh primary organizer evidence limits TFT ODEs to Saturday noon onward;
+  Phase 4's broader TFT assumptions remain preserved conditional models, not
+  current itinerary advice. New weekend calculations here use Riftbound events.
+- Next: field-composition assessment and final recommendation synthesis. No
+  video script, valuation/buying guide, full Swiss model, private identification,
+  misconduct investigation, commit or push is included.
+
 ## 2026-11-25 — Phase 4 individual acquisition
 
 - Added isolated current official evidence, the 33-row inventory and a normalized

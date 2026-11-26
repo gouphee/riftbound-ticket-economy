@@ -1,0 +1,16 @@
+{
+  "phase5_video_findings.csv": 8,
+  "phase5_team_inventory.csv": 9,
+  "phase5_policy_evidence.csv": 11,
+  "phase5_team_economics.csv": 80,
+  "phase5_team_distributions.csv": 460,
+  "phase5_team_allocation.csv": 440,
+  "phase5_saturday_groups.csv": 32,
+  "phase5_saturday_comparison.csv": 32,
+  "phase5_weekend_groups.csv": 28,
+  "phase5_partial_pooling.csv": 32,
+  "phase5_team_weekend_distributions.csv": 540,
+  "phase5_friday_comparison.csv": 8,
+  "phase5_historical_ode_offers.csv": 8,
+  "phase5_ode_comparison.csv": 20
+}

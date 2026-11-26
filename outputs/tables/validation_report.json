@@ -16,6 +16,7 @@
     "docs/pilot_reference.json": "cb1c92618cf51f7bcc36afa72680d9ab26ec0107d7c5a42456888a42aba66d45",
     "src/riftbound_tickets/__init__.py": "dae7b100fb4bf851673fef54cab4d85c8a0528a86a010302115ef42b33517822",
     "src/riftbound_tickets/charts/__init__.py": "22b3cc0b55667f02a25e5b837b6cace9cfcd9c35e619f3c499cc4fb2fb566b67",
+    "src/riftbound_tickets/charts/aggregation.py": "b954618b2b739cd5b9c5bf654e9567aa5ebbf549ec22500ce1d3e075a787f4ec",
     "src/riftbound_tickets/charts/historical.py": "f8ed2d498b8c95eefc1d8f3367318978c24f3b46b09903b885bde57010690203",
     "src/riftbound_tickets/charts/individual.py": "34dd22454dd1fec340d427e4cf6662cd7389cf9f2077ab1cd36fa68e97e10539",
     "src/riftbound_tickets/charts/saturday_analytical.py": "fd791d6751fdcd9c26d1985eb439877ffff79f542aa7a5151892efad5c324055",
@@ -27,9 +28,11 @@
     "src/riftbound_tickets/collectors/locator.py": "369ba271e9d91765ee90bb3bf14285241aa778fe2ae787d991b59d0347653e31",
     "src/riftbound_tickets/collectors/phase3a_sources.py": "53a9ce7abc9f6413837076ddb346b69d296bfdca16e9ac82c12bfd6cef59231b",
     "src/riftbound_tickets/collectors/phase4_sources.py": "36d6599fdfb238f0e8cede5ddd8fafa6de975ce440a9dbe6f351ca178e97597e",
+    "src/riftbound_tickets/collectors/phase5_sources.py": "87078a1810d63ce47031344eb23b8d7b10c34cb72389ace5d783f302377dd630",
     "src/riftbound_tickets/collectors/schedules.py": "b49519fbd007fedc512c22c8c8156624df50425ae079647b8d68977f1e1d7b5d",
     "src/riftbound_tickets/draws.py": "cbf8e0f4bc352591bba5c369e22259f1ee7e9e1ebfa6e83806603a29792cadc9",
     "src/riftbound_tickets/models/__init__.py": "65db20e495efef4231233dd672d07c9f37b96c61e61102c130ca24646ed80dd1",
+    "src/riftbound_tickets/models/aggregation.py": "f94bb0ee592c8fd712bcca75d8138009ab68e3802976f14ca6687dabdb02e1a6",
     "src/riftbound_tickets/models/historical_bounds.py": "3f4a68b8a4c3b377405d4c295d6a786432698cf2cc497df834e5498c1ecb9619",
     "src/riftbound_tickets/models/individual.py": "f2aedc4d5505ddf62f3053664bf2607096ab4da0994933eadc526191857279ac",
     "src/riftbound_tickets/models/saturday_analytical.py": "54e99bf9341d88f51189a54ceeb9774a6e8dfcd120fcf69fe568f9b1ab03a9ad",
@@ -41,6 +44,7 @@
     "src/riftbound_tickets/phase3a.py": "8c16508727aeaa24f8722a9522aa585d1d30fa0d010d9fe6d85f3b5458e5c656",
     "src/riftbound_tickets/phase3b.py": "80f2d66fa1f4c1328b6b6e4ff961e54bd7288b1f277a8d60b6099b7d877082c0",
     "src/riftbound_tickets/phase4.py": "53ee0ef41c98a8511f70499a910e6f6699303cf596659b13ec16353e374b6db2",
+    "src/riftbound_tickets/phase5.py": "1e4dc964d201c858edc758c89c5744c23cb007f175c491e2b2db4b3ac0debc20",
     "src/riftbound_tickets/pipeline.py": "48992535d219623d3577473fef97b8d6f7773f41d0ff04896767fde8e608d215",
     "src/riftbound_tickets/validation.py": "2425efa016e5a216af8112b864912a4d18e71d8b891025079d0d62f375cf09f2"
   }

@@ -1,0 +1,119 @@
+{
+  "started_at_utc": "2026-11-26T15:34:00.000884+00:00",
+  "client_research_date": "2026-11-26",
+  "client_timezone": "America/Indianapolis",
+  "python_version": "3.12.16 (main, Oct 25 2026, 18:24:37) [Clang 17.0.0 (clang-1700.6.4.2)]",
+  "runner_sha256": "287d8d3719761c55223a6789c2a45add8c6aecf4ed8e8a47e90ad721b9f082d2",
+  "preservation_before": {
+    "passed": true,
+    "checked_files": 875,
+    "changed_files": []
+  },
+  "commands": [
+    {
+      "command": "PYTHONPATH=src python3.12 -m unittest discover -s tests -v",
+      "started_at_utc": "2026-11-26T15:34:00.000912+00:00",
+      "finished_at_utc": "2026-11-26T15:34:28.847403+00:00",
+      "exit_code": 0,
+      "log_path": "outputs/phase5/validation/20261126T153359Z/01-unittest.log",
+      "log_sha256": "53fb548036a4818332ab0f24dc19ac94be37edd25192e62afc40175ed75536af"
+    },
+    {
+      "command": "PYTHONPATH=src python3.12 -m riftbound_tickets.cli build",
+      "started_at_utc": "2026-11-26T15:34:28.847532+00:00",
+      "finished_at_utc": "2026-11-26T15:34:33.781676+00:00",
+      "exit_code": 0,
+      "log_path": "outputs/phase5/validation/20261126T153359Z/02-cli-build.log",
+      "log_sha256": "c635125ff6dbb3e5db33c3a7abd54c55e100816040a89bc6de1c8f4f0eee3b5e"
+    },
+    {
+      "command": "PYTHONPATH=src python3.12 -m riftbound_tickets.cli verify",
+      "started_at_utc": "2026-11-26T15:34:33.781788+00:00",
+      "finished_at_utc": "2026-11-26T15:34:34.180664+00:00",
+      "exit_code": 0,
+      "log_path": "outputs/phase5/validation/20261126T153359Z/03-cli-verify.log",
+      "log_sha256": "fbb1a39dd6427867a3006976b36bb6e3f91a440fffddcbaae7ed6241fb2351d3"
+    },
+    {
+      "command": "PYTHONPATH=src python3.12 -m riftbound_tickets.cli audit",
+      "started_at_utc": "2026-11-26T15:34:34.180887+00:00",
+      "finished_at_utc": "2026-11-26T15:34:35.159709+00:00",
+      "exit_code": 0,
+      "log_path": "outputs/phase5/validation/20261126T153359Z/04-cli-audit.log",
+      "log_sha256": "69c1afbdebd6b862dd16202bb9b55571456f63c703608e116ba1075e60f2d02c"
+    },
+    {
+      "command": "PYTHONPATH=src python3.12 -m riftbound_tickets.cli validate-pilot",
+      "started_at_utc": "2026-11-26T15:34:35.159817+00:00",
+      "finished_at_utc": "2026-11-26T15:34:40.715749+00:00",
+      "exit_code": 0,
+      "log_path": "outputs/phase5/validation/20261126T153359Z/05-cli-validate-pilot.log",
+      "log_sha256": "47150a21e1d4e98202b60d3367f0bfb6d6999f69264f02fb8681d5397d64e912"
+    },
+    {
+      "command": "PYTHONPATH=src python3.12 -m riftbound_tickets.cli audit-phase2",
+      "started_at_utc": "2026-11-26T15:34:40.715856+00:00",
+      "finished_at_utc": "2026-11-26T15:34:42.873375+00:00",
+      "exit_code": 0,
+      "log_path": "outputs/phase5/validation/20261126T153359Z/06-cli-audit-phase2.log",
+      "log_sha256": "4939e56f36c8fe4bf98dd08a35737253e4f1d7ebabcc8564bdf0e6f92821e3fe"
+    },
+    {
+      "command": "PYTHONPATH=src python3.12 -m riftbound_tickets.phase3a audit",
+      "started_at_utc": "2026-11-26T15:34:42.873480+00:00",
+      "finished_at_utc": "2026-11-26T15:34:43.164835+00:00",
+      "exit_code": 0,
+      "log_path": "outputs/phase5/validation/20261126T153359Z/07-phase3a-audit.log",
+      "log_sha256": "6f339232e6630bb5ed1ea471d1676f06c0ce8b9f4547b63aff2b29ad41d5ae34"
+    },
+    {
+      "command": "PYTHONPATH=src python3.12 -m riftbound_tickets.phase3b audit",
+      "started_at_utc": "2026-11-26T15:34:43.164941+00:00",
+      "finished_at_utc": "2026-11-26T15:34:43.620637+00:00",
+      "exit_code": 0,
+      "log_path": "outputs/phase5/validation/20261126T153359Z/08-phase3b-audit.log",
+      "log_sha256": "553f2df0d56c204f6b238ec8484ea01ada1f4f6dd9e3da0a17b346ff8f20ae92"
+    },
+    {
+      "command": "PYTHONPATH=src python3.12 -m riftbound_tickets.phase4 audit",
+      "started_at_utc": "2026-11-26T15:34:43.620725+00:00",
+      "finished_at_utc": "2026-11-26T15:34:49.892043+00:00",
+      "exit_code": 0,
+      "log_path": "outputs/phase5/validation/20261126T153359Z/09-phase4-audit.log",
+      "log_sha256": "e94105fb6afda9357401adf0f2607615ccb04054cb4b7660d551fccc604f1e10"
+    },
+    {
+      "command": "PYTHONPATH=src python3.12 -m riftbound_tickets.phase5 build",
+      "started_at_utc": "2026-11-26T15:34:49.892142+00:00",
+      "finished_at_utc": "2026-11-26T15:35:02.721040+00:00",
+      "exit_code": 0,
+      "log_path": "outputs/phase5/validation/20261126T153359Z/10-phase5-build.log",
+      "log_sha256": "afdd1123c2761af9384c3241c3ee3e7af551d214eb5c33d919df7107597f3e57"
+    },
+    {
+      "command": "PYTHONPATH=src .venv-figures/bin/python -m riftbound_tickets.phase5 figures",
+      "started_at_utc": "2026-11-26T15:35:02.721142+00:00",
+      "finished_at_utc": "2026-11-26T15:35:03.602470+00:00",
+      "exit_code": 0,
+      "log_path": "outputs/phase5/validation/20261126T153359Z/11-phase5-figures.log",
+      "log_sha256": "ce6c5d02ce8605dad59d1f49dc3abbfdabcca6113268f91f868b91c5c7ac1636"
+    },
+    {
+      "command": "PYTHONPATH=src python3.12 -m riftbound_tickets.phase5 audit",
+      "started_at_utc": "2026-11-26T15:35:03.602584+00:00",
+      "finished_at_utc": "2026-11-26T15:35:16.808295+00:00",
+      "exit_code": 0,
+      "log_path": "outputs/phase5/validation/20261126T153359Z/12-phase5-audit.log",
+      "log_sha256": "f787eaadeb5d8f9092f19d84db1522e17a1e804e24ee92cfcc1fe6795b98aec2"
+    }
+  ],
+  "network": "All validation commands offline; isolated official source retrievals recorded separately",
+  "prior_report_policy": "Older execution logs/reports unchanged; general validation report may refresh code inventory",
+  "preservation_after": {
+    "passed": true,
+    "checked_files": 875,
+    "changed_files": []
+  },
+  "passed": true,
+  "finished_at_utc": "2026-11-26T15:35:16.953408+00:00"
+}

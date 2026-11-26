@@ -1,0 +1,17 @@
+{
+  "validated": true,
+  "scope": "complete_extraction_of_available_rows_and_published_payout_calculation",
+  "events": [
+    "atlanta-friday",
+    "atlanta-sunday"
+  ],
+  "known_gaps": {
+    "atlanta-friday": "1 roster-only registration retained separately; no inferred record or event-wide exact total"
+  },
+  "actual_issuance_validated": false,
+  "reference_sha256": "cb1c92618cf51f7bcc36afa72680d9ab26ec0107d7c5a42456888a42aba66d45",
+  "archive": {
+    "retrievals": 464,
+    "unique_objects_verified": 459
+  }
+}

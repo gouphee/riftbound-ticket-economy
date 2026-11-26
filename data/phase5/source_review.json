@@ -1,0 +1,165 @@
+{
+  "sources": [
+    {
+      "source_id": "sha256:4e8b5fb6b97eedbcb0210a4a0fd13cf773874512d4e92ae633088c2c8c53d882",
+      "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+      "final_url": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+      "retrieved_at": "2026-11-26T14:56:47.682448+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "4e8b5fb6b97eedbcb0210a4a0fd13cf773874512d4e92ae633088c2c8c53d882",
+      "raw_path": "data/raw/phase5/objects/4e8b5fb6b97eedbcb0210a4a0fd13cf773874512d4e92ae633088c2c8c53d882.html.gz",
+      "category": "phase5_official_policy_and_team_schedule",
+      "storage_encoding": "gzip",
+      "error": null,
+      "response_headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Thu, 26 Nov 2026 14:56:47 GMT",
+        "Etag": "\"gvrtl8l0023pft\""
+      }
+    },
+    {
+      "source_id": "sha256:b77eb93d9263463634a2656acb435fe8c876dc91d1666badc119a5a3e7ea3e87",
+      "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/community/convergence-fest-side-events-and-the-encore-details/",
+      "final_url": "https://teamfighttactics.leagueoflegends.com/en-us/news/community/convergence-fest-side-events-and-the-encore-details/",
+      "retrieved_at": "2026-11-26T14:56:48.159856+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "b77eb93d9263463634a2656acb435fe8c876dc91d1666badc119a5a3e7ea3e87",
+      "raw_path": "data/raw/phase5/objects/b77eb93d9263463634a2656acb435fe8c876dc91d1666badc119a5a3e7ea3e87.html.gz",
+      "category": "phase5_official_policy_and_team_schedule",
+      "storage_encoding": "gzip",
+      "error": null,
+      "response_headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Thu, 26 Nov 2026 14:56:47 GMT",
+        "Etag": "\"4pkfcylgwp3hzo\""
+      }
+    },
+    {
+      "source_id": "sha256:7e1c89ae36b445edea2bd9dec86e4285f07b4f002d1e1fd21635d15cc56b2bff",
+      "url": "https://www.tixr.com/groups/convergencefest/events/convergence-fest-200990",
+      "final_url": "https://www.tixr.com/groups/convergencefest/events/convergence-fest-200990",
+      "retrieved_at": "2026-11-26T14:56:48.544838+00:00",
+      "http_status": 403,
+      "content_type": "text/html;charset=utf-8",
+      "sha256": "7e1c89ae36b445edea2bd9dec86e4285f07b4f002d1e1fd21635d15cc56b2bff",
+      "raw_path": "data/raw/phase5/objects/7e1c89ae36b445edea2bd9dec86e4285f07b4f002d1e1fd21635d15cc56b2bff.html",
+      "category": "phase5_official_policy_and_team_schedule",
+      "storage_encoding": "identity",
+      "error": "HTTP Error 403: Forbidden",
+      "response_headers": {
+        "Date": "Thu, 26 Nov 2026 14:56:48 GMT",
+        "Content-Type": "text/html;charset=utf-8",
+        "Content-Length": "768"
+      }
+    },
+    {
+      "source_id": "sha256:62881e24f10ca187d5e4eb9ab26d6ed88b71fc9cf929d1666f215edd223a6876",
+      "url": "https://playriftbound.com/en-us/news/organizedplay/north-american-regional-championship-info/",
+      "final_url": "https://playriftbound.com/en-us/news/organizedplay/north-american-regional-championship-info/",
+      "retrieved_at": "2026-11-26T14:56:49.094428+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "62881e24f10ca187d5e4eb9ab26d6ed88b71fc9cf929d1666f215edd223a6876",
+      "raw_path": "data/raw/phase5/objects/62881e24f10ca187d5e4eb9ab26d6ed88b71fc9cf929d1666f215edd223a6876.html.gz",
+      "category": "phase5_official_policy_and_team_schedule",
+      "storage_encoding": "gzip",
+      "error": null,
+      "response_headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Thu, 26 Nov 2026 14:56:49 GMT",
+        "Etag": "\"142janrvuo538p4\""
+      }
+    },
+    {
+      "source_id": "sha256:b1a9c159ed62ddca930d7d79c7930da27573e4853377c987a82cba288c03ad46",
+      "url": "https://convergencefest.riotgames.com/en-us/",
+      "final_url": "https://convergencefest.riotgames.com/en-us/",
+      "retrieved_at": "2026-11-26T14:56:50.791234+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "b1a9c159ed62ddca930d7d79c7930da27573e4853377c987a82cba288c03ad46",
+      "raw_path": "data/raw/phase5/objects/b1a9c159ed62ddca930d7d79c7930da27573e4853377c987a82cba288c03ad46.html.gz",
+      "category": "phase5_official_policy_and_team_schedule",
+      "storage_encoding": "gzip",
+      "error": null,
+      "response_headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Thu, 26 Nov 2026 14:56:50 GMT",
+        "Etag": "\"1679t48nq8c3awt\""
+      }
+    },
+    {
+      "source_id": "sha256:7a4628b8eb45b0c8435c507d46ae45022abdc58012fe1d98a7c5222de7b87652",
+      "url": "https://playriftbound.com/en-us/rules-hub/",
+      "final_url": "https://playriftbound.com/en-us/rules-hub/",
+      "retrieved_at": "2026-11-26T14:56:51.061176+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "7a4628b8eb45b0c8435c507d46ae45022abdc58012fe1d98a7c5222de7b87652",
+      "raw_path": "data/raw/phase5/objects/7a4628b8eb45b0c8435c507d46ae45022abdc58012fe1d98a7c5222de7b87652.html.gz",
+      "category": "phase5_official_policy_and_team_schedule",
+      "storage_encoding": "gzip",
+      "error": null,
+      "response_headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Thu, 26 Nov 2026 14:56:51 GMT",
+        "Etag": "\"111ylx5tvwk3a59\""
+      }
+    },
+    {
+      "source_id": "sha256:ce07da4fb632526afbbce7f058287a57e7444fa6bde17b0938ff52ce3fab3d07",
+      "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/news_live/861752822d217edf37d9febaeaf77a7d924c1bb6.pdf",
+      "final_url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/news_live/861752822d217edf37d9febaeaf77a7d924c1bb6.pdf",
+      "retrieved_at": "2026-11-26T14:56:52.233077+00:00",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "sha256": "ce07da4fb632526afbbce7f058287a57e7444fa6bde17b0938ff52ce3fab3d07",
+      "raw_path": "data/raw/phase5/objects/ce07da4fb632526afbbce7f058287a57e7444fa6bde17b0938ff52ce3fab3d07.bin.gz",
+      "category": "phase5_official_policy_and_team_schedule",
+      "storage_encoding": "gzip",
+      "error": null,
+      "response_headers": {
+        "Content-Type": "application/pdf",
+        "Content-Length": "17509551",
+        "ETag": "\"3e070b8436c09a0122ab19125d3145d6\"",
+        "Last-Modified": "Wed, 07 Oct 2026 19:46:55 GMT",
+        "Date": "Thu, 26 Nov 2026 14:56:51 GMT"
+      }
+    },
+    {
+      "source_id": "sha256:2ecabfd46310ad4b30be9af547d22b28a37af36e2bcd445afd8ed9a28b661847",
+      "url": "https://x.com/RiotSherman/status/2122889583201591569",
+      "final_url": "https://x.com/RiotSherman/status/2122889583201591569",
+      "retrieved_at": "2026-11-26T14:56:52.873627+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "2ecabfd46310ad4b30be9af547d22b28a37af36e2bcd445afd8ed9a28b661847",
+      "raw_path": "data/raw/phase5/objects/2ecabfd46310ad4b30be9af547d22b28a37af36e2bcd445afd8ed9a28b661847.html.gz",
+      "category": "phase5_official_policy_and_team_schedule",
+      "storage_encoding": "gzip",
+      "error": null,
+      "response_headers": {
+        "Date": "Thu, 26 Nov 2026 14:56:52 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    }
+  ],
+  "current_schedule_matches_Phase4": true,
+  "rules_date": "2026-10-09",
+  "rules_page_review": [
+    1,
+    48
+  ],
+  "ticket_pooling_permission": "not_verified",
+  "verified_primary_announcement_TFT_ODE_start": "Saturday noon; Phase4 TFT all-weekend scenarios are conditional and should not become itinerary advice",
+  "announcement_verification": {
+    "verified_primary_announcement_content": true,
+    "published_time": "2026-11-18T03:08:12.000Z",
+    "author": "https://x.com/RiotSherman",
+    "verification_basis": "Canonical post URL, author metadata, and explicit Standard Rebound 11th-round statement in captured h1 post text; HTTP 200 alone is insufficient."
+  },
+  "PDF_copy_sha256": "ce07da4fb632526afbbce7f058287a57e7444fa6bde17b0938ff52ce3fab3d07",
+  "extracted_text_sha256": "aeeec29f46ea24d500884a65f88ec9ca1e90e9bf66c79af439c280673f7f75e7"
+}

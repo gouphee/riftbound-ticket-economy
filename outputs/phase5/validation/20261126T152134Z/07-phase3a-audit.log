@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "source_objects_verified": 2,
+  "hashed_files_checked": 16,
+  "hash_mismatches": [],
+  "table_differences": [],
+  "figure_hash_mismatches": [],
+  "historical_preservation": {
+    "checked_files": 615,
+    "changed_files": [],
+    "passed": true
+  },
+  "independent_recalculation": true,
+  "comparison_rows": 24
+}

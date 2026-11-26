@@ -1,0 +1,58 @@
+{
+  "model": "exact_fraction_convolution_hypergeometric_and_shared_team_blocks",
+  "table_rows": {
+    "phase5_video_findings.csv": 8,
+    "phase5_team_inventory.csv": 9,
+    "phase5_policy_evidence.csv": 11,
+    "phase5_team_economics.csv": 80,
+    "phase5_team_distributions.csv": 460,
+    "phase5_team_allocation.csv": 440,
+    "phase5_saturday_groups.csv": 32,
+    "phase5_saturday_comparison.csv": 32,
+    "phase5_weekend_groups.csv": 28,
+    "phase5_partial_pooling.csv": 32,
+    "phase5_team_weekend_distributions.csv": 540,
+    "phase5_friday_comparison.csv": 8,
+    "phase5_historical_ode_offers.csv": 8,
+    "phase5_ode_comparison.csv": 20
+  },
+  "input_sha256": {
+    "data/phase5/source_review.json": "e4522c522bfffc868fd8e1f38956cdd85a9838c11a10b864b7601d28b7425506",
+    "data/phase5/sources.csv": "4e243968572d991bf32cec28eaf3bb2c2c8739fcaf784422f73d65305833d4a4",
+    "data/raw/phase5/retrievals.jsonl": "61fbdb1e3a7fb133c717e8692d345f404c4f7a2acb2be08a433a550f7eef4c3c",
+    "data/phase5/policy_extraction.json": "815b7a9af1b9cbd70518f5dab3e49894d1574e30df9d4bd403b0a3ba19b31ae6",
+    "data/phase5/preserved_artifacts.json": "b701a06f8a469e532ab265c042c209990fdad44ab1a02f180f851377d3e33f69",
+    "data/phase5/tournament_rules_extracted.txt": "aeeec29f46ea24d500884a65f88ec9ca1e90e9bf66c79af439c280673f7f75e7",
+    "outputs/tables/phase4_strategy_distributions.csv": "84292b524da30f172708f776c17dd6606467a46e5de7e9dc30d3cc25c000ceb8",
+    "outputs/tables/phase4_strategy_results.csv": "5b045ff29d6fca31164573c7ed950fbb78d17fe4052642f49bd158add8751549",
+    "outputs/tables/phase4_historical_side_inventory.csv": "a5e2cb31409cce03e0d1e135c9e9946d69a00723f7dc64392713df95c0753a11",
+    "outputs/tables/phase4_event_economics.csv": "1ed92144177b50c4ac3327be290790e7c34ea3bc614f229f5095759fc5f3b93d",
+    "outputs/tables/phase4_event_inventory.csv": "fa3f976293066dad676ea55c84d3bc93a88ab8f90cb14dcc663e0c262e896890",
+    "data/phase3a/vegas_rules.json": "b70c3a0fbfbf6122edb4cbc03b58a02ded37345c0827c200d65a6267e0ca7dbd"
+  },
+  "code_sha256": {
+    "src/riftbound_tickets/models/aggregation.py": "f94bb0ee592c8fd712bcca75d8138009ab68e3802976f14ca6687dabdb02e1a6",
+    "src/riftbound_tickets/phase5.py": "1e4dc964d201c858edc758c89c5744c23cb007f175c491e2b2db4b3ac0debc20",
+    "src/riftbound_tickets/collectors/phase5_sources.py": "87078a1810d63ce47031344eb23b8d7b10c34cb72389ace5d783f302377dd630",
+    "src/riftbound_tickets/charts/aggregation.py": "b954618b2b739cd5b9c5bf654e9567aa5ebbf549ec22500ce1d3e075a787f4ec",
+    "scripts/validate_phase5.py": "287d8d3719761c55223a6789c2a45add8c6aecf4ed8e8a47e90ad721b9f082d2",
+    "tests/test_aggregation.py": "46a4daf0bad3ae55ebc7d2daefac9288dc320d8f97743039ad484c27d6d46d58",
+    "tests/test_phase5_outputs.py": "9e785c4a209e5428fd3dee53f2131259ec6049383f7732a098a494487943bae1"
+  },
+  "output_sha256": {
+    "outputs/tables/phase5_video_findings.csv": "c8941faf532b57cb87ae03cd7848aed2b3c01a94007761535949978b552af775",
+    "outputs/tables/phase5_team_inventory.csv": "49bad45b765e3735fe2373b92eff51467b2d07972354af31aacb60485fe67349",
+    "outputs/tables/phase5_policy_evidence.csv": "b569d6d6892be84ae67da0569a190f2171f8fa7d8c4b5ca09d8ec96866d89ee6",
+    "outputs/tables/phase5_team_economics.csv": "a76164f9ed105a0ac40432f14678dcb0826f18c44129486029ddfbf301b957b0",
+    "outputs/tables/phase5_team_distributions.csv": "62b690bdd72a35fdbb3174e1762f235bcd747849c188e1f1bc7d19b63cf3e4a5",
+    "outputs/tables/phase5_team_allocation.csv": "dcf782f88eef9b2a3522bc01c283e812251d5b567c9134e131cc835854bbdfc1",
+    "outputs/tables/phase5_saturday_groups.csv": "a98d9c646297e755930c90de6c32926b9ba7ab82f24cf6225ecb14d59c48af58",
+    "outputs/tables/phase5_saturday_comparison.csv": "af6f47e7e1270aad9c5482ee36cfa37932c7e48bca9f8782be56407804a1630e",
+    "outputs/tables/phase5_weekend_groups.csv": "c60e07e1131aca8ba1160c849a2ef937842d0ba0324f9b80d284baf9b6f727c7",
+    "outputs/tables/phase5_partial_pooling.csv": "376e1df03a3fe33d0140708a99279e23aafd0aee56523d85d62d9bf99f2c0b23",
+    "outputs/tables/phase5_team_weekend_distributions.csv": "a029a9d356a72a248d9202b283968850406201f2f19021e1c72f21c54c073f5a",
+    "outputs/tables/phase5_friday_comparison.csv": "ea2a1c04688da1476ceba4618d3700fa539381604763923ba98a4377fa78eca6",
+    "outputs/tables/phase5_historical_ode_offers.csv": "73802bd00bed306f7ee7a059f93e39aa71f40cb2c9ed4cf9198873a8aa99a846",
+    "outputs/tables/phase5_ode_comparison.csv": "7d77d188174c4746d5837e950fd9b251c6fcec101c3ccd6c4ec56361ad0510a7"
+  }
+}

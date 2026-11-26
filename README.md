@@ -10,6 +10,38 @@ bye/match evidence, and each city's historical payout tables. It reconstructs
 published ticket entitlements. **Actual physical ticket issuance is unverified:**
 no claim/distribution ledger was recovered, so verified-issuance fields are blank.
 
+## Phase 5 team events and ticket aggregation
+
+[Phase 5](docs/PHASE5_GROUP_AND_TEAM_ECONOMICS.md) adds exact group sizes 1/2/4/8,
+historical sampling without replacement, Vegas independence sensitivities,
+partial contributions, Friday team allocations and controlled competitive ODE
+comparisons. At eight people, pooling adds **21.82 percentage points historically
+versus 33.87 in Vegas**, while the absolute pooled chance falls **62.36% to
+57.23%**. This does not establish a whole-weekend historical decline. Ticket
+pooling permission, individual team entitlements and actual redemption remain
+unresolved; mathematical capacities are conditional counterfactuals.
+
+Friday 2v2 expands the individual menu, but conflicts with Friday Nexus and
+requires fee/allocation clarification. All eight historical cities offered the
+winner-only competitive ODE; its mean per pod matches Vegas at equal skill,
+while ceilings and published durations differ. The first video remains a
+15–18-minute research essay; beginner education, buying recommendations and
+scripting are separate tasks.
+
+Start with [video findings](outputs/tables/phase5_video_findings.csv),
+[Saturday comparison](outputs/tables/phase5_saturday_comparison.csv),
+[weekend groups](outputs/tables/phase5_weekend_groups.csv), and four
+`outputs/figures/phase5_*` SVG/PNG pairs. Fresh policy/official source captures
+are isolated under `data/raw/phase5/`; the current October 9 tournament rules
+and evidence review are under `data/phase5/`. Prior research is hash protected.
+
+```sh
+PYTHONPATH=src python3.12 -m riftbound_tickets.phase5 build
+PYTHONPATH=src .venv-figures/bin/python -m riftbound_tickets.phase5 figures
+PYTHONPATH=src python3.12 -m riftbound_tickets.phase5 audit
+python3.12 scripts/validate_phase5.py
+```
+
 ## Phase 4 individual acquisition economics
 
 [Phase 4](docs/PHASE4_INDIVIDUAL_ACQUISITION.md) inventories all 33 official
@@ -65,8 +97,8 @@ PYTHONPATH=src .venv-figures/bin/python -m riftbound_tickets.phase3b figures
 
 Start a new research conversation with [PROJECT_HANDOFF.md](docs/PROJECT_HANDOFF.md).
 Previous raw data, Phase 2/3A exports, figures, execution logs and source code
-remain unchanged. Phase 4 above extends individual weekend economics; coordinated pooling and
-scripting remain future work.
+remain unchanged. Phases 4 and 5 above extend individual and group economics. Field-composition
+assessment and recommendation synthesis are next; scripting remains future work.
 
 ## Phase 3A Saturday analytical comparison
 

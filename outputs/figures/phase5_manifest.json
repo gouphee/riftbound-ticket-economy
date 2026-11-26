@@ -1,0 +1,32 @@
+{
+  "matplotlib_version": "3.11.2",
+  "renderer_sha256": {
+    "src/riftbound_tickets/charts/aggregation.py": "b954618b2b739cd5b9c5bf654e9567aa5ebbf549ec22500ce1d3e075a787f4ec"
+  },
+  "input_sha256": {
+    "outputs/tables/phase5_friday_comparison.csv": "ea2a1c04688da1476ceba4618d3700fa539381604763923ba98a4377fa78eca6",
+    "outputs/tables/phase5_historical_ode_offers.csv": "73802bd00bed306f7ee7a059f93e39aa71f40cb2c9ed4cf9198873a8aa99a846",
+    "outputs/tables/phase5_ode_comparison.csv": "7d77d188174c4746d5837e950fd9b251c6fcec101c3ccd6c4ec56361ad0510a7",
+    "outputs/tables/phase5_partial_pooling.csv": "376e1df03a3fe33d0140708a99279e23aafd0aee56523d85d62d9bf99f2c0b23",
+    "outputs/tables/phase5_policy_evidence.csv": "b569d6d6892be84ae67da0569a190f2171f8fa7d8c4b5ca09d8ec96866d89ee6",
+    "outputs/tables/phase5_saturday_comparison.csv": "af6f47e7e1270aad9c5482ee36cfa37932c7e48bca9f8782be56407804a1630e",
+    "outputs/tables/phase5_saturday_groups.csv": "a98d9c646297e755930c90de6c32926b9ba7ab82f24cf6225ecb14d59c48af58",
+    "outputs/tables/phase5_team_allocation.csv": "dcf782f88eef9b2a3522bc01c283e812251d5b567c9134e131cc835854bbdfc1",
+    "outputs/tables/phase5_team_distributions.csv": "62b690bdd72a35fdbb3174e1762f235bcd747849c188e1f1bc7d19b63cf3e4a5",
+    "outputs/tables/phase5_team_economics.csv": "a76164f9ed105a0ac40432f14678dcb0826f18c44129486029ddfbf301b957b0",
+    "outputs/tables/phase5_team_inventory.csv": "49bad45b765e3735fe2373b92eff51467b2d07972354af31aacb60485fe67349",
+    "outputs/tables/phase5_team_weekend_distributions.csv": "a029a9d356a72a248d9202b283968850406201f2f19021e1c72f21c54c073f5a",
+    "outputs/tables/phase5_video_findings.csv": "c8941faf532b57cb87ae03cd7848aed2b3c01a94007761535949978b552af775",
+    "outputs/tables/phase5_weekend_groups.csv": "c60e07e1131aca8ba1160c849a2ef937842d0ba0324f9b80d284baf9b6f727c7"
+  },
+  "figure_sha256": {
+    "outputs/figures/phase5_pooling_advantage.svg": "99534b333fef3a3bf79521089d9f3391de60a500c7704c1a3b09995c5a823563",
+    "outputs/figures/phase5_pooling_advantage.png": "2d7fc4629034c71043ba9c577317cacb41e38f11420a17b8b1e787e6135d6d5d",
+    "outputs/figures/phase5_units_per_participant.svg": "e1babf0056d352e63d885592f7fc812c9f96161da60a2fab70046ac02d88e5a3",
+    "outputs/figures/phase5_units_per_participant.png": "2659f962212ea1b6c53735724e4abe4977823c4ce17a377e070ff28adf92633c",
+    "outputs/figures/phase5_friday_team.svg": "f681a3cd2826150335b1ee45bf2406172decc35d20c2547d334a874b10a5d80f",
+    "outputs/figures/phase5_friday_team.png": "97422a182a4c2fc4c0ae6527651ba22460bde1c9e52d9b546cf74d5f8600abfb",
+    "outputs/figures/phase5_competitive_ode.svg": "7ae78019e918c8fe627e57eb2aa3de36b5bb7c17669004e2c12bfbe068393b6b",
+    "outputs/figures/phase5_competitive_ode.png": "84f3e6da3d4b723f0662705c1fe05c5d436718a6a2f4d4695ae0976ecccfc8f8"
+  }
+}

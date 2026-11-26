@@ -1,0 +1,13 @@
+{
+  "recorded_at_utc": "2026-11-26T15:14:44.038673+00:00",
+  "extraction_library": "pypdf 6.21.4",
+  "extraction_method": "PdfReader.pages: extract_text, joined by newline; reviewed source pages 1 and 48 rendered with pdftoppm",
+  "rules_date_visually_reviewed": "2026-10-09",
+  "policy_page_visually_reviewed": 48,
+  "derived_and_readable_files_sha256": {
+    "data/phase5/tournament_rules.pdf": "ce07da4fb632526afbbce7f058287a57e7444fa6bde17b0938ff52ce3fab3d07",
+    "data/phase5/tournament_rules_extracted.txt": "aeeec29f46ea24d500884a65f88ec9ca1e90e9bf66c79af439c280673f7f75e7",
+    "outputs/phase5/policy/rules-date-page1.png": "5281d70dc477c13a92e2e2969ed712d1a8855e3f00dceb56640602c03b0d91ee",
+    "outputs/phase5/policy/prize-sharing-page48.png": "397617704421cb0dc570885b7a45d6784606d12dd4c7bdec121a65aa5b02d6d9"
+  }
+}

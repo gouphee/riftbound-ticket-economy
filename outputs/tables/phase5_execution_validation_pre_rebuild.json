@@ -1,0 +1,31 @@
+{
+  "started_at_utc": "2026-11-26T15:23:47.710443+00:00",
+  "client_research_date": "2026-11-26",
+  "client_timezone": "America/Chicago",
+  "python_version": "3.12.16 (main, Oct 25 2026, 18:24:37) [Clang 17.0.0 (clang-1700.6.4.2)]",
+  "runner_sha256": "a75d4755d83ed1003f37d3868d76776ab87dc20afd0a68e4f652a70030197841",
+  "preservation_before": {
+    "passed": true,
+    "checked_files": 875,
+    "changed_files": []
+  },
+  "commands": [
+    {
+      "command": "PYTHONPATH=src python3.12 -m unittest discover -s tests -v",
+      "started_at_utc": "2026-11-26T15:23:47.710478+00:00",
+      "finished_at_utc": "2026-11-26T15:24:17.875348+00:00",
+      "exit_code": 1,
+      "log_path": "outputs/phase5/validation/20261126T152347Z/01-unittest.log",
+      "log_sha256": "d1e51d5bc9d604d2994b6909b5840c903e5d2eb7e5aa9ad7fa137812e6155175"
+    }
+  ],
+  "network": "All validation commands offline; isolated official source retrievals recorded separately",
+  "prior_report_policy": "Older execution logs/reports unchanged; general validation report may refresh code inventory",
+  "preservation_after": {
+    "passed": true,
+    "checked_files": 875,
+    "changed_files": []
+  },
+  "passed": false,
+  "finished_at_utc": "2026-11-26T15:24:18.025917+00:00"
+}
