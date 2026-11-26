@@ -1,0 +1,43 @@
+{
+  "model": "exact_Fraction_iid_record_probabilities_plus_descriptive_historical_cut_conversion",
+  "table_rows": {
+    "conditional_record_probabilities.csv": 20,
+    "conditional_vegas_R10_record_pmf.csv": 680,
+    "conditional_vegas_final_round_rewards.csv": 60,
+    "conditional_secured_cut_rewards.csv": 20,
+    "conditional_historical_checkpoint_rows.csv": 3165,
+    "conditional_historical_record_cohorts.csv": 708,
+    "conditional_historical_hybrid_rewards.csv": 360,
+    "conditional_historical_R7_transitions.csv": 39
+  },
+  "input_sha256": {
+    "data/conditional_rewards/round_standings.json.gz": "fcd9f86302f48777f863a500d8b8f009b807c906372e4003d142cb19eb5b5e9f",
+    "data/conditional_rewards/observations.json": "8d688968165848a58555cd0ae50d0a7558ce3f61ea64b05272036ffc0990634e",
+    "data/conditional_rewards/source_review.json": "3bf74543ea4d14da2f025f066ee299448a99e14b45390a2f62d0e6d202a144e3",
+    "data/conditional_rewards/sources.csv": "d95dec282d6b8e4c4394fe47bca306535504ab3cf0cc414603ed167984d34bee",
+    "data/conditional_rewards/preserved_artifacts.json": "116316934ef56015e09f868400df6c096e40bb8aec3621eeabb2e806227cfa28",
+    "data/raw/conditional_rewards/retrievals.jsonl": "95e1b5e9447df55032c914d42791ffa6430266805f2fad30c599468dd514eb64",
+    "outputs/tables/historical_individual_awards.csv": "bac833d703defe9f38e2f30cbe49e5e5a37ed329348cd848c4e17acd54f42f19",
+    "data/phase3a/vegas_rules.json": "b70c3a0fbfbf6122edb4cbc03b58a02ded37345c0827c200d65a6267e0ca7dbd"
+  },
+  "code_sha256": {
+    "src/riftbound_tickets/collectors/conditional_sources.py": "c579233db063a8d597bd39c8ea3c1ac19243814a3eea2f4b6bddfb3870a8e836",
+    "src/riftbound_tickets/models/conditional_rewards.py": "ee4e86e9108fcfc4a40507368e15f86869a31ace22b3ab95a8e04e3863456b78",
+    "src/riftbound_tickets/conditional_rewards.py": "56cc2e2de5b7d0f19f36ac410332fefa9f8e79d1ba893edb1dbd0f91c47cec9f",
+    "src/riftbound_tickets/charts/conditional_rewards.py": "57c04484fb5827715ae0c6504e48a48262ecbb5f5df966c8fe429cc300b0a243",
+    "scripts/validate_conditional_rewards.py": "9786a45a8b46dd50e33219a98c58a154b45af0eddde75fef001ce89130da1f28",
+    "tests/test_conditional_rewards.py": "e254ab96e45c86e702c56920a5f427e9d260fac3ae892b296f17254cc89bd882"
+  },
+  "output_sha256": {
+    "outputs/tables/conditional_record_probabilities.csv": "6e1c16a54888bb37fc868b35a8d7e7144a0d2727b716be3d73dc0eb2b80fd15a",
+    "outputs/tables/conditional_vegas_R10_record_pmf.csv": "ebaec5a231af54c3955245b188869bdbaf75197f46abcc23f3482a6677432c55",
+    "outputs/tables/conditional_vegas_final_round_rewards.csv": "7e2910aa380b3c5927144cbfcf7720758650e464a54712b354fc915c7108038d",
+    "outputs/tables/conditional_secured_cut_rewards.csv": "379d4750b57a573a6d6fc20fc359221a011a16905de64dc913ffdd5b974e11b0",
+    "outputs/tables/conditional_historical_checkpoint_rows.csv": "1f5ada79795cea1ed0904256830e9b2b46142277f9ce0334496e5ba202a61f2e",
+    "outputs/tables/conditional_historical_record_cohorts.csv": "bb5139841cf52e71af470a64085de67933507f0ab5f270cb2820d9a26ab8e947",
+    "outputs/tables/conditional_historical_hybrid_rewards.csv": "d014e3b4e4ae7affacaa4585db511b497787c7351fbff5f058c2b6f2e60ff58e",
+    "outputs/tables/conditional_historical_R7_transitions.csv": "a2bc2cb13332e030b98048affb8088e6762e6c6a4b8b2a5fc751bec9cabf83f1"
+  },
+  "historical_checkpoint_rows": 3165,
+  "physical_issuance_verified": false
+}

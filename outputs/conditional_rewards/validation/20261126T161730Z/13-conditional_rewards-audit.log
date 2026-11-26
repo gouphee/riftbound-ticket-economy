@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "hash_mismatches": [],
+  "table_differences": [],
+  "figure_mismatches": [],
+  "preservation": {
+    "passed": true,
+    "checked_files": 979,
+    "changed_files": []
+  },
+  "offline_recalculation": true
+}

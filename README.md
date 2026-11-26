@@ -10,6 +10,28 @@ bye/match evidence, and each city's historical payout tables. It reconstructs
 published ticket entitlements. **Actual physical ticket issuance is unverified:**
 no claim/distribution ledger was recovered, so verified-issuance fields are blank.
 
+## Conditional performance and historical prize splits
+
+[The additional analysis](docs/CONDITIONAL_PERFORMANCE_AND_SPLITS.md) separates
+record difficulty, cut conversion and conditional rewards. All eight historical
+Saturdays had seven Swiss rounds: 5–1/6–0 are pre-final-round checkpoints,
+comparable in timing to Vegas 8–2/9–1/10–0. New R6/R7 standings captures show
+Top 8 eligibility for **16/216 at 5–1 and 36/37 at 6–0**. These are descriptive
+cohort fractions, not player forecasts. At 80% hypothetical skill, the cumulative
+8–2-or-better comparison reverses; exact 8–2 and 10–0 remain rarer across the
+40–80% grid.
+
+Two 1920×1080 [difficulty](outputs/figures/conditional_record_difficulty.png) and
+[reward-curve](outputs/figures/conditional_reward_curve.png) figures, with SVGs
+and eight `outputs/tables/conditional_*.csv` files, preserve full exact-fraction
+calculations. The owner’s 216-ticket receipt is anecdotal evidence, not a split
+frequency. Top 8/4/2 sharing scenarios remain separate from Vegas match draws.
+Prior Phase 2–5 artifacts are protected by a 979-file manifest.
+
+```sh
+python3.12 scripts/validate_conditional_rewards.py
+```
+
 ## Phase 5 team events and ticket aggregation
 
 [Phase 5](docs/PHASE5_GROUP_AND_TEAM_ECONOMICS.md) adds exact group sizes 1/2/4/8,

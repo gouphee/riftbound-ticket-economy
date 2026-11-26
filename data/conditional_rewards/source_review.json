@@ -1,0 +1,63 @@
+{
+  "research_date": "2026-11-26",
+  "client_timezone": "America/Indianapolis",
+  "scope": "Eight archived Saturday 1v1 events; related Sunday 2v2 reports kept separate",
+  "queries": [
+    "Riftbound top 4 split tickets",
+    "Riftbound top 16 split tickets",
+    "Riftbound top 32 ticket split",
+    "Super Saturday split Top 4 Riftbound",
+    "Riftbound 216 288 split",
+    "Riftbound Saturday split 216"
+  ],
+  "findings": [
+    {
+      "claim": "Historical Saturday 216 receipt",
+      "basis": "data/conditional_rewards/observations.json",
+      "class": "owner_firsthand_anecdote",
+      "limitations": "No event identity, date, precise final Swiss record or practice frequency; not linked to any archive participant"
+    },
+    {
+      "claim": "Existing 216-each community report",
+      "url": "https://www.reddit.com/r/riftboundtcg/comments/1vxb7j8/regionals_in_singapore_solo/",
+      "class": "prior_unverified_community_excerpt",
+      "fresh_capture_status": "HTTP 200 challenge page; article text not recovered",
+      "limitations": "Preserve prior observation; current response does not independently verify it"
+    },
+    {
+      "claim": "Singapore Sunday 2v2 Top4 equal split, 396 tickets/team, reported 198/player",
+      "url": "https://www.magmachamberriftbound.com/tournaments/rq-singapore-2026-09-06",
+      "class": "community_event_recap",
+      "limitations": "Related format, not Saturday. No independent issuance ledger. Site final record/round labels inconsistent with stated six Swiss rounds; not used for cut probabilities or solo award calculations"
+    },
+    {
+      "claim": "Barcelona Sunday 2v2 participant report labels Top4 split and reports 396/team, 198/player",
+      "url": "https://www.magmachamberriftbound.com/articles/champions-of-the-rift-2026-08-23",
+      "class": "participant_team_report",
+      "limitations": "Related format, not Saturday; shares publisher with Singapore recap, not independent corroboration. No universal frequency inferred"
+    },
+    {
+      "claim": "Saturday Top4/Top2 remaining-prize splits",
+      "class": "explicit_mathematical_scenarios_only",
+      "limitations": "No event-specific evidence found in this bounded search of scoped Saturdays. Top4/Top2 occur later in a Top8 bracket, not earlier/larger cuts"
+    },
+    {
+      "claim": "Saturday Top16/Top32 agreements or earlier/larger elimination cuts",
+      "class": "unverified_unknown",
+      "limitations": "Scoped events advertise Top8 only. No specific larger-cut agreement established; no payouts or frequency assigned"
+    }
+  ],
+  "historical_reconciliation": {
+    "Swiss_rounds": 7,
+    "retrieved_checkpoints": [
+      6,
+      7
+    ],
+    "complete_groups": 16,
+    "entries_per_checkpoint": 3165,
+    "Sydney_R7_seed_vs_QF_pairing_disagreements": 2,
+    "reason": "Unknown; retain both standings and bracket evidence, do not invent replacement or DQ"
+  },
+  "policy_scope": "No new policy claim. Sharing agreements, match draws and outcome-contingent incentives are distinct. See Phase5 policy review; historical rule applicability remains unresolved.",
+  "figure_policy": "No participant names, no source names interpreted as agreement evidence, no physical issuance or stock assurance"
+}

@@ -1,10 +1,52 @@
 # Project handoff
 
-Updated **2026-11-26 America/Indianapolis after Phase 5**. Read `AGENTS.md`, inspect
+Updated **2026-11-26 America/Indianapolis after the conditional-performance add-on**. Read `AGENTS.md`, inspect
 `git status`, and distinguish recorded executions from newly run checks.
-Phase 4 is committed at `4c59142`; Phase 5 changes are left for review without
-commit or push. The next task is **competitive field-composition assessment and
+Phase 4 is committed at `4c59142`; Phase 5 at `c596588`. The additional analysis
+is left for review without commit or push. The next task is **competitive field-composition assessment and
 final recommendation synthesis**, not video scripting or production.
+
+## Conditional-performance add-on
+
+Read [CONDITIONAL_PERFORMANCE_AND_SPLITS.md](CONDITIONAL_PERFORMANCE_AND_SPLITS.md).
+All eight Saturdays had seven Swiss rounds. Historical 5–1/6–0 and Vegas
+8–2/9–1/10–0 are pre-final-Swiss checkpoints, not equivalent finishing percentiles.
+The isolated new standings captures cover 3,165 entries at each of R6/R7.
+Standings-implied Top 8 conversion is **16/216 (7.41%) at 5–1** and **36/37
+(97.30%) at 6–0**. These fractions are descriptive, not skill-conditioned
+predictions. Sydney has two seed-versus-QF-pairing discrepancies of unknown cause.
+Bracket-evidenced reward slots remain distinct from Swiss eligibility; LA and
+Vancouver slots are standings-implied because cut pairings are absent.
+
+At equal p/no draws, exact 5–1 versus 8–2 is **9.375% / 4.39453125%**, their
+tails **10.9375% / 5.46875%**, and perfect runs **1.5625% / 0.09765625%**.
+At p=80%, the cumulative comparison reverses (65.536% / 67.779953%); do not
+claim it is uniformly harder. The actual R6 gate is applied before R10; every
+requested strong R10 target necessarily passes it.
+
+Historical published cohort means are bounded at **54.806–59.472 after 5–1**
+and **202.378–237.405 after 6–0**, conserving each Top 8 pool and known bracket
+results. Hybrid EVs at future bracket q=50% are **57.139 / 212.108**, equal to
+the hypothetical 216-each Top 8 scenario means. These are distinct from observed
+receipts and the published-mean bounds. Vegas final-match p=50% means are
+**35 / 50 / 70**, with loss/win ranges **30–40 / 40–60 / 60–80**. The published
+floor for a secured historical Top 8 slot was 144, exceeding Vegas's overall 80
+ceiling; reaching 6–0 at R6 did not itself secure that slot in every event.
+
+The owner's firsthand 216 receipt remains an unlinked anecdote with unknown
+event/date/final Swiss record. Related Sunday 2v2 reports describe Top 4 splits;
+they do not establish Saturday practice. Top 8/4/2 equal-sharing scenarios
+conserve tickets and are not equated with match draws. No specific Top 16/32
+Saturday agreement or universal split frequency was established.
+
+New files use `conditional_*`, `data/conditional_rewards/` and a separate raw
+ledger. Run `python3.12 scripts/validate_conditional_rewards.py` and inspect its
+actual execution report. The new preservation manifest protects 979 prior
+tracked files from `c596588`; do not rerun older execution-report writers over
+those preserved records. Two video figures have both PNG and SVG outputs.
+The completed add-on run passed **172 tests and all 13 recorded commands**; all
+979 protected prior files were unchanged. Both figures were visually reviewed.
+See `outputs/tables/conditional_execution_validation.json` for the actual logs.
 
 ## Purpose and boundaries
 

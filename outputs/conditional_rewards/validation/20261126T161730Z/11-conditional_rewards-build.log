@@ -1,0 +1,10 @@
+{
+  "conditional_record_probabilities.csv": 20,
+  "conditional_vegas_R10_record_pmf.csv": 680,
+  "conditional_vegas_final_round_rewards.csv": 60,
+  "conditional_secured_cut_rewards.csv": 20,
+  "conditional_historical_checkpoint_rows.csv": 3165,
+  "conditional_historical_record_cohorts.csv": 708,
+  "conditional_historical_hybrid_rewards.csv": 360,
+  "conditional_historical_R7_transitions.csv": 39
+}

@@ -1,5 +1,23 @@
 # Research changes
 
+## 2026-11-26 — Conditional performance and prize splits
+
+- Captured 16 complete historical R6/R7 standings groups into a separate ledger;
+  3,165 entries per checkpoint, round-specific records and row-level provenance.
+  Retained Sydney's two seed-versus-bracket discrepancies without inventing a
+  cause; use bracket evidence for reward slots where available.
+- Added exact record probabilities at p=40–80%, d=0/1/2/5%, explicit Vegas R6
+  gating, both wins/points tail definitions and conditional final-round rewards.
+  Cumulative difficulty reverses at p=80%; exact/undefeated comparisons do not.
+- Added descriptive cut conversion, known/unknown individual awards and
+  pool-conserving conditional mean bounds, plus a separate hybrid future-bracket
+  model. Published payouts and Top 8/4/2 sharing remain distinct scenarios.
+- Recorded the owner's 216-ticket receipt as firsthand anecdotal evidence only;
+  preserved related Sunday 2v2 split reports without importing them as Saturday
+  practice or verified issuance. No payout rules changed.
+- Added eight machine tables, two 1920×1080 PNG/SVG figure pairs, an isolated
+  validator and 979-file preservation manifest from committed Phase 5 c596588.
+
 ## 2026-11-26 — Phase 5 teams and aggregation
 
 - Added isolated current schedule/policy evidence, the Rules Hub-linked October 9

@@ -1,0 +1,19 @@
+{
+  "owner_top8_split": {
+    "statement": "The project owner has firsthand experience receiving 216 tickets from a historical Top 8 split following an undefeated Swiss run.",
+    "evidence_class": "owner_firsthand_anecdotal_observation",
+    "received_tickets": 216,
+    "event_id": null,
+    "location": null,
+    "event_date": null,
+    "final_swiss_record": null,
+    "not_established": [
+      "event_identity",
+      "scope_cohort_membership",
+      "split_frequency",
+      "earlier_stage_split_practice"
+    ],
+    "recorded_from": "User request, 2026-11-26",
+    "identity_linkage": "Not attempted"
+  }
+}

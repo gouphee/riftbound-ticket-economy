@@ -2,6 +2,18 @@
 
 The research proceeds in auditable stages. Historical observations, counterfactual calculations, and behavioral simulations must remain separate data products.
 
+## 2026-11-26 additional conditional-performance analysis
+
+[Conditional performance and prize splits](CONDITIONAL_PERFORMANCE_AND_SPLITS.md)
+adds exact p=40–80% record difficulty, the Vegas R6 gate/draw scenarios, separately
+captured R6/R7 historical standings, empirical cut conversion, pool-conserving
+published-mean bounds and explicit Top 8/4/2 sharing scenarios. Two video figures
+and eight machine tables preserve previous artifacts. Sydney's R7 seed/QF
+pairing discrepancy remains explicit; no event-specific Saturday agreement or
+universal split frequency is inferred. The owner's 216 receipt is firsthand
+anecdotal evidence. This add-on does not complete field-composition assessment
+or start scripting/production; those task boundaries remain as below.
+
 ## 2026-11-26 Phase 5 status
 
 [Team and group research](PHASE5_GROUP_AND_TEAM_ECONOMICS.md) completes the core

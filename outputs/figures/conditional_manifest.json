@@ -1,0 +1,19 @@
+{
+  "figure_sha256": {
+    "outputs/figures/conditional_record_difficulty.svg": "d07060a445b963bfc803e6d4be30bb6b8fad5ef1a548d4a07a7900a6da16b376",
+    "outputs/figures/conditional_record_difficulty.png": "2e798f0a39588c2cbea3b971a9a7910f837f4629ab91f7a34ea2c9da5eda6d47",
+    "outputs/figures/conditional_reward_curve.svg": "dff6747c2cf3bd3c07635a9b66df7b231d73188b3ff6966cc3209ec5069f7b83",
+    "outputs/figures/conditional_reward_curve.png": "07a14e962d7799b70e2b84a0717de584cc617d66c86dbcb887359c54ff24cdc2"
+  },
+  "input_sha256": {
+    "outputs/tables/conditional_record_probabilities.csv": "6e1c16a54888bb37fc868b35a8d7e7144a0d2727b716be3d73dc0eb2b80fd15a",
+    "outputs/tables/conditional_historical_hybrid_rewards.csv": "d014e3b4e4ae7affacaa4585db511b497787c7351fbff5f058c2b6f2e60ff58e",
+    "outputs/tables/conditional_historical_record_cohorts.csv": "bb5139841cf52e71af470a64085de67933507f0ab5f270cb2820d9a26ab8e947",
+    "outputs/tables/conditional_vegas_final_round_rewards.csv": "7e2910aa380b3c5927144cbfcf7720758650e464a54712b354fc915c7108038d"
+  },
+  "renderer_sha256": {
+    "src/riftbound_tickets/charts/conditional_rewards.py": "57c04484fb5827715ae0c6504e48a48262ecbb5f5df966c8fe429cc300b0a243"
+  },
+  "canvas": "1920x1080 PNG plus vector SVG",
+  "matplotlib_version": "3.11.2"
+}
