@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "hash_mismatches": [],
+  "table_differences": [],
+  "figure_hash_mismatches": [],
+  "preservation": {
+    "checked_files": 750,
+    "changed_files": [],
+    "passed": true
+  },
+  "table_recalculation": true,
+  "zero_draw_reproduces_phase3a": true,
+  "official_source_review": "Both Vegas captures and all eight historical payout sources hash-verified and re-parsed by the reused Phase 3A source checks"
+}

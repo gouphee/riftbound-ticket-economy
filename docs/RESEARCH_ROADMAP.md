@@ -35,8 +35,21 @@ execution. This does not start the following Vegas comparison/simulation stages.
 implements the historical placement pool versus updated 11-round Vegas Rebound
 with exact equal-skill probabilities, a correctly ordered Day 2 gate, common
 attendance scenarios and separate published-cap comparisons. This completes
-only the initial Saturday no-draw benchmark. Draw sensitivity, other formats,
-individual weekend/time models, and simulations remain future stages.
+only the initial Saturday no-draw benchmark. Phase 3B below adds independent
+draw sensitivities; other formats, individual weekend/time models, and
+simulations remain future stages.
+
+**2026-11-25 Phase 3B:** [exact draw sensitivity](PHASE3B_DRAW_SENSITIVITY.md)
+adds 0%, 1%, 2% and 5% independent W/D/L scenarios, preserving the six-round
+qualification gate before Sunday's five rounds. It also tabulates conditional
+Round 11 ticket outcomes and Round 6 qualification/future ticket expectations
+for individually feasible no-prior-draw scores. This is not a strategic-choice
+model, joint Swiss tournament, or calibration from historical Round 7 draws.
+The no-draw result reproduces Phase 3A; previous artifacts remain unchanged.
+Next resolve any desired state-dependent draw sensitivity and finite-field
+pairing/bye assumptions, then source the remaining like-for-like event
+comparisons before weekend opportunity/time analysis. See
+[PROJECT_HANDOFF.md](PROJECT_HANDOFF.md) for context and boundaries.
 
 - Old Saturday 4,992-ticket published Top 128 pool versus the Vegas two-day Standard Rebound **using both published full caps and equal-entrant scenarios**, with draws excluded in the first benchmark. Distinguish mathematical upper bounds from one no-draw tournament distribution.
 - Friday Pre-Regional and six-round Sunday Rebound versus Vegas Sunday five-round Challenge; don't conflate event-day labels.

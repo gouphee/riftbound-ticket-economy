@@ -1,5 +1,29 @@
 # Research changes
 
+## 2026-11-25 — Phase 3B draw sensitivity and conditional outcomes
+
+- Added exact point-generating-function dynamic programming for independent
+  W/D/L probabilities at four draw rates. The Day 2 gate uses points, including
+  qualifying three-win/three-draw records. Nonqualifiers stop after Round 6.
+  Full point/ticket PMFs and fractional expected participant counts are exported.
+- Reused and hash-verified the existing official Vegas schedule/eleventh-round
+  announcement and all eight historical schedules. No payout amounts, source
+  captures, eligibility rules or Phase 3A baseline files changed. The stale
+  Round 10 prose remains documented; six plus five governs the model.
+- Added conditional Round 11 payout and Round 6 qualification/future-EV grids.
+  Scores are individually feasible without prior draws; simultaneous Swiss
+  pairing feasibility/frequency is not asserted. Equal terminal scores conserve
+  combined tickets, but threshold-recipient counts can differ. No agreements,
+  concession strategies or permission claims are modeled.
+- Added seven CSVs, five SVG/PNG pairs, source review and a hash/recalculation
+  audit preserving 750 previous data/code/research artifacts. New execution logs
+  are isolated under `outputs/phase3b/`. The general validation report refreshes
+  only its current-code inventory. See [the report](PHASE3B_DRAW_SENSITIVITY.md)
+  and [project handoff](PROJECT_HANDOFF.md).
+- Added an independent multinomial-count oracle and deterministic tests. No
+  Monte Carlo, full Swiss simulator, ratings, ODE economics, pooling model or
+  video script was added.
+
 ## 2026-11-25 — Phase 3A exact Saturday comparison
 
 - Added exact marginal binomial paths for Vegas Standard Rebound with six

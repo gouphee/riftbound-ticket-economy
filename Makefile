@@ -1,7 +1,7 @@
 PYTHON ?= python3.12
 export PYTHONPATH := src
 
-.PHONY: test build verify audit pilot collect phase2 audit-phase2 phase3a audit-phase3a validate-phase3a
+.PHONY: test build verify audit pilot collect phase2 audit-phase2 phase3a audit-phase3a validate-phase3a phase3b audit-phase3b validate-phase3b
 test:
 	$(PYTHON) -m unittest discover -s tests -v
 build:
@@ -24,3 +24,9 @@ audit-phase3a:
 	$(PYTHON) -m riftbound_tickets.phase3a audit
 validate-phase3a:
 	$(PYTHON) scripts/validate_phase3a.py
+phase3b:
+	$(PYTHON) -m riftbound_tickets.phase3b build
+audit-phase3b:
+	$(PYTHON) -m riftbound_tickets.phase3b audit
+validate-phase3b:
+	$(PYTHON) scripts/validate_phase3b.py

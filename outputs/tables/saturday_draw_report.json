@@ -1,0 +1,66 @@
+{
+  "model": "exact_fraction_gated_points_generating_function_independent_marginal_wdl",
+  "vegas_rounds": 11,
+  "qualification_cut_match_points": 12,
+  "draw_rates_exact": [
+    "0",
+    "1/100",
+    "1/50",
+    "1/20"
+  ],
+  "zero_draw_reproduces_phase3a": true,
+  "historical_recorded_field_sizes": {
+    "atlanta-saturday": 392,
+    "sydney-saturday": 132,
+    "vancouver-saturday": 264,
+    "utrecht-saturday": 505,
+    "hartford-saturday": 397,
+    "barcelona-saturday": 518,
+    "singapore-saturday": 496,
+    "los-angeles-saturday": 461
+  },
+  "round11_equal_score_cases": 7,
+  "round11_equal_score_cases_same_combined_tickets": 7,
+  "round11_unequal_unordered_pairs": 21,
+  "round11_unequal_pairs_with_differing_totals": 16,
+  "round11_draw_equals_fair_decisive_expected_combined_tickets": true,
+  "matrix_scope": "Individually feasible no-prior-draw records; conditional pairwise identities. Joint Swiss pairing feasibility and frequencies are not established.",
+  "round6_future_ev_scope": "Conditional on forced local outcome and specified independent Sunday draw rate; qualification is not a guaranteed award.",
+  "table_rows": {
+    "saturday_draw_sensitivity.csv": 8,
+    "saturday_draw_ticket_distributions.csv": 44,
+    "saturday_draw_final_points.csv": 136,
+    "saturday_final_round_outcomes.csv": 579,
+    "saturday_draw_historical_comparison.csv": 96,
+    "saturday_draw_point_paths.csv": 328,
+    "saturday_draw_stage_points.csv": 208
+  },
+  "input_sha256": {
+    "data/phase3b/preserved_artifacts.json": "aaf2a538b6523a18e085b868d3ebbcaeab235f2ccee4854e2e302ed60b10a063",
+    "data/phase3b/source_review.json": "77f60f3312889c371c6f19c38ba97e2eed5784ecbcca2e6fa311ff8fe38d0d7f",
+    "data/raw/retrievals.jsonl": "d2a74a7e11013c92a03a27cde82a5bf6b8c106649b66828159ce07ecbf1e3f00",
+    "data/raw/phase3a/retrievals.jsonl": "f99b7f8a380fe93023824cfb02cb90505f63e79f22dae38d2aef30fdf3fd10f5",
+    "data/phase3a/vegas_rules.json": "b70c3a0fbfbf6122edb4cbc03b58a02ded37345c0827c200d65a6267e0ca7dbd",
+    "data/phase3a/sources.csv": "6287b307327d628a3544879a819d6fcb6dd7ade996cbc3acedcd1b60e0eaf7c5",
+    "outputs/tables/historical_ticket_economy.csv": "00b64498e3218b505388f2ad1b714cbfa6096072a92e9311ffb031d436033edc",
+    "outputs/tables/saturday_analytical_comparison.csv": "4f4016fb3e240d2cc1cd464eb060c9e73b241c217844574b6470b555bbc836b0",
+    "outputs/tables/saturday_ticket_distributions.csv": "8dbf5d095be07110b8e15ad053232da3228192f94fd118299197170a7be3f661"
+  },
+  "code_sha256": {
+    "src/riftbound_tickets/models/saturday_draws.py": "a7d714c54f9a5a296c1f07c2fc428aef349d9993ba82fc0c0a7278aae85199e8",
+    "src/riftbound_tickets/phase3b.py": "80f2d66fa1f4c1328b6b6e4ff961e54bd7288b1f277a8d60b6099b7d877082c0",
+    "src/riftbound_tickets/charts/saturday_draws.py": "ef322bbafde908e046b70d40aeb7167d541922f6f723893d78340492e810042f",
+    "scripts/validate_phase3b.py": "fae1aa39e39d201c04ce8b57416a6cbda166f3d8d622a391826db7bdcd4eb069",
+    "tests/test_saturday_draws.py": "89f2279cc5d234a331e4b42a51b8849d42d3edfccf87564f5e23c72ffdac6db7",
+    "tests/test_phase3b_outputs.py": "146390b22589703ca9483d9384da9a1eb794adec8e9e32535451056298098837"
+  },
+  "output_sha256": {
+    "outputs/tables/saturday_draw_sensitivity.csv": "a82980823c600e5e8add0284caa457e1c0784f6c87a3904ecc3f62a69b782b54",
+    "outputs/tables/saturday_draw_ticket_distributions.csv": "7da3d5259a3048b9543cb217d6814c86ae90bb18d5864ab4e81acefab4716990",
+    "outputs/tables/saturday_draw_final_points.csv": "a6e581e4df239557cdc8c662116fcf8cb5675b8fee414a71d7a11e200fcce967",
+    "outputs/tables/saturday_final_round_outcomes.csv": "35b53303406b5b119339d4947521b62bd519b2faa67065c016b922055fd70bee",
+    "outputs/tables/saturday_draw_historical_comparison.csv": "5f60d60ab3d747195e43200092c48968fc6709936b51de36453ac32e90b56655",
+    "outputs/tables/saturday_draw_point_paths.csv": "8610fd06e4eafcd3195b430eaff5a695ba90ad06b7cf713bef124d598e3bf4d9",
+    "outputs/tables/saturday_draw_stage_points.csv": "8b5f55bc2f553767aea8f6e40ec87771c1ec08a264feaab9606e0769f396e9a6"
+  }
+}

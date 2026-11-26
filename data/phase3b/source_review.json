@@ -1,0 +1,240 @@
+{
+  "review_date": "2026-11-25",
+  "review_basis": "Existing immutable archived official sources; no live refresh in Phase 3B",
+  "source_records": [
+    {
+      "source_id": "sha256:3f85b59d001261a0cdfe4ac65cee56bb854f917f677d841ccd3c1e609b04839f",
+      "url": "https://uvsgames.com/rq-atlanta-schedule/",
+      "final_url": "https://uvsgames.com/rq-atlanta-schedule/",
+      "retrieved_at": "2026-11-24T23:40:04.125514+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "3f85b59d001261a0cdfe4ac65cee56bb854f917f677d841ccd3c1e609b04839f",
+      "raw_path": "data/raw/objects/3f85b59d001261a0cdfe4ac65cee56bb854f917f677d841ccd3c1e609b04839f.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:40:04 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "source_id": "sha256:4b6e16ab10252e32ded64dcb094921ad903fc3be333e30dfcbdbdbaff12bbd84",
+      "url": "https://uvsgames.com/rq-sydney-schedule/",
+      "final_url": "https://uvsgames.com/rq-sydney-schedule/",
+      "retrieved_at": "2026-11-24T23:40:06.098116+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "4b6e16ab10252e32ded64dcb094921ad903fc3be333e30dfcbdbdbaff12bbd84",
+      "raw_path": "data/raw/objects/4b6e16ab10252e32ded64dcb094921ad903fc3be333e30dfcbdbdbaff12bbd84.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:40:05 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "source_id": "sha256:2b233b2bee96b439caae7386eaff650133737041cc744cfaf3985f72d8883952",
+      "url": "https://uvsgames.com/rq-vancouver-schedule/",
+      "final_url": "https://uvsgames.com/rq-vancouver-schedule/",
+      "retrieved_at": "2026-11-24T23:42:53.166716+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "2b233b2bee96b439caae7386eaff650133737041cc744cfaf3985f72d8883952",
+      "raw_path": "data/raw/objects/2b233b2bee96b439caae7386eaff650133737041cc744cfaf3985f72d8883952.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:42:53 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "source_id": "sha256:ce6c98eb392cf1ad0d684ac631152a336ae2fa6e118b53d7f099f25c9d4539e8",
+      "url": "https://uvsgames.com/rq-utrecht-schedule/",
+      "final_url": "https://uvsgames.com/rq-utrecht-schedule/",
+      "retrieved_at": "2026-11-24T23:42:54.630062+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "ce6c98eb392cf1ad0d684ac631152a336ae2fa6e118b53d7f099f25c9d4539e8",
+      "raw_path": "data/raw/objects/ce6c98eb392cf1ad0d684ac631152a336ae2fa6e118b53d7f099f25c9d4539e8.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:42:54 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "source_id": "sha256:857f7da12a30824235d2bbc59ddd31f0e10280f27a39299aa8015caf328a05a1",
+      "url": "https://uvsgames.com/rq-hartford-schedule/",
+      "final_url": "https://uvsgames.com/rq-hartford-schedule/",
+      "retrieved_at": "2026-11-24T23:42:56.068565+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "857f7da12a30824235d2bbc59ddd31f0e10280f27a39299aa8015caf328a05a1",
+      "raw_path": "data/raw/objects/857f7da12a30824235d2bbc59ddd31f0e10280f27a39299aa8015caf328a05a1.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:42:55 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "source_id": "sha256:39e50c0f5de5f724b8f3b63ff79b6ca0d357e032abd7902685ea73a65938c013",
+      "url": "https://uvsgames.com/rq-barcelona-schedule/",
+      "final_url": "https://uvsgames.com/rq-barcelona-schedule/",
+      "retrieved_at": "2026-11-24T23:42:57.576132+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "39e50c0f5de5f724b8f3b63ff79b6ca0d357e032abd7902685ea73a65938c013",
+      "raw_path": "data/raw/objects/39e50c0f5de5f724b8f3b63ff79b6ca0d357e032abd7902685ea73a65938c013.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:42:57 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "source_id": "sha256:07304ab6f9ab6e845ccdfd2869fad4693e2feee354e66a6b8a000eed9949f763",
+      "url": "https://uvsgames.com/rq-singapore-schedule/",
+      "final_url": "https://uvsgames.com/rq-singapore-schedule/",
+      "retrieved_at": "2026-11-24T23:42:59.220093+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "07304ab6f9ab6e845ccdfd2869fad4693e2feee354e66a6b8a000eed9949f763",
+      "raw_path": "data/raw/objects/07304ab6f9ab6e845ccdfd2869fad4693e2feee354e66a6b8a000eed9949f763.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:42:59 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "source_id": "sha256:6eab863851478901fc9584e905e603761dedf1a663a85bfb90962db26d471c37",
+      "url": "https://uvsgames.com/rq-los-angeles-schedule/",
+      "final_url": "https://riftboundop.com/rq-los-angeles-schedule/",
+      "retrieved_at": "2026-11-24T23:43:04.964741+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "6eab863851478901fc9584e905e603761dedf1a663a85bfb90962db26d471c37",
+      "raw_path": "data/raw/objects/6eab863851478901fc9584e905e603761dedf1a663a85bfb90962db26d471c37.html",
+      "category": "payout_source",
+      "error": null,
+      "response_headers": {
+        "Date": "Tue, 24 Nov 2026 23:43:04 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "source_id": "sha256:4e8b5fb6b97eedbcb0210a4a0fd13cf773874512d4e92ae633088c2c8c53d882",
+      "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+      "final_url": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+      "retrieved_at": "2026-11-25T09:37:39.909834+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "4e8b5fb6b97eedbcb0210a4a0fd13cf773874512d4e92ae633088c2c8c53d882",
+      "raw_path": "data/raw/phase3a/objects/4e8b5fb6b97eedbcb0210a4a0fd13cf773874512d4e92ae633088c2c8c53d882.html.gz",
+      "category": "phase3a_official_vegas_schedule",
+      "storage_encoding": "gzip",
+      "error": null,
+      "response_headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Wed, 25 Nov 2026 09:37:39 GMT",
+        "Etag": "\"gvrtl8l0023pft\""
+      }
+    },
+    {
+      "source_id": "sha256:8edc6fb1864e0b8762f03fd9a4ef76956b83bee53c332ed770304d793d3c357e",
+      "url": "https://x.com/RiotSherman/status/2122889583201591569",
+      "final_url": "https://x.com/RiotSherman/status/2122889583201591569",
+      "retrieved_at": "2026-11-25T09:37:40.905691+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "8edc6fb1864e0b8762f03fd9a4ef76956b83bee53c332ed770304d793d3c357e",
+      "raw_path": "data/raw/phase3a/objects/8edc6fb1864e0b8762f03fd9a4ef76956b83bee53c332ed770304d793d3c357e.html.gz",
+      "category": "phase3a_official_announcement_attempt",
+      "storage_encoding": "gzip",
+      "error": null,
+      "response_headers": {
+        "Date": "Wed, 25 Nov 2026 09:37:40 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    }
+  ],
+  "vegas_point_tiers": [
+    [
+      33,
+      33,
+      80
+    ],
+    [
+      31,
+      32,
+      70
+    ],
+    [
+      30,
+      30,
+      60
+    ],
+    [
+      28,
+      29,
+      50
+    ],
+    [
+      27,
+      27,
+      40
+    ],
+    [
+      25,
+      26,
+      35
+    ],
+    [
+      24,
+      24,
+      30
+    ],
+    [
+      22,
+      23,
+      25
+    ],
+    [
+      21,
+      21,
+      20
+    ],
+    [
+      19,
+      20,
+      10
+    ]
+  ],
+  "day1_rounds": 6,
+  "day2_rounds": 5,
+  "day2_cut_match_points": 12,
+  "scoring": {
+    "win": 3,
+    "draw": 1,
+    "loss": 0
+  },
+  "obsolete_schedule_award_round_references": [
+    10,
+    10
+  ],
+  "round_resolution": "Use explicit 6 Day 1 + 5 Day 2 rounds and 33-point payout ceiling; retain stale Round 10 prose as source discrepancy.",
+  "announcement_verification": {
+    "verified_primary_announcement_content": true,
+    "published_time": "2026-11-18T03:08:12.000Z",
+    "author": "https://x.com/RiotSherman",
+    "verification_basis": "Canonical post URL, author metadata, and explicit Standard Rebound 11th-round statement in captured h1 post text; HTTP 200 alone is insufficient."
+  }
+}

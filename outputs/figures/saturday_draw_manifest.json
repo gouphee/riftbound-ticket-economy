@@ -1,0 +1,26 @@
+{
+  "matplotlib_version": "3.11.2",
+  "renderer_sha256": "ef322bbafde908e046b70d40aeb7167d541922f6f723893d78340492e810042f",
+  "input_sha256": {
+    "outputs/tables/saturday_draw_sensitivity.csv": "a82980823c600e5e8add0284caa457e1c0784f6c87a3904ecc3f62a69b782b54",
+    "outputs/tables/saturday_draw_ticket_distributions.csv": "7da3d5259a3048b9543cb217d6814c86ae90bb18d5864ab4e81acefab4716990",
+    "outputs/tables/saturday_draw_final_points.csv": "a6e581e4df239557cdc8c662116fcf8cb5675b8fee414a71d7a11e200fcce967",
+    "outputs/tables/saturday_final_round_outcomes.csv": "35b53303406b5b119339d4947521b62bd519b2faa67065c016b922055fd70bee",
+    "outputs/tables/saturday_draw_historical_comparison.csv": "5f60d60ab3d747195e43200092c48968fc6709936b51de36453ac32e90b56655",
+    "outputs/tables/saturday_draw_point_paths.csv": "8610fd06e4eafcd3195b430eaff5a695ba90ad06b7cf713bef124d598e3bf4d9",
+    "outputs/tables/saturday_draw_stage_points.csv": "8b5f55bc2f553767aea8f6e40ec87771c1ec08a264feaab9606e0769f396e9a6"
+  },
+  "figure_sha256": {
+    "outputs/figures/saturday_draw_probabilities.svg": "bb75ff7072d3fefd199942a01e3c9402bcf24ed6246e224a4782fc9aed4df82b",
+    "outputs/figures/saturday_draw_probabilities.png": "b4f062d2697a2efec3a97034bdd261e2a89cc38cdbbcd692ef0c387626b0e166",
+    "outputs/figures/saturday_draw_expected_tickets.svg": "3058024498276072e16a2bae72936cc8b9fe8d0d65412ed08453a18fe34a6794",
+    "outputs/figures/saturday_draw_expected_tickets.png": "7af3ccffa4f37b9da69a2f5c5b1d029e7c7e447c25fd0abbf65b4454851f029f",
+    "outputs/figures/saturday_draw_ticket_distribution.svg": "249f8973ec64dd798482d5802bb559fe0e8bcb5b174d4438348fe3ac8f2aae6e",
+    "outputs/figures/saturday_draw_ticket_distribution.png": "0ff83dd23c0d4cdb15cbb2a2f6878b0e55851ced40f1b2a6ddc9f5110b2498ba",
+    "outputs/figures/saturday_draw_round11_outcomes.svg": "c1fef6dc2dc2c32b869554cc98013c28f594b2408732280122c758e8cc09b63f",
+    "outputs/figures/saturday_draw_round11_outcomes.png": "c06537fcd268b4578120a42e9847d55c43f6b03342a5a765bdb1704b4e08729e",
+    "outputs/figures/saturday_draw_round6_qualification.svg": "01b25326d28d2988086951c4a5c32399de1b4f5d14937b734bd25d3147c86f06",
+    "outputs/figures/saturday_draw_round6_qualification.png": "7db6b1e8e45c7fe709557bcdb2e4e2890e67271a5ae779054c353f73fcb66be6"
+  },
+  "scope": "Phase 3B independent draw scenarios and conditional local outcomes only; earlier figures untouched"
+}

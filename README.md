@@ -10,6 +10,37 @@ bye/match evidence, and each city's historical payout tables. It reconstructs
 published ticket entitlements. **Actual physical ticket issuance is unverified:**
 no claim/distribution ledger was recovered, so verified-issuance fields are blank.
 
+## Phase 3B draw sensitivity and local match outcomes
+
+The [draw analysis](docs/PHASE3B_DRAW_SENSITIVITY.md) extends the Saturday model
+with exact 0%, 1%, 2% and 5% draw scenarios. At **2% draws**, Vegas's modeled
+40+ chance is **2.8167%**, expected tickets per entrant are **5.40862**, and the
+expected field total at 1,024 entrants is **5,538.43**. The no-draw result
+reproduces Phase 3A exactly. These are hypothetical independent-outcome
+sensitivities; historical strategic-draw rates are not treated as Vegas rates.
+
+See [scenario totals](outputs/tables/saturday_draw_sensitivity.csv),
+[award distributions](outputs/tables/saturday_draw_ticket_distributions.csv),
+[point distributions](outputs/tables/saturday_draw_final_points.csv), and
+[Round 6/11 outcome matrices](outputs/tables/saturday_final_round_outcomes.csv).
+Five additional SVG/PNG pairs use the `saturday_draw_*` prefix. Round 11
+equal-score cases without prior draws conserve combined tickets across
+outcomes, while the number reaching 40 can change. Round 6 qualification and
+future expected awards are reported separately. Pairing frequencies and
+strategic outcome choices are not modeled.
+
+```sh
+PYTHONPATH=src python3.12 -m riftbound_tickets.phase3b build
+PYTHONPATH=src python3.12 -m riftbound_tickets.phase3b audit
+python3.12 scripts/validate_phase3b.py
+PYTHONPATH=src .venv-figures/bin/python -m riftbound_tickets.phase3b figures
+```
+
+Start a new research conversation with [PROJECT_HANDOFF.md](docs/PROJECT_HANDOFF.md).
+Previous raw data, Phase 2/3A exports, figures, execution logs and source code
+remain unchanged. Weekend ODE economics, coordinated pooling and scripting
+remain future work.
+
 ## Phase 3A Saturday analytical comparison
 
 The [Saturday comparison](docs/PHASE3A_SATURDAY_COMPARISON.md) compares the
