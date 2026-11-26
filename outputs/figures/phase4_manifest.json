@@ -1,0 +1,43 @@
+{
+  "matplotlib_version": "3.11.2",
+  "renderer_sha256": {
+    "src/riftbound_tickets/charts/individual.py": "34dd22454dd1fec340d427e4cf6662cd7389cf9f2077ab1cd36fa68e97e10539"
+  },
+  "input_sha256": {
+    "outputs/tables/phase4_active_time_sensitivity.csv": "705ab4ffb035ecf8c2641bf70df8dc9b535c0e10d75ac7b6b30202c35a1d65ee",
+    "outputs/tables/phase4_adaptive_menu.csv": "47eefaa57166b7f128fc113490b7d87c3859a0bead20327d2ad699c458cc093d",
+    "outputs/tables/phase4_adaptive_policy.csv": "1e910bbf512dffc17c9f9d985e1566491a214495b913ab8a6f073c9d16a44f5a",
+    "outputs/tables/phase4_assumptions.csv": "4ed794cd540a29a6a87f3ddcaa432f4d3908cfb8343e4f089191419bf52c8553",
+    "outputs/tables/phase4_budget_time_constraints.csv": "90618ebaabb3f953e3dc58b5e76ecf8a35504ca59aea7daa48ab7b14f67e9bf9",
+    "outputs/tables/phase4_event_distributions.csv": "7874e4aea7acbe99c1362c6171d68bcc8b8d7eba1d766bc95c7393e1a70b2fe5",
+    "outputs/tables/phase4_event_economics.csv": "1ed92144177b50c4ac3327be290790e7c34ea3bc614f229f5095759fc5f3b93d",
+    "outputs/tables/phase4_event_inventory.csv": "fa3f976293066dad676ea55c84d3bc93a88ab8f90cb14dcc663e0c262e896890",
+    "outputs/tables/phase4_ffa_honor_sensitivity.csv": "be9dd5043a945106499a87e76d8dbd982d021de456f86f196be6891a5c8bfa72",
+    "outputs/tables/phase4_historical_comparisons.csv": "103d0a0e946000be015834be3bddeb4f59a10603277c380574f008b03e08e2de",
+    "outputs/tables/phase4_historical_side_inventory.csv": "a5e2cb31409cce03e0d1e135c9e9946d69a00723f7dc64392713df95c0753a11",
+    "outputs/tables/phase4_other_official_opportunities.csv": "256c785efe68e23baa09fb184146f586d62e693ae9d7ca5528b013b1e0e0a167",
+    "outputs/tables/phase4_pareto.csv": "f580399026fb671aa01fed0ae35504c8c0aa280dc6a0cf968e2bb130faa6d72c",
+    "outputs/tables/phase4_queue_duration_sensitivity.csv": "30d3f457134abf3744ef3136f5498755d6315e904a9dd9b5f32e2cf3d81d3835",
+    "outputs/tables/phase4_stage_draw_sensitivity.csv": "d68a1a9093b7147701589cc56414a05c2d4e0b81536248af1452e8f8143ac27c",
+    "outputs/tables/phase4_starting_tickets.csv": "705499542fb84ba6a5d3c3f5b524a35e7d49b035ab18152fedce754795bc5f56",
+    "outputs/tables/phase4_strategy_definitions.csv": "288c7b868caef502b606b13dd9dc7089a15c3e74dd6f0930945e484ec29b142a",
+    "outputs/tables/phase4_strategy_distributions.csv": "84292b524da30f172708f776c17dd6606467a46e5de7e9dc30d3cc25c000ceb8",
+    "outputs/tables/phase4_strategy_results.csv": "5b045ff29d6fca31164573c7ed950fbb78d17fe4052642f49bd158add8751549"
+  },
+  "figure_sha256": {
+    "outputs/figures/phase4_event_distributions.svg": "3d9acd8c732d71570f68575bd8c71c98ae2ae907b7470e9828bb4bb5bff37317",
+    "outputs/figures/phase4_event_distributions.png": "2f22492194380aecbff1a7fb98ad1eba1690605172e6c270490ead2dc98055d2",
+    "outputs/figures/phase4_event_efficiency.svg": "761e73a90b763183c8ff644a182b9c4e561b370ac30471a825a48a18a5ba2f03",
+    "outputs/figures/phase4_event_efficiency.png": "6119cad1c862fb0e2e76eb1abbb51138a7f1daaec34c435aeac3dea74642dd30",
+    "outputs/figures/phase4_performance.svg": "162abb54918e1992f8d7cf89e43ac2d21187a57bc9a59d5f5fabf9ec57ac6139",
+    "outputs/figures/phase4_performance.png": "9c28ee27419e5ae8a5c75fa58df6b24d65773867724398df7938c40cefd31ca7",
+    "outputs/figures/phase4_cost_time_success.svg": "3a55bd6c18c8871e41207d2dbd1fc25da27775acb981c6af2abc6bf37b5fb498",
+    "outputs/figures/phase4_cost_time_success.png": "2acba1077235043a38216ffff742a2ec3ca21f9e6b8dc2754d032ebfcd69f97b",
+    "outputs/figures/phase4_starting_tickets.svg": "5e6a56176788d43aa85a24e02328759896d805b9df47b539263bcee39f22e679",
+    "outputs/figures/phase4_starting_tickets.png": "005df74725bf79bb718debd9fc360a3caafdd460534d45180733dadf2eafa55f",
+    "outputs/figures/phase4_weekend_schedule.svg": "3e4a5cc2beef1e060633703eed23e647a1d2360fb9595b006933e2d4d73fe4cc",
+    "outputs/figures/phase4_weekend_schedule.png": "c37ba43849f1231b46fa51494826feba9c2e5e45b1620613b40f9150e7964a15",
+    "outputs/figures/phase4_budget_time.svg": "45164c55042a089563c5624d047c44e6beecc76eaa23d95a3ee19007222e3d82",
+    "outputs/figures/phase4_budget_time.png": "7a6be566b1babe822a55a9285500c64fc181d499efa74e735701803100aa8ec0"
+  }
+}

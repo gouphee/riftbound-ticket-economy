@@ -1,109 +1,144 @@
 # Project handoff
 
-Updated 2026-11-25 after Phase 3B. Read `AGENTS.md` and inspect `git status`
-before continuing. This file preserves research context; fresh execution claims
-must come from newly run commands, not earlier success reports.
+Updated **2026-11-25 America/Chicago after Phase 4**. Read `AGENTS.md`, inspect
+`git status` and use actual validation logs for execution claims. Phase 4 changes
+are left for review; no commit, push or deployment is included.
 
-## Research question and framing
+## Framing and preserved findings
 
-Working video title: **Why It Just Got Harder to Get a Metal Legend**. Analyze
-how event design changes ticket generation, an individual's chance of reaching
-40 tickets, and the incentive to consolidate tickets. Later work can distinguish
-ordinary friends sharing spare tickets from high-volume coordinated aggregation.
-Neither grouping nor pooling establishes match manipulation. A lower 432-ticket
-first prize can be a defensible design change even when ordinary entrants face
-a harder 40-ticket path. No video script has been written.
+Working title: **Why It Just Got Harder to Get a Metal Legend**. The title is
+supported at the matched-attendance Saturday-event level, but **not established
+for equivalent entire weekends**. Analyze incentives and measurable outcomes;
+no grouping or legitimate ticket sharing alone establishes manipulation.
+No final video script exists. Physical issuance and redemption remain distinct
+from published-rule entitlements and modeled accumulation.
 
-## Completed work and principal findings
+The historical 24-event archive spans Atlanta, Sydney, Vancouver, Utrecht,
+Hartford, Barcelona, Singapore and Los Angeles. It preserves 20,651 standings
+entries and 20,652 roster entries. Phase 2 Friday/Sunday qualifying entitlements,
+including qualifying `DROPPED` entries, are **119,587 / 60,556**. Each Saturday
+has a conditional **4,992-ticket** funded Top 128 pool. Swiss draws are
+**1,150 / 50,262 = 2.2880%**, excluding byes/non-games. Exact Swiss maxima remain
+unresolved; ceilings and feasible witnesses are separate. All old exceptions
+in [KNOWN_GAPS.md](KNOWN_GAPS.md) remain unchanged.
 
-- **Historical collection/audit:** 24 Friday/Saturday/Sunday events across
-  Atlanta, Sydney, Vancouver, Utrecht, Hartford, Barcelona, Singapore and Los
-  Angeles. There are 20,651 standings entries and 20,652 roster entries.
-  Reproducible official captures preserve URLs, timestamps and hashes.
-- **Phase 2:** qualifying Friday/Sunday records count even if `DROPPED`.
-  Primary entitlements total 119,587 Friday and 60,556 Sunday tickets. Each
-  Saturday has a conditional funded Top 128 pool of 4,992; all eight total
-  39,936. Unique completed Swiss matches contain 1,150 draws / 50,262 = 2.2880%,
-  excluding 130 byes and 234 one-player non-games. Exact Friday/Sunday Swiss
-  maxima remain unresolved; proved relaxed ceilings and feasible witnesses
-  are separate outputs.
-- **Phase 3A:** exact equal-skill/no-draw Saturday comparison. At N=512,
-  historical P(40+)=6.25%, mean=9.75 tickets; Vegas P(40+)=3.271484375%,
-  mean=5.6591796875. Vegas qualification=34.375%. The gate precedes Sunday.
-  Separate full caps compare old 512 with Vegas 1,024: 4,992 fixed versus
-  5,795 expected tickets. Attendance is not assumed to reach capacity.
-- **Phase 3B:** exact 0/1/2/5% independent draw sensitivity. At 2% and
-  hypothetical N=1,024: 333.016318208 expected qualifiers, P(40+)≈2.8167%,
-  mean≈5.40862, total≈5,538.43, 28.84299 expected 40+ entrants. At 5%, P(40+)
-  is ≈2.2368%. Zero draws reproduces Phase 3A exactly.
-- **Local outcomes:** at Round 11, all seven equal-score cases without prior
-  draws preserve combined tickets. Unequal pairs can differ across realized
-  results, but the draw total equals the average of the two decisive totals
-  on this score grid. At 24–24 a draw pays 35+35 versus decisive 40+30, changing
-  who reaches 40. Round 6 at 9–9 advances nobody on a draw and one on a decisive
-  result. Qualification is separate from future ticket EV.
+At equal N=512, the Saturday equal-skill/no-draw benchmark is **6.25% historical
+versus 3.271484375% Vegas** for 40+, with means **9.75 versus 5.6591796875**.
+Vegas has six rounds, ≥12 points to qualify, then five Sunday rounds. At 2%
+independent draws, P(40+)≈2.8167%, mean≈5.40862; these are scenarios, not fitted
+forecasts. Old Phase 3A/3B source captures, outputs and local outcome matrices
+remain intact. Do not infer strategic-draw frequency from the local matrices.
 
-## Sources and implementation pointers
+## Phase 4: current evidence and reusable implementation
 
-- Historical identifiers: [`data/events.json`](../data/events.json).
-  Raw ledger: `data/raw/retrievals.jsonl`; source index: `data/sources.csv`.
-  Every historical schedule is parsed event-specifically.
-- Vegas official [Riot schedule](https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/)
-  and [eleventh-round announcement](https://x.com/RiotSherman/status/2122889583201591569)
-  were archived in Phase 3A and reused in Phase 3B. The schedule specifies
-  **six rounds + five for qualifiers, cut ≥12 points, cap 1,024**, despite stale
-  Round 10 sentences. Phase 3B did not check for later live revisions.
-- Vegas awards: 19–20 points→10; 21→20; 22–23→25; 24→30; 25–26→35;
-  27→40; 28–29→50; 30→60; 31–32→70; 33→80. Below 19 pays zero.
-- Start with [Phase 2](PHASE2_HISTORICAL_ANALYSIS.md),
-  [Phase 3A](PHASE3A_SATURDAY_COMPARISON.md), and
-  [Phase 3B](PHASE3B_DRAW_SENSITIVITY.md). Core analytical modules are
-  `models/saturday_analytical.py` and `models/saturday_draws.py` under
-  `src/riftbound_tickets/`. No Monte Carlo or player-rating model exists.
-- New outputs use `saturday_draw_*`; local matrices use
-  `saturday_final_round_outcomes.csv`. Phase 3B preserves 750 prior files with
-  hashes in `data/phase3b/preserved_artifacts.json`. General validation metadata
-  can refresh its code inventory; historical/Phase 3A artifacts remain intact.
+Read [PHASE4_INDIVIDUAL_ACQUISITION.md](PHASE4_INDIVIDUAL_ACQUISITION.md).
+The directly retrieved official US schedule is byte-identical to Phase 3A;
+all 33 event rows match. It lists 29 ticket-awarding offers, three continuation
+rows and one Learn to Play offer without advertised prizes. ODE offers are
+repeatable types, not observed pod counts. The live search snippet was stale;
+use the preserved direct capture. Two stale Round 10 sentences persist, while
+explicit six-plus-five and the earlier official announcement govern Rebound.
 
-## Assumptions and unresolved evidence
+- Sources: `data/raw/phase4/retrievals.jsonl`, `data/phase4/sources.csv` and
+  `data/phase4/source_review.json`. Failed initial network captures and Tixr's
+  403 are preserved. Exact badge cost/cutoffs remain unknown. The catalog confirms
+  40-ticket plated Legend prices, without inventory/transfer/redemption policy.
+- Core model: `src/riftbound_tickets/models/individual.py`; orchestration:
+  `src/riftbound_tickets/phase4.py`; isolated collector and figures are in
+  `collectors/phase4_sources.py` and `charts/individual.py`.
+- Standard-library exact fractions, PMFs, convolution and finite-menu Bellman
+  decisions. No Monte Carlo, player-rating or finite-field Swiss model.
+- Outputs: `outputs/tables/phase4_*.csv`, including complete event PMFs/economics,
+  all performance/draw sensitivities, finite ODE sensitivity, nonoverlapping
+  schedules, adaptive menu/reachable decisions, final strategy results/primary
+  PMFs, starting tickets, hard budgets/time and an evaluated-strategy frontier.
+- Seven SVG/PNG pairs: `outputs/figures/phase4_*`; manifest hashes table inputs,
+  renderer and figure bytes. Report summary table is rebuilt/audited from CSV.
+- 16 historical Friday/Sunday rule rows are re-parsed separately. The closest
+  five-round comparison is historical Friday to Vegas Sunday. All 128 archived
+  historical side-offer rows are indexed; they are not a historical attendee
+  weekend/queue model.
 
-Physical ticket issuance is unverified without a claim ledger. Unknown final
-placements, eligibility and records must not become zeros. `DROPPED` is not
-automatic prize ineligibility; keep the original conservative fields as a
-sensitivity. No explicit DQ is established by these archived status labels.
+## Individual findings and practical limits
 
-Historical Top 8 split=216 each is a separate scenario conserving 1,728 tickets;
-no event-specific agreement is newly verified. Several cuts are incomplete.
-Atlanta Friday has one roster-only entry. Hartford Friday's 0–3–0 has no match
-observations. Utrecht Saturday has unresolved cut results/draw credits.
-Barcelona Saturday observed 518 entries exceeds advertised 512; keep the gap.
-See [KNOWN_GAPS.md](KNOWN_GAPS.md) and the later Phase 2 reporting distinctions.
+Equal-skill/no-draw, conditional on admission, with published durations and
+15-minute ODE queues:
 
-The Vegas analyses are marginal equal-skill benchmarks with independent
-outcomes, no byes, drops or finite-field Swiss enforcement. Rates are scenarios,
-not fitted forecasts; historical strategic Round 7 draws do not automatically
-transfer to Vegas. Matrices establish individual path feasibility, not joint
-Swiss pairings or likely matchup frequencies. Field-strength differences from
-Friday-eliminated RC players entering Saturday are qualitative. Current policy
-on transfers, concessions and prize arrangements needs separate official
-verification before making permission claims. Having 40 tickets does not prove
-Metal Legend inventory, badge eligibility, redemption or ownership.
+| Strategy | P(40+) | Expected entry spending | Occupied hours |
+|---|---:|---:|---:|
+| Sunday Challenge only | 3.125% | $50.00 | 7.75 |
+| Competitive first | 5.32% | $107.81 | 19.73 |
+| Mixed Riftbound | 11.93% | $135.00 | 19.50 |
+| Adaptive Riftbound menu | 18.84% | $175.64 | 21.16 |
 
-## Verification and next tasks
+The adaptive menu has a $200 cap, 30 occupied-hour cap and $185 maximum actually
+spent in its primary policy. It excludes Rebound, teams and TFT, so it is not
+a global festival optimum. At 70% p in every Riftbound format, mixed/adaptive
+are about 51.09%/65.35%; constant strong performance can overstate later Swiss
+results. Separate competitive-only sensitivities hold BO1 performance at 50%.
+TFT exchangeable-rank models never inherit Riftbound skill.
 
-Run `python3.12 scripts/validate_phase3b.py` for the complete current offline
-suite and new isolated logs. It runs the existing historical checks and
-Phase 2/3A/3B audits. Read `outputs/tables/saturday_draw_execution_validation.json`
-for actual results and log hashes. Optional figures use the pinned
-`.venv-figures` environment and `python -m riftbound_tickets.phase3b figures`.
-The completed Phase 3B run passed 113 tests and all nine recorded commands;
-750 prior research files remained byte-identical. This is the recorded run,
-not a substitute for running checks after subsequent edits.
+Eight repeated Constructed ODEs fit the main windows: mean 12, maximum 24 tickets.
+Zero queue permits 11 pods but still a maximum of 33. Thus these published-duration
+solo ODE paths cannot reach 40 from zero even at 100% wins. Small events can
+still supplement an existing balance; from 35, scheduled sealed succeeds 50%
+at equal skill, reserving three event hours instead of Sunday's 7.5 for the
+same $50. A complete limited-product valuation is intentionally absent.
 
-Next specify a small stage-/record-dependent draw sensitivity and review
-finite-field byes/pairings before making forecasts. Complete separately sourced
-Friday/Sunday and other like-for-like comparisons, then identify weekend time,
-schedule-conflict and queue assumptions. Weekend ODE economics, coordinated
-pooling, full Swiss/ratings models and a video script require a later task;
-none was started in Phase 3B. Stuttgart Nation Clash is only a potential future
-observational comparator; no Stuttgart collection was performed.
+Rebound blocks Saturday Nexus and qualifiers cannot enter Sunday Challenge.
+Eliminated players' alternatives require timely advance purchase and seats.
+No mid-event dropping/refund/early-release privilege is invented. The model stops
+at event-boundary settlement; per-win prizes might be collected earlier.
+Budgets include unsuccessful entrants. Conditional success costs/time and surplus
+are separate; E[tickets]/40 is never a success probability.
+
+Active hours are explicit proxies, not measured play. Occupied hours include
+queue/check-in but exclude separate-event gaps and sleep. CSV calendar spans
+start Friday 11:00 and include overnight gaps. Required pass, transaction charges,
+travel, lodging, food, decks, actual stock and badge restrictions are outside
+ticket-only cost and remain unknown where not sourced.
+
+## Validation and preservation
+
+Run:
+
+```sh
+python3.12 scripts/validate_phase4.py
+```
+
+The runner executes unittest, the five required legacy commands, Phase 2/3A/3B
+audits and Phase 4 build/figures/audit. Read the actual result in
+`outputs/tables/phase4_execution_validation.json` and isolated logs under
+`outputs/phase4/validation/`. All commands are offline; fresh collection is an
+explicit separate command. Figures use the existing pinned `.venv-figures`.
+Do not treat this description as proof of a newly executed run.
+
+The completed Phase 4 run actually passed **139 tests and all 11 recorded
+commands** on 2026-11-25 America/Chicago (2026-11-26 UTC), with all 794 protected
+files unchanged. This is a record of that run, not a substitute for rerunning
+checks after later edits. Earlier attempt logs/summaries remain available.
+
+`data/phase4/preserved_artifacts.json` fingerprints 794 prior tracked files
+from `ab77b63`; only authorized navigation/handoff/roadmap/changelog and general
+current-code validation inventory updates are excluded. Legacy raw data, source
+code, tests, exports, reports, figures and execution logs must remain identical.
+Phase 4 tests cover independent small-case outcomes, source-payout checks,
+qualification, old-model agreement, PMF/mean accounting, schedules, repeat limits,
+resources, stopping, surplus, nonclairvoyant decisions and preservation.
+
+## Remaining evidence and Phase 5 boundary
+
+Material unknowns: per-event purchase cutoffs and real-time seats, ODE desk hours
+and last launches, queues/pod availability, early check-in access, actual playing
+and meal-break times, dropping and claims, individual team entitlements, full
+entry cost, metal inventory/redemption/badge restrictions and transfer permission.
+Historical side offers alone do not justify an observed whole-weekend baseline.
+No player/organizer messages or private-identification research were undertaken.
+
+**Do not start Phase 5 without the next task.** It will compare solo acquisition
+with groups of 2/4/8, ordinary sharing of legitimately earned spares and ticket
+concentration, reporting participant-hours as well as wall time. Reuse individual
+PMFs and constraints, but verify ticket-transfer/control policy before assuming
+pooling permission. No group allocation, ticket sale, manipulated-match strategy
+or prevalence estimate is implemented. Policy options and video scripting remain
+later work.

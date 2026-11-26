@@ -1,0 +1,21 @@
+{
+  "phase4_event_inventory.csv": 33,
+  "phase4_event_distributions.csv": 2371,
+  "phase4_event_economics.csv": 464,
+  "phase4_stage_draw_sensitivity.csv": 15,
+  "phase4_ffa_honor_sensitivity.csv": 3,
+  "phase4_strategy_definitions.csv": 54,
+  "phase4_strategy_results.csv": 184,
+  "phase4_strategy_distributions.csv": 407,
+  "phase4_starting_tickets.csv": 144,
+  "phase4_budget_time_constraints.csv": 15,
+  "phase4_queue_duration_sensitivity.csv": 30,
+  "phase4_pareto.csv": 217,
+  "phase4_historical_comparisons.csv": 32,
+  "phase4_historical_side_inventory.csv": 128,
+  "phase4_active_time_sensitivity.csv": 680,
+  "phase4_adaptive_policy.csv": 199,
+  "phase4_adaptive_menu.csv": 15,
+  "phase4_other_official_opportunities.csv": 2,
+  "phase4_assumptions.csv": 12
+}

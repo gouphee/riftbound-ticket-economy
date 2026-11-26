@@ -1,0 +1,63 @@
+{
+  "model": "exact_fraction_individual_awards_convolution_and_finite_menu_Bellman_no_Monte_Carlo",
+  "table_rows": {
+    "phase4_event_inventory.csv": 33,
+    "phase4_event_distributions.csv": 2371,
+    "phase4_event_economics.csv": 464,
+    "phase4_stage_draw_sensitivity.csv": 15,
+    "phase4_ffa_honor_sensitivity.csv": 3,
+    "phase4_strategy_definitions.csv": 54,
+    "phase4_strategy_results.csv": 184,
+    "phase4_strategy_distributions.csv": 407,
+    "phase4_starting_tickets.csv": 144,
+    "phase4_budget_time_constraints.csv": 15,
+    "phase4_queue_duration_sensitivity.csv": 30,
+    "phase4_pareto.csv": 217,
+    "phase4_historical_comparisons.csv": 32,
+    "phase4_historical_side_inventory.csv": 128,
+    "phase4_active_time_sensitivity.csv": 680,
+    "phase4_adaptive_policy.csv": 199,
+    "phase4_adaptive_menu.csv": 15,
+    "phase4_other_official_opportunities.csv": 2,
+    "phase4_assumptions.csv": 12
+  },
+  "source_revisions": 0,
+  "input_sha256": {
+    "data/raw/phase4/retrievals.jsonl": "1ce4f568f86077d99c1aed65867e9a838e97c1d57edae2d8e3868e4dcfbd12ce",
+    "data/phase4/source_review.json": "e02a52cd7b212a536614d35a0e2d5f223f10d450f304eabdb3554e7f9b067d15",
+    "data/phase4/preserved_artifacts.json": "0c6cdb1681011141c59c4ce31dcd7e300ad9806675e00b7575345d6da7cbfb05",
+    "data/phase4/sources.csv": "afb583b33c44199ad3c4bd4192c34e8ecd17c378c7b795073b145e8854f682e7",
+    "outputs/tables/historical_ticket_economy.csv": "00b64498e3218b505388f2ad1b714cbfa6096072a92e9311ffb031d436033edc",
+    "data/phase3a/vegas_rules.json": "b70c3a0fbfbf6122edb4cbc03b58a02ded37345c0827c200d65a6267e0ca7dbd"
+  },
+  "code_sha256": {
+    "src/riftbound_tickets/collectors/phase4_sources.py": "36d6599fdfb238f0e8cede5ddd8fafa6de975ce440a9dbe6f351ca178e97597e",
+    "src/riftbound_tickets/models/individual.py": "f2aedc4d5505ddf62f3053664bf2607096ab4da0994933eadc526191857279ac",
+    "src/riftbound_tickets/phase4.py": "53ee0ef41c98a8511f70499a910e6f6699303cf596659b13ec16353e374b6db2",
+    "src/riftbound_tickets/charts/individual.py": "34dd22454dd1fec340d427e4cf6662cd7389cf9f2077ab1cd36fa68e97e10539",
+    "scripts/validate_phase4.py": "cb90d0f55a0139dbbb79a56ca2b41f868a572ea8402fb0799de3cac0df7dcc5d",
+    "tests/test_individual.py": "60f0d664bca97b7dbcc88a585ecf6e9e823ee2d499ff805f06d765ee1a5671fb",
+    "tests/test_phase4_outputs.py": "5c20f4be978dce7946129d3b7f0ada4e765ac0b0556c66f2153cc120650b9f9e"
+  },
+  "output_sha256": {
+    "outputs/tables/phase4_event_inventory.csv": "fa3f976293066dad676ea55c84d3bc93a88ab8f90cb14dcc663e0c262e896890",
+    "outputs/tables/phase4_event_distributions.csv": "7874e4aea7acbe99c1362c6171d68bcc8b8d7eba1d766bc95c7393e1a70b2fe5",
+    "outputs/tables/phase4_event_economics.csv": "1ed92144177b50c4ac3327be290790e7c34ea3bc614f229f5095759fc5f3b93d",
+    "outputs/tables/phase4_stage_draw_sensitivity.csv": "d68a1a9093b7147701589cc56414a05c2d4e0b81536248af1452e8f8143ac27c",
+    "outputs/tables/phase4_ffa_honor_sensitivity.csv": "be9dd5043a945106499a87e76d8dbd982d021de456f86f196be6891a5c8bfa72",
+    "outputs/tables/phase4_strategy_definitions.csv": "288c7b868caef502b606b13dd9dc7089a15c3e74dd6f0930945e484ec29b142a",
+    "outputs/tables/phase4_strategy_results.csv": "5b045ff29d6fca31164573c7ed950fbb78d17fe4052642f49bd158add8751549",
+    "outputs/tables/phase4_strategy_distributions.csv": "84292b524da30f172708f776c17dd6606467a46e5de7e9dc30d3cc25c000ceb8",
+    "outputs/tables/phase4_starting_tickets.csv": "705499542fb84ba6a5d3c3f5b524a35e7d49b035ab18152fedce754795bc5f56",
+    "outputs/tables/phase4_budget_time_constraints.csv": "90618ebaabb3f953e3dc58b5e76ecf8a35504ca59aea7daa48ab7b14f67e9bf9",
+    "outputs/tables/phase4_queue_duration_sensitivity.csv": "30d3f457134abf3744ef3136f5498755d6315e904a9dd9b5f32e2cf3d81d3835",
+    "outputs/tables/phase4_pareto.csv": "f580399026fb671aa01fed0ae35504c8c0aa280dc6a0cf968e2bb130faa6d72c",
+    "outputs/tables/phase4_historical_comparisons.csv": "103d0a0e946000be015834be3bddeb4f59a10603277c380574f008b03e08e2de",
+    "outputs/tables/phase4_historical_side_inventory.csv": "a5e2cb31409cce03e0d1e135c9e9946d69a00723f7dc64392713df95c0753a11",
+    "outputs/tables/phase4_active_time_sensitivity.csv": "705ab4ffb035ecf8c2641bf70df8dc9b535c0e10d75ac7b6b30202c35a1d65ee",
+    "outputs/tables/phase4_adaptive_policy.csv": "1e910bbf512dffc17c9f9d985e1566491a214495b913ab8a6f073c9d16a44f5a",
+    "outputs/tables/phase4_adaptive_menu.csv": "47eefaa57166b7f128fc113490b7d87c3859a0bead20327d2ad699c458cc093d",
+    "outputs/tables/phase4_other_official_opportunities.csv": "256c785efe68e23baa09fb184146f586d62e693ae9d7ca5528b013b1e0e0a167",
+    "outputs/tables/phase4_assumptions.csv": "4ed794cd540a29a6a87f3ddcaa432f4d3908cfb8343e4f089191419bf52c8553"
+  }
+}

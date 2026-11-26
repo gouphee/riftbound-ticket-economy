@@ -1,0 +1,16 @@
+decision_group,event_id,day,start_minute,end_minute,cost_usd,occupied_minutes
+0,friday-radiance-sealed-deck,0,645,840,50,195
+0,ode-standard-constructed,0,660,810,10,150
+1,friday-champion-deck-trial,0,825,990,25,165
+1,friday-draft-challenge,0,825,1110,25,285
+1,ode-standard-constructed,0,840,990,10,150
+2,friday-super-nexus-night,0,1095,1290,25,195
+3,ode-standard-constructed,1,660,810,10,150
+4,saturday-champion-deck-trial,1,825,990,25,165
+4,saturday-radiance-sealed-deck,1,915,1110,50,195
+4,saturday-draft-challenge,1,735,1020,25,285
+5,saturday-super-nexus-night,1,1095,1290,25,195
+6,sunday-radiance-standard-challenge,2,645,1110,50,465
+6,ode-standard-constructed,2,660,810,10,150
+7,sunday-radiance-sealed-deck,2,825,1020,50,195
+7,ode-standard-constructed,2,840,990,10,150

@@ -30,3 +30,11 @@ audit-phase3b:
 	$(PYTHON) -m riftbound_tickets.phase3b audit
 validate-phase3b:
 	$(PYTHON) scripts/validate_phase3b.py
+
+.PHONY: phase4 audit-phase4 validate-phase4
+phase4:
+	$(PYTHON) -m riftbound_tickets.phase4 build
+audit-phase4:
+	$(PYTHON) -m riftbound_tickets.phase4 audit
+validate-phase4:
+	$(PYTHON) scripts/validate_phase4.py

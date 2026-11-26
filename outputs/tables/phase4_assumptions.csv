@@ -1,0 +1,13 @@
+id,topic,assumption_or_gap
+A01,performance,"p=40/50/60/70/80% conditional decisive match wins; hypothetical per-format parameters, not population shares or fitted skill"
+A02,draws,"Competitive 0/1/2/5%; BO1 zero primary plus separate 2/5% sensitivities; TFT exchangeable ranks, no WDL assumption"
+A03,time,Published durations; 15m fixed-event check-in; ODE queue 0/15/45m; full event award settlement; no verified early-drop payout/release
+A04,operations,"ODE starts when pod fills; finite repeated slots; 15m breaks, 30m meal after second consecutive ODE; daily occupied cap 10h; event internal meal breaks unverified"
+A05,cost,"Entry fees only. Required festival pass, fees/taxes, deck acquisition, travel, lodging, food excluded; badge price not verified from blocked Tixr capture"
+A06,availability,"Every modeled seat and ODE pod is conditional; Saturday-unavailable stress scenario, no estimated fill probability; Tixr purchase possible during festival but exact cutoffs unknown"
+A07,teams,"All team tickets excluded from individual distributions; no transfer permission, equal division or pooling assumed"
+A08,active_time,75% of per-round time limit; construction and waiting excluded; unknown for TFT. This proxy is not measured play; event-level 50/100% sensitivity supplied
+A09,optimization,"Adaptive finite menu excludes Rebound, TFT, FFA, teams; maximizes success under hard budgets; ties minimize expected entry spend then occupied time; frontier limited to evaluated strategies"
+A10,history,"Historical side offers archived in eight official schedules; no linked attendee weekend histories, queue measurements or comparable operational model, so no historical whole-weekend forecast"
+A11,redemption,"40 tickets is accumulation only. Inventory, claim ledger, one-per-badge/eligibility restrictions and current ticket transfer policy unresolved; no metal ownership probability"
+A12,independence,"Exact marginal independent outcomes; no finite-field Swiss, byes, opponent-strength evolution or tiebreaks; constant high p likely overstates late-Swiss performance"

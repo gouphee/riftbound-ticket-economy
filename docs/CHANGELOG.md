@@ -1,5 +1,25 @@
 # Research changes
 
+## 2026-11-25 — Phase 4 individual acquisition
+
+- Added isolated current official evidence, the 33-row inventory and a normalized
+  revision comparison. Rebound remains six plus five; all 40-ticket plated Legend
+  catalog cells are checked. Tixr's 403 is retained, not treated as zero cost.
+- Added exact individual win/point/rank PMFs and economic metrics, performance,
+  competitive/BO1/stage draw, active-time, queue, duration and availability
+  sensitivities. Phase 4 named solo payout mappings are checked against archived
+  cells; historical rule implementations and amounts are unchanged.
+- Added finite nonoverlapping representative strategies, event-boundary stopping,
+  qualification-contingent Sunday choices, hard budget/time enforcement and an
+  explicit finite-menu adaptive policy. Team awards and discretionary honor
+  allocations are not silently converted into individual entitlements.
+- Added machine-readable results, seven SVG/PNG pairs, a report and an isolated
+  validation runner. A 794-file manifest protects previous research and execution
+  artifacts. The general validation report may refresh its current-code inventory.
+- Whole-weekend historical change and redemption remain unestablished. No pooling,
+  ticket transfer permissions, match manipulation, full Swiss simulation, video
+  script, commit, push or deployment is included.
+
 ## 2026-11-25 — Phase 3B draw sensitivity and conditional outcomes
 
 - Added exact point-generating-function dynamic programming for independent

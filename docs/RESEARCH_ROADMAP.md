@@ -2,6 +2,22 @@
 
 The research proceeds in auditable stages. Historical observations, counterfactual calculations, and behavioral simulations must remain separate data products.
 
+## 2026-11-25 Phase 4 status
+
+[Individual acquisition research](PHASE4_INDIVIDUAL_ACQUISITION.md) now implements
+standalone solo award distributions, separately sourced Friday/Sunday and
+side-offer comparisons, finite weekend schedules and ODE counts, performance
+and draw sensitivities, starting balances, hard resources and a limited adaptive
+menu. Exact methods replace unnecessary Monte Carlo. Current official schedule
+captures match Phase 3A; Tixr returned 403 and operational admission/queues remain
+conditional. The evaluated Pareto rows are not a global optimum.
+
+The broader title is still provisional: alternative events improve the Vegas
+paths, while an equivalent historical whole-weekend baseline remains unbuilt.
+Phase 5 group comparisons, policy evaluation and scripting have not started.
+Use the current [handoff](PROJECT_HANDOFF.md) and retain earlier phase boundaries
+below as historical task records.
+
 ## Stage 0 — collection infrastructure (implemented, not fully independently audited)
 
 - 24 historical events, 20,651 standings rows, 20,652 roster rows, with source URLs and archived retrieval hashes.

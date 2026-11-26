@@ -10,6 +10,33 @@ bye/match evidence, and each city's historical payout tables. It reconstructs
 published ticket entitlements. **Actual physical ticket issuance is unverified:**
 no claim/distribution ledger was recovered, so verified-issuance fields are blank.
 
+## Phase 4 individual acquisition economics
+
+[Phase 4](docs/PHASE4_INDIVIDUAL_ACQUISITION.md) inventories all 33 official
+Vegas schedule rows and models individual awards, realistic time reservations,
+finite ODE throughput, hard entry/time budgets and a limited adaptive menu.
+At equal skill/no draws, representative mixed Riftbound success is **11.93%**;
+the conditional adaptive menu reaches **18.84%**, averaging about **$176** in
+entry fees and **21.2 occupied hours**. These require available seats/pods and
+exclude festival passes/travel. They are not player forecasts or redemption odds.
+Published-duration Constructed ODEs alone cannot reach 40 from zero in the
+modeled weekend, even with every match won. A whole-weekend historical decline
+remains unproven; the supported Saturday-event result is a separate finding.
+
+Start with [strategy results](outputs/tables/phase4_strategy_results.csv),
+[event inventory](outputs/tables/phase4_event_inventory.csv),
+[hard budget/time comparisons](outputs/tables/phase4_budget_time_constraints.csv),
+and the seven `outputs/figures/phase4_*` SVG/PNG pairs. New official captures,
+source review and preservation hashes live under `data/raw/phase4/` and
+`data/phase4/`. Prior research artifacts remain protected.
+
+```sh
+PYTHONPATH=src python3.12 -m riftbound_tickets.phase4 build
+PYTHONPATH=src .venv-figures/bin/python -m riftbound_tickets.phase4 figures
+PYTHONPATH=src python3.12 -m riftbound_tickets.phase4 audit
+python3.12 scripts/validate_phase4.py
+```
+
 ## Phase 3B draw sensitivity and local match outcomes
 
 The [draw analysis](docs/PHASE3B_DRAW_SENSITIVITY.md) extends the Saturday model
@@ -38,8 +65,8 @@ PYTHONPATH=src .venv-figures/bin/python -m riftbound_tickets.phase3b figures
 
 Start a new research conversation with [PROJECT_HANDOFF.md](docs/PROJECT_HANDOFF.md).
 Previous raw data, Phase 2/3A exports, figures, execution logs and source code
-remain unchanged. Weekend ODE economics, coordinated pooling and scripting
-remain future work.
+remain unchanged. Phase 4 above extends individual weekend economics; coordinated pooling and
+scripting remain future work.
 
 ## Phase 3A Saturday analytical comparison
 
