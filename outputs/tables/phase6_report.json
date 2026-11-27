@@ -1,0 +1,78 @@
+{
+  "model": "aggregate_exact_ID_linkage_and_existing_model_synthesis_no_player_ratings",
+  "table_rows": {
+    "phase6_main_feasibility.csv": 8,
+    "phase6_identity_audit.csv": 32,
+    "phase6_composition.csv": 53,
+    "phase6_cross_group_matches.csv": 24,
+    "phase6_main_performance_distribution.csv": 144,
+    "phase6_sunday_qualification.csv": 8,
+    "phase6_side_overlap.csv": 24,
+    "phase6_weekday_summary.csv": 3,
+    "phase6_side_performance_distribution.csv": 315,
+    "phase6_itineraries.csv": 12,
+    "phase6_itinerary_events.csv": 44,
+    "phase6_close_to_40.csv": 170,
+    "phase6_event_objectives.csv": 34,
+    "phase6_performance_sensitivities.csv": 10,
+    "phase6_performance_thresholds.csv": 4,
+    "phase6_recommendation_matrix.csv": 9,
+    "phase6_operations.csv": 17,
+    "phase6_group_sampling_sensitivity.csv": 16,
+    "phase6_draw_robustness.csv": 4,
+    "phase6_claims.csv": 57
+  },
+  "input_sha256": {
+    "data/phase6/main_events.json": "d70f49ac24e0281988ea57f98806e78b00e6d113c3b18b2efa907f7f02b6e25e",
+    "data/phase6/main_metadata.json.gz": "81ac655f555548ebc443c46b0d37da45ec06107baa5bd09d25b1f2e436296525",
+    "data/phase6/main_collections.json.gz": "85a14cde4222942140bb25b31e2472ac31b9ff8af0c9612b6b44df36dc464c15",
+    "data/phase6/claim_registry.json": "fb8d7d5a14ac442ef2a4ccc8f65970c62104c85efb60683903a7fb216b666567",
+    "data/phase6/production_inventory.json": "19818d29152d0437678e31d6745af4aa4ab0efc909d2799e0e021b87c928f78b",
+    "data/phase6/preserved_artifacts.json": "4fdb470e28a2500676cc5eb913305f4ea2b2cc65a10f4a38a283c0a112d6e56e",
+    "data/phase6/sources.csv": "e149c3e96c66dd1cb4b388c0fc74e492d5410e2eb9d122165571bc58a3772abd",
+    "data/raw/phase6/retrievals.jsonl": "67a12c4933fd4275f0dd13aa7947181a887684c8386e4c9e678aeee2f1870eb4"
+  },
+  "code_sha256": {
+    "src/riftbound_tickets/collectors/phase6_sources.py": "bec1aeb5612b02454278c101c1152982d285f37c470c7e642cff9a40595d4d7f",
+    "src/riftbound_tickets/field_composition.py": "b6a2f2c0e855ed8180967d561e788ece789f190a8c09a9dae2362f8649d6a391",
+    "src/riftbound_tickets/recommendations.py": "d3f162389f6f62c3460cd1487ef2806bdeea0908cbe7df70267bf766f4fcf1b7",
+    "src/riftbound_tickets/phase6_claims.py": "89d3997858d693374c19d274712c8e310d9272f1c75f72fc40fead7576f0f9aa",
+    "src/riftbound_tickets/phase6.py": "1c0ef789bcd664d6de7eeaa31dcfd4de0bcefecab9a8ea2af4f0ac07932d8d2c",
+    "src/riftbound_tickets/charts/field_composition.py": "c9336703f7d9ddf790d98fa84b33430848c62725b13090d1a03ac818d913721b",
+    "scripts/validate_phase6.py": "c9d258819aefc20b524364ffb1a46380397055b2af257bc523cd2d8b4010fbdf",
+    "tests/test_phase6.py": "7252b9d4aeede22251a2b76851cbf1c3f8cb428e6ff1e750fcc0fbe85c1ff12d"
+  },
+  "output_sha256": {
+    "outputs/tables/phase6_main_feasibility.csv": "2c1619ca0fe1e73ea3da2e6ca8e26828cde445ffc1a913806a49e6c7a2d58da6",
+    "outputs/tables/phase6_identity_audit.csv": "057208e2c7c9cd3d9fe9ff7729517f8e3c767ef9f91a56996d653430e5db2c80",
+    "outputs/tables/phase6_composition.csv": "e4dde9756f7cbedd3684a369db1400b47c87bfd9bb9657fcd34bdda24bd6a6a0",
+    "outputs/tables/phase6_cross_group_matches.csv": "05540439624a1a1315015052ca2dd85cb5cc47f118cb4c2411da54806b18be58",
+    "outputs/tables/phase6_main_performance_distribution.csv": "7ccec4a65ac969177e2582f2abfbd9fe79f1dac19536d2f9d0ba369ac3fafc0d",
+    "outputs/tables/phase6_sunday_qualification.csv": "aa221b232940a4168144748931ccc38d73cb91df63017cdeb19bf56ef2ae7055",
+    "outputs/tables/phase6_side_overlap.csv": "169554eb0327e5c56c49398ad3f371a1d7d63ad9b9f2fe980aa1af5ce9a0be8f",
+    "outputs/tables/phase6_weekday_summary.csv": "fa3b97be2d1e48840549a47e89afb0575486f63838d6a068c51a3e5d261c7a2a",
+    "outputs/tables/phase6_side_performance_distribution.csv": "167fefb1962ab4b6ac85e02a5129e4febaaff7296a620611c62507bfcda0ade8",
+    "outputs/tables/phase6_itineraries.csv": "2a5c04627dc3277a9e7d9c2009c1a356ebab0a3ea7724d93e002f52cd1feb085",
+    "outputs/tables/phase6_itinerary_events.csv": "bb4e48347c231057eb35ace867314d94f9350024e87cd44aa5300871c25ffd8c",
+    "outputs/tables/phase6_close_to_40.csv": "414caad76715be1cf97a034f3510670ef86a59bc2339761b45448e9dff8e3833",
+    "outputs/tables/phase6_event_objectives.csv": "046677b901c44109ae57f4b596c2da06b3258afe228541a84e3f538256e1230b",
+    "outputs/tables/phase6_performance_sensitivities.csv": "cb4e6af39ac04d0ffbc6f9bc0532af78aeaa175d84a3755e7786d6cf99ae500e",
+    "outputs/tables/phase6_performance_thresholds.csv": "3492e99e1a80bac765131b6fca54a33e6b3954252fd13379363d0673ef6aa45d",
+    "outputs/tables/phase6_recommendation_matrix.csv": "06431e225693631eedd56242d8e0a7665fc890686ae901bf89e39492ee0d92a6",
+    "outputs/tables/phase6_operations.csv": "e15f9de4b9712e7bfc76f99b6141db9d2ae1e42c77c24a9b81da3380c0ada85a",
+    "outputs/tables/phase6_group_sampling_sensitivity.csv": "1ee001efb02e8e04028cc602d1a1ded6fffb9c49d8ff01cce642ae9a9f2dca0a",
+    "outputs/tables/phase6_draw_robustness.csv": "47eb7fb913c9029132fdd986fcc29aa798e9816a8189d84ac62f7334107acf23",
+    "outputs/tables/phase6_claims.csv": "262857f0acbe37724450a1a0ec3175c9e13f6d52ebce508ac67c196bb60804f4"
+  },
+  "generated_document_sha256": {
+    "docs/VIDEO_CLAIMS.md": "73a14abe4e1ea2c21d1e9f016f106f756477ebddb7a6a143c9966c9eac195f07",
+    "docs/VIDEO_DATA_HANDOFF.md": "827d321433d88487e60e1ed2c8bc88c889bddabaefc15cd588d71ca545dd81d8"
+  },
+  "privacy": "Aggregate only; no names, player identifiers, profiles or individual histories in analytical exports",
+  "not_established": [
+    "causal_skill_difference",
+    "weakest_Vegas_day",
+    "whole_weekend_historical_decline",
+    "physical_issuance_or_redemption"
+  ]
+}

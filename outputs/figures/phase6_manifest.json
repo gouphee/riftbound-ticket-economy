@@ -1,0 +1,15 @@
+{
+  "figure_sha256": {
+    "outputs/figures/phase6_field_composition.svg": "9d41151e3a6347a3e4eb09c6b83c141b15d56644a1c641574cbbe264ca2c0d4b",
+    "outputs/figures/phase6_field_composition.png": "edcb65ab34a9f9447a3a41f92aacb14112b1df600a5abb89bf463420ef9bd80f"
+  },
+  "input_sha256": {
+    "outputs/tables/phase6_composition.csv": "e4dde9756f7cbedd3684a369db1400b47c87bfd9bb9657fcd34bdda24bd6a6a0",
+    "outputs/tables/phase6_weekday_summary.csv": "fa3b97be2d1e48840549a47e89afb0575486f63838d6a068c51a3e5d261c7a2a"
+  },
+  "renderer_sha256": {
+    "src/riftbound_tickets/charts/field_composition.py": "c9336703f7d9ddf790d98fa84b33430848c62725b13090d1a03ac818d913721b"
+  },
+  "canvas": "1920x1080 PNG and vector SVG",
+  "matplotlib_version": "3.11.2"
+}

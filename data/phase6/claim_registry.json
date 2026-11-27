@@ -1,0 +1,1720 @@
+[
+  {
+    "claim_id": "S01-01",
+    "video_sequence": "S01",
+    "proposed_statement": "The working title is defensible for the changed Saturday competitive route, not as a measured whole-weekend decline.",
+    "evidence_class": "editorial_scope_synthesis",
+    "source_report": "docs/PHASE6_FIELD_COMPOSITION_AND_RECOMMENDATIONS.md",
+    "supporting_table": "docs/RESEARCH_BRIEF.md",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Scope the hook and conclusion to the demonstrated route.",
+    "on_screen_qualification": "Scope the hook and conclusion to the demonstrated route.",
+    "status": "conditional",
+    "evidence_cells": [],
+    "correction_or_use_note": "Check the existing hook; no narration was inspected or rewritten."
+  },
+  {
+    "claim_id": "S01-02",
+    "video_sequence": "S01",
+    "proposed_statement": "Advertised Plated Legend catalog entries cost 40 tickets.",
+    "evidence_class": "official_catalog",
+    "source_report": "docs/PHASE6_FIELD_COMPOSITION_AND_RECOMMENDATIONS.md",
+    "supporting_table": "outputs/tables/phase6_operations.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Tickets do not guarantee stock, eligibility or successful redemption.",
+    "on_screen_qualification": "Tickets do not guarantee stock, eligibility or successful redemption.",
+    "status": "supported",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/phase6_operations.csv",
+        "selector": {
+          "operational_item": "redemption_threshold"
+        },
+        "columns": [
+          "finding",
+          "status"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S01-03",
+    "video_sequence": "S01",
+    "proposed_statement": "The number and identity of metals shown in the owner’s collection are verified here.",
+    "evidence_class": "outside_research_scope",
+    "source_report": "docs/PHASE6_FIELD_COMPOSITION_AND_RECOMMENDATIONS.md",
+    "supporting_table": "owner footage in separate production project",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Owner footage and collection facts were not examined in this repository.",
+    "on_screen_qualification": "Owner footage and collection facts were not examined in this repository.",
+    "status": "unresolved",
+    "evidence_cells": [],
+    "correction_or_use_note": "Do not supply an invented collection count."
+  },
+  {
+    "claim_id": "S02-01",
+    "video_sequence": "S02",
+    "proposed_statement": "All eight historical Saturday events advertised seven Swiss rounds followed by Top 8.",
+    "evidence_class": "official_historical_schedules",
+    "source_report": "docs/PHASE3A_SATURDAY_COMPARISON.md",
+    "supporting_table": "data/phase3a/sources.csv;outputs/tables/conditional_historical_checkpoint_rows.csv",
+    "supporting_figure": "",
+    "official_source": "https://uvsgames.com/rq-atlanta-schedule/; see data/phase3a/sources.csv for all eight",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "5–1 and 6–0 are checkpoints before Round 7.",
+    "on_screen_qualification": "5–1 and 6–0 are checkpoints before Round 7.",
+    "status": "supported",
+    "evidence_cells": [],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S02-02",
+    "video_sequence": "S02",
+    "proposed_statement": "The historical 512-cap Saturday schedule funded 4,992 tickets, 128 positive slots and 32 slots paying at least 40.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/PHASE3A_SATURDAY_COMPARISON.md",
+    "supporting_table": "outputs/tables/saturday_analytical_comparison.csv;outputs/tables/saturday_payout_thresholds.csv",
+    "supporting_figure": "",
+    "official_source": "https://uvsgames.com/rq-atlanta-schedule/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Conditional on all advertised prizes being funded; not verified issuance.",
+    "on_screen_qualification": "Conditional on all advertised prizes being funded; not verified issuance.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/saturday_analytical_comparison.csv",
+        "selector": {
+          "scenario_id": "equal-512",
+          "historical_allocation": "official_placement"
+        },
+        "columns": [
+          "historical_n",
+          "historical_expected_total_tickets",
+          "historical_expected_earning_entries",
+          "historical_expected_entries_at_least_40"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S02-03",
+    "video_sequence": "S02",
+    "proposed_statement": "The published individual maximum was 432 tickets; the Top 8 pool was 1,728.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/PHASE3A_SATURDAY_COMPARISON.md",
+    "supporting_table": "outputs/tables/saturday_analytical_comparison.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "A Swiss seed is not a completed cut placement.",
+    "on_screen_qualification": "A Swiss seed is not a completed cut placement.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/saturday_analytical_comparison.csv",
+        "selector": {
+          "scenario_id": "equal-512",
+          "historical_allocation": "official_placement"
+        },
+        "columns": [
+          "historical_maximum_individual_payout"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S03-01",
+    "video_sequence": "S03",
+    "proposed_statement": "Vegas Rebound is six Saturday rounds, a 12-point continuation gate and five Sunday rounds, with no elimination cut.",
+    "evidence_class": "official_published_format",
+    "source_report": "docs/PHASE3A_SATURDAY_COMPARISON.md",
+    "supporting_table": "outputs/tables/phase6_operations.csv;data/phase3a/vegas_rules.json",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Use eleven rounds; retain stale Round 10 prose as a documented source inconsistency.",
+    "on_screen_qualification": "Use eleven rounds; retain stale Round 10 prose as a documented source inconsistency.",
+    "status": "supported",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/phase6_operations.csv",
+        "selector": {
+          "operational_item": "Sunday_conflict"
+        },
+        "columns": [
+          "finding",
+          "necessary_qualification"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S03-02",
+    "video_sequence": "S03",
+    "proposed_statement": "Vegas Rebound advertises 1,024 seats, including 256 held for RC competitors.",
+    "evidence_class": "official_schedule",
+    "source_report": "docs/PHASE3A_SATURDAY_COMPARISON.md",
+    "supporting_table": "outputs/tables/phase6_operations.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Cap and reserved seats are not observed entries.",
+    "on_screen_qualification": "Cap and reserved seats are not observed entries.",
+    "status": "supported",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/phase6_operations.csv",
+        "selector": {
+          "operational_item": "Rebound_reserved_seats"
+        },
+        "columns": [
+          "finding"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S03-03",
+    "video_sequence": "S03",
+    "proposed_statement": "Vegas’s published maximum is 80 tickets; the baseline zero-ticket probability is 79.1504%.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/PHASE3A_SATURDAY_COMPARISON.md",
+    "supporting_table": "outputs/tables/saturday_analytical_comparison.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Equal-skill independent marginal model, no draws, byes or drops; 80 is the schedule ceiling.",
+    "on_screen_qualification": "Equal-skill independent marginal model, no draws, byes or drops; 80 is the schedule ceiling.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/saturday_analytical_comparison.csv",
+        "selector": {
+          "scenario_id": "equal-512",
+          "historical_allocation": "official_placement"
+        },
+        "columns": [
+          "vegas_maximum_individual_payout",
+          "vegas_zero_ticket_probability"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S04-01",
+    "video_sequence": "S04",
+    "proposed_statement": "The full-cap comparison is 32 historical 40+ slots versus 33.5 expected Vegas 40+ recipients.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/PHASE3A_SATURDAY_COMPARISON.md",
+    "supporting_table": "outputs/tables/saturday_analytical_comparison.csv",
+    "supporting_figure": "outputs/figures/saturday_analytical_chance_40.png",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Different capacities: 512 versus 1,024; the Vegas count is an expectation, not actual metals.",
+    "on_screen_qualification": "Different capacities: 512 versus 1,024; the Vegas count is an expectation, not actual metals.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/saturday_analytical_comparison.csv",
+        "selector": {
+          "historical_n": "512",
+          "vegas_n": "1024",
+          "historical_allocation": "official_placement"
+        },
+        "columns": [
+          "historical_expected_entries_at_least_40",
+          "vegas_expected_entries_at_least_40"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S04-02",
+    "video_sequence": "S04",
+    "proposed_statement": "At matched N=512, individual 40+ probability falls from 6.25% to 3.2715%.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/PHASE3A_SATURDAY_COMPARISON.md",
+    "supporting_table": "outputs/tables/saturday_analytical_comparison.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Analytical equal-skill/no-draw comparison; historical funded rank slots, Vegas marginal outcomes.",
+    "on_screen_qualification": "Analytical equal-skill/no-draw comparison; historical funded rank slots, Vegas marginal outcomes.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/saturday_analytical_comparison.csv",
+        "selector": {
+          "scenario_id": "equal-512",
+          "historical_allocation": "official_placement"
+        },
+        "columns": [
+          "historical_at_least_40_probability",
+          "vegas_at_least_40_probability"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S05-01",
+    "video_sequence": "S05",
+    "proposed_statement": "At matched 512 entrants, mean tickets per entrant fall from 9.75 to 5.6592.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/PHASE3A_SATURDAY_COMPARISON.md",
+    "supporting_table": "outputs/tables/saturday_analytical_comparison.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Means are not a person’s chance of a metal.",
+    "on_screen_qualification": "Means are not a person’s chance of a metal.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/saturday_analytical_comparison.csv",
+        "selector": {
+          "scenario_id": "equal-512",
+          "historical_allocation": "official_placement"
+        },
+        "columns": [
+          "historical_expected_tickets_per_entrant",
+          "vegas_expected_tickets_per_entrant"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S05-02",
+    "video_sequence": "S05",
+    "proposed_statement": "At their different full caps, Vegas generates 5,795 expected tickets versus the old 4,992-ticket funded pool.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/PHASE3A_SATURDAY_COMPARISON.md",
+    "supporting_table": "outputs/tables/saturday_analytical_comparison.csv",
+    "supporting_figure": "outputs/figures/saturday_analytical_expected_tickets.png",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "1,024 versus 512 capacity; Vegas total is expected, not a feasible maximum or observed issuance.",
+    "on_screen_qualification": "1,024 versus 512 capacity; Vegas total is expected, not a feasible maximum or observed issuance.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/saturday_analytical_comparison.csv",
+        "selector": {
+          "historical_n": "512",
+          "vegas_n": "1024",
+          "historical_allocation": "official_placement"
+        },
+        "columns": [
+          "historical_expected_total_tickets",
+          "vegas_expected_total_tickets"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S05-03",
+    "video_sequence": "S05",
+    "proposed_statement": "Actual physical ticket issuance and successful Metal Legend redemption have been established.",
+    "evidence_class": "explicit_evidence_gap",
+    "source_report": "docs/PHASE3A_SATURDAY_COMPARISON.md",
+    "supporting_table": "docs/KNOWN_GAPS.md",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "No claim ledger or redemption/inventory evidence was recovered.",
+    "on_screen_qualification": "No claim ledger or redemption/inventory evidence was recovered.",
+    "status": "unresolved",
+    "evidence_cells": [],
+    "correction_or_use_note": "Describe entitlements, models and potential units instead."
+  },
+  {
+    "claim_id": "S06-01",
+    "video_sequence": "S06",
+    "proposed_statement": "At p=50%, exact 5–1 after six rounds is 9.375%; exact 8–2 after ten is 4.3945%.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/CONDITIONAL_PERFORMANCE_AND_SPLITS.md",
+    "supporting_table": "outputs/tables/conditional_record_probabilities.csv",
+    "supporting_figure": "outputs/figures/conditional_record_difficulty.png",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Exact records, independent no-draw matches, and checkpoints before the final Swiss round.",
+    "on_screen_qualification": "Exact records, independent no-draw matches, and checkpoints before the final Swiss round.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/conditional_record_probabilities.csv",
+        "selector": {
+          "decisive_win_probability_p": "0.5",
+          "draw_probability_d": "0.0"
+        },
+        "columns": [
+          "historical_exact_5_1",
+          "vegas_exact_8_2"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S06-02",
+    "video_sequence": "S06",
+    "proposed_statement": "At p=50%, 5–1 or better is 10.9375%; 8–2 or better is 5.46875%.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/CONDITIONAL_PERFORMANCE_AND_SPLITS.md",
+    "supporting_table": "outputs/tables/conditional_record_probabilities.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Cumulative probabilities differ from the exact-record calculation.",
+    "on_screen_qualification": "Cumulative probabilities differ from the exact-record calculation.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/conditional_record_probabilities.csv",
+        "selector": {
+          "decisive_win_probability_p": "0.5",
+          "draw_probability_d": "0.0"
+        },
+        "columns": [
+          "historical_at_least_5_wins",
+          "vegas_at_least_8_wins"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S06-03",
+    "video_sequence": "S06",
+    "proposed_statement": "At p=50%, 6–0 has probability 1.5625%, versus 0.09765625% for 10–0.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/CONDITIONAL_PERFORMANCE_AND_SPLITS.md",
+    "supporting_table": "outputs/tables/conditional_record_probabilities.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Perfect checkpoint runs, not completed-event results.",
+    "on_screen_qualification": "Perfect checkpoint runs, not completed-event results.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/conditional_record_probabilities.csv",
+        "selector": {
+          "decisive_win_probability_p": "0.5",
+          "draw_probability_d": "0.0"
+        },
+        "columns": [
+          "historical_exact_6_0",
+          "vegas_exact_10_0"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S06-04",
+    "video_sequence": "S06",
+    "proposed_statement": "At p=80%, the cumulative comparison reverses: 65.536% historical versus 67.779953% Vegas.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/CONDITIONAL_PERFORMANCE_AND_SPLITS.md",
+    "supporting_table": "outputs/tables/conditional_record_probabilities.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Do not say every strong-record comparison is harder at every skill assumption.",
+    "on_screen_qualification": "Do not say every strong-record comparison is harder at every skill assumption.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/conditional_record_probabilities.csv",
+        "selector": {
+          "decisive_win_probability_p": "0.8",
+          "draw_probability_d": "0.0"
+        },
+        "columns": [
+          "historical_at_least_5_wins",
+          "vegas_at_least_8_wins"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S06-05",
+    "video_sequence": "S06",
+    "proposed_statement": "Vegas cumulative 8–2-or-better is less likely at every p from 40% to 80%.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/CONDITIONAL_PERFORMANCE_AND_SPLITS.md",
+    "supporting_table": "outputs/tables/conditional_record_probabilities.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Contradicted at p=80%; exact 8–2 and perfect 10–0 comparisons remain ordered in this range.",
+    "on_screen_qualification": "Contradicted at p=80%; exact 8–2 and perfect 10–0 comparisons remain ordered in this range.",
+    "status": "contradicted",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/conditional_record_probabilities.csv",
+        "selector": {
+          "decisive_win_probability_p": "0.8",
+          "draw_probability_d": "0.0"
+        },
+        "columns": [
+          "historical_at_least_5_wins",
+          "vegas_at_least_8_wins"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Correct any version of this universal claim in existing S06."
+  },
+  {
+    "claim_id": "S07-01",
+    "video_sequence": "S07",
+    "proposed_statement": "Observed Top 8 standings conversion was 16/216 at 5–1 and 36/37 at 6–0.",
+    "evidence_class": "official_standings_reconstruction",
+    "source_report": "docs/CONDITIONAL_PERFORMANCE_AND_SPLITS.md",
+    "supporting_table": "outputs/tables/conditional_historical_record_cohorts.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Descriptive eight-event cohorts; not causal or skill-conditioned forecasts; these are R6 records.",
+    "on_screen_qualification": "Descriptive eight-event cohorts; not causal or skill-conditioned forecasts; these are R6 records.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/conditional_historical_record_cohorts.csv",
+        "selector": {
+          "event_key": "all_eight_events",
+          "checkpoint_round": "6",
+          "record": "5-1-0"
+        },
+        "columns": [
+          "cohort_entries",
+          "cut_eligible_entries",
+          "empirical_cut_fraction"
+        ]
+      },
+      {
+        "table": "outputs/tables/conditional_historical_record_cohorts.csv",
+        "selector": {
+          "event_key": "all_eight_events",
+          "checkpoint_round": "6",
+          "record": "6-0-0"
+        },
+        "columns": [
+          "cohort_entries",
+          "cut_eligible_entries",
+          "empirical_cut_fraction"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S07-02",
+    "video_sequence": "S07",
+    "proposed_statement": "Historical hybrid conditional EVs were approximately 57.139 and 212.108 tickets.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/CONDITIONAL_PERFORMANCE_AND_SPLITS.md",
+    "supporting_table": "outputs/tables/conditional_historical_hybrid_rewards.csv",
+    "supporting_figure": "outputs/figures/conditional_reward_curve.png",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Observed R6→R7 outcomes fixed; future bracket q=50%; these are not measured receipts.",
+    "on_screen_qualification": "Observed R6→R7 outcomes fixed; future bracket q=50%; these are not measured receipts.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/conditional_historical_hybrid_rewards.csv",
+        "selector": {
+          "event_key": "all_eight_events",
+          "record": "5-1-0",
+          "future_bracket_win_probability_q": "0.5",
+          "arrangement": "published"
+        },
+        "columns": [
+          "conditional_expected_tickets"
+        ]
+      },
+      {
+        "table": "outputs/tables/conditional_historical_hybrid_rewards.csv",
+        "selector": {
+          "event_key": "all_eight_events",
+          "record": "6-0-0",
+          "future_bracket_win_probability_q": "0.5",
+          "arrangement": "published"
+        },
+        "columns": [
+          "conditional_expected_tickets"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S07-03",
+    "video_sequence": "S07",
+    "proposed_statement": "A secured historical Top 8 slot had a published 144-ticket floor, exceeding Vegas’s 80-ticket ceiling.",
+    "evidence_class": "published_payout_comparison",
+    "source_report": "docs/CONDITIONAL_PERFORMANCE_AND_SPLITS.md",
+    "supporting_table": "outputs/tables/conditional_secured_cut_rewards.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "The cut must be secured; a 6–0 checkpoint did not always secure it. Eligibility and settlement still apply.",
+    "on_screen_qualification": "The cut must be secured; a 6–0 checkpoint did not always secure it. Eligibility and settlement still apply.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/conditional_secured_cut_rewards.csv",
+        "selector": {
+          "future_bracket_win_probability_q": "0.5",
+          "arrangement": "published"
+        },
+        "columns": [
+          "guaranteed_tickets_under_arrangement",
+          "maximum_possible_tickets"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S07-04",
+    "video_sequence": "S07",
+    "proposed_statement": "The owner personally received 216 tickets from a Top 8 split after an undefeated Swiss run.",
+    "evidence_class": "owner_firsthand_observation",
+    "source_report": "docs/CONDITIONAL_PERFORMANCE_AND_SPLITS.md",
+    "supporting_table": "data/conditional_rewards/observations.json",
+    "supporting_figure": "",
+    "official_source": "No official event-specific corroboration",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Firsthand anecdote; event/date/final Swiss record and frequency unknown.",
+    "on_screen_qualification": "Firsthand anecdote; event/date/final Swiss record and frequency unknown.",
+    "status": "anecdotal",
+    "evidence_cells": [],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S07-05",
+    "video_sequence": "S07",
+    "proposed_statement": "An equal Top 8 split pays 216 each and conserves the 1,728 pool.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/CONDITIONAL_PERFORMANCE_AND_SPLITS.md",
+    "supporting_table": "outputs/tables/conditional_secured_cut_rewards.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Separate scenario, not a universal historical agreement; Top4/Top2 scenarios are later stages.",
+    "on_screen_qualification": "Separate scenario, not a universal historical agreement; Top4/Top2 scenarios are later stages.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/conditional_secured_cut_rewards.csv",
+        "selector": {
+          "future_bracket_win_probability_q": "0.5",
+          "arrangement": "top8_equal"
+        },
+        "columns": [
+          "remaining_stage_pool",
+          "stage_equal_tickets"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S07-06",
+    "video_sequence": "S07",
+    "proposed_statement": "Historical prize sharing and Vegas match draws are different mechanisms.",
+    "evidence_class": "mechanism_distinction",
+    "source_report": "docs/CONDITIONAL_PERFORMANCE_AND_SPLITS.md",
+    "supporting_table": "outputs/tables/conditional_secured_cut_rewards.csv;outputs/tables/conditional_vegas_final_round_rewards.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "A split reallocates placement prizes; a draw changes points and point-band awards.",
+    "on_screen_qualification": "A split reallocates placement prizes; a draw changes points and point-band awards.",
+    "status": "conditional",
+    "evidence_cells": [],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S07-07",
+    "video_sequence": "S07",
+    "proposed_statement": "Vegas final-match expected payouts are 35/50/70 from 8–2/9–1/10–0 at p=50%.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/CONDITIONAL_PERFORMANCE_AND_SPLITS.md",
+    "supporting_table": "outputs/tables/conditional_vegas_final_round_rewards.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Entering Round11; completion/eligibility assumed; draw outcomes are local cases, not guaranteed strategies.",
+    "on_screen_qualification": "Entering Round11; completion/eligibility assumed; draw outcomes are local cases, not guaranteed strategies.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/conditional_vegas_final_round_rewards.csv",
+        "selector": {
+          "decisive_win_probability_p": "0.5",
+          "draw_probability_d": "0.0",
+          "checkpoint_record": "8-2-0"
+        },
+        "columns": [
+          "expected_tickets",
+          "loss_tickets",
+          "draw_tickets",
+          "win_tickets"
+        ]
+      },
+      {
+        "table": "outputs/tables/conditional_vegas_final_round_rewards.csv",
+        "selector": {
+          "decisive_win_probability_p": "0.5",
+          "draw_probability_d": "0.0",
+          "checkpoint_record": "9-1-0"
+        },
+        "columns": [
+          "expected_tickets",
+          "loss_tickets",
+          "draw_tickets",
+          "win_tickets"
+        ]
+      },
+      {
+        "table": "outputs/tables/conditional_vegas_final_round_rewards.csv",
+        "selector": {
+          "decisive_win_probability_p": "0.5",
+          "draw_probability_d": "0.0",
+          "checkpoint_record": "10-0-0"
+        },
+        "columns": [
+          "expected_tickets",
+          "loss_tickets",
+          "draw_tickets",
+          "win_tickets"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S08-01",
+    "video_sequence": "S08",
+    "proposed_statement": "All eight archived regional schedules offered the BO3 three-win competitive ODE paying 12 to the winner.",
+    "evidence_class": "official_offer_inventory",
+    "source_report": "docs/PHASE5_GROUP_AND_TEAM_ECONOMICS.md",
+    "supporting_table": "outputs/tables/phase5_historical_ode_offers.csv;outputs/tables/phase4_event_inventory.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "That historical-style offer is absent from the current Vegas inventory, not proven absent from every future organizer revision.",
+    "on_screen_qualification": "That historical-style offer is absent from the current Vegas inventory, not proven absent from every future organizer revision.",
+    "status": "supported",
+    "evidence_cells": [],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S08-02",
+    "video_sequence": "S08",
+    "proposed_statement": "The matching casual ODE also existed historically in all eight cities.",
+    "evidence_class": "official_offer_inventory",
+    "source_report": "docs/PHASE5_GROUP_AND_TEAM_ECONOMICS.md",
+    "supporting_table": "outputs/tables/phase5_historical_ode_offers.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Do not present today’s casual option as a newly introduced mean-throughput improvement.",
+    "on_screen_qualification": "Do not present today’s casual option as a newly introduced mean-throughput improvement.",
+    "status": "supported",
+    "evidence_cells": [],
+    "correction_or_use_note": "Correct any implied competitive-to-casual replacement narrative in S08."
+  },
+  {
+    "claim_id": "S08-03",
+    "video_sequence": "S08",
+    "proposed_statement": "At 50% match p, competitive and casual ODEs both average 1.5 tickets per pod.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/PHASE5_GROUP_AND_TEAM_ECONOMICS.md",
+    "supporting_table": "outputs/tables/phase5_ode_comparison.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Same p across BO3/BO1 is imposed; old maximum12 versus casual3. Old EV=12p³, casual EV=3p.",
+    "on_screen_qualification": "Same p across BO3/BO1 is imposed; old maximum12 versus casual3. Old EV=12p³, casual EV=3p.",
+    "status": "conditional",
+    "evidence_cells": [],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S08-04",
+    "video_sequence": "S08",
+    "proposed_statement": "Published mean rates were 0.4 versus 0.6667 tickets/hour before queues at p=50%.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/PHASE5_GROUP_AND_TEAM_ECONOMICS.md",
+    "supporting_table": "outputs/tables/phase5_ode_comparison.csv",
+    "supporting_figure": "outputs/figures/phase5_competitive_ode.png",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Per-pod equality is not per-hour equality; the casual offer already existed.",
+    "on_screen_qualification": "Per-pod equality is not per-hour equality; the casual offer already existed.",
+    "status": "conditional",
+    "evidence_cells": [],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S08-05",
+    "video_sequence": "S08",
+    "proposed_statement": "The primary Vegas solo Constructed ODE schedule fits eight pods, maximum24; even zero queue fits eleven, maximum33.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/PHASE5_GROUP_AND_TEAM_ECONOMICS.md",
+    "supporting_table": "outputs/tables/phase4_queue_duration_sensitivity.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Published duration/window model with available pods; this rules out40 from zero within those modeled constraints, not all real throughput.",
+    "on_screen_qualification": "Published duration/window model with available pods; this rules out40 from zero within those modeled constraints, not all real throughput.",
+    "status": "conditional",
+    "evidence_cells": [],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S09-01",
+    "video_sequence": "S09",
+    "proposed_statement": "For eight people, pooling’s first-threshold increment is 21.82 points historically versus33.87 in Vegas.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/PHASE5_GROUP_AND_TEAM_ECONOMICS.md",
+    "supporting_table": "outputs/tables/phase5_saturday_comparison.csv",
+    "supporting_figure": "outputs/figures/phase5_pooling_advantage.png",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "N512/equal skill/no draws; finite historical rank sampling versus independent Vegas paths; unrestricted pooling hypothetical.",
+    "on_screen_qualification": "N512/equal skill/no draws; finite historical rank sampling versus independent Vegas paths; unrestricted pooling hypothetical.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/phase5_saturday_comparison.csv",
+        "selector": {
+          "group_size": "8",
+          "vegas_draw_rate": "0.0",
+          "historical_allocation": "historical_official"
+        },
+        "columns": [
+          "historical_incremental_success_probability",
+          "vegas_incremental_success_probability"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S09-02",
+    "video_sequence": "S09",
+    "proposed_statement": "Absolute pooled success is still lower:62.36% historically versus57.23% Vegas for eight.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/PHASE5_GROUP_AND_TEAM_ECONOMICS.md",
+    "supporting_table": "outputs/tables/phase5_saturday_groups.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "First group threshold, not one metal per person.",
+    "on_screen_qualification": "First group threshold, not one metal per person.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/phase5_saturday_groups.csv",
+        "selector": {
+          "event_model": "historical_official",
+          "sampling": "without_replacement",
+          "draw_rate": "0.0",
+          "group_size": "8"
+        },
+        "columns": [
+          "p_aggregate_40"
+        ]
+      },
+      {
+        "table": "outputs/tables/phase5_saturday_groups.csv",
+        "selector": {
+          "event_model": "vegas_rebound",
+          "sampling": "independent",
+          "draw_rate": "0.0",
+          "group_size": "8"
+        },
+        "columns": [
+          "p_aggregate_40"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S09-03",
+    "video_sequence": "S09",
+    "proposed_statement": "Potential-unit efficiency does not uniformly become more aggregation-favorable.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/PHASE5_GROUP_AND_TEAM_ECONOMICS.md",
+    "supporting_table": "outputs/tables/phase5_saturday_groups.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Increment per person:0.06763 old official versus0.06597 Vegas; old split0.06528 reverses the small comparison.",
+    "on_screen_qualification": "Increment per person:0.06763 old official versus0.06597 Vegas; old split0.06528 reverses the small comparison.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/phase5_saturday_groups.csv",
+        "selector": {
+          "event_model": "historical_official",
+          "sampling": "without_replacement",
+          "draw_rate": "0.0",
+          "group_size": "8"
+        },
+        "columns": [
+          "incremental_units_per_participant"
+        ]
+      },
+      {
+        "table": "outputs/tables/phase5_saturday_groups.csv",
+        "selector": {
+          "event_model": "historical_split",
+          "sampling": "without_replacement",
+          "draw_rate": "0.0",
+          "group_size": "8"
+        },
+        "columns": [
+          "incremental_units_per_participant"
+        ]
+      },
+      {
+        "table": "outputs/tables/phase5_saturday_groups.csv",
+        "selector": {
+          "event_model": "vegas_rebound",
+          "sampling": "independent",
+          "draw_rate": "0.0",
+          "group_size": "8"
+        },
+        "columns": [
+          "incremental_units_per_participant"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S09-04",
+    "video_sequence": "S09",
+    "proposed_statement": "Historical independent sampling gives62.18% pooled success and21.85-point pooling increment at eight.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/PHASE5_GROUP_AND_TEAM_ECONOMICS.md",
+    "supporting_table": "outputs/tables/phase6_group_sampling_sensitivity.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Sensitivity, not finite-field truth; the larger Vegas pooling increment persists.",
+    "on_screen_qualification": "Sensitivity, not finite-field truth; the larger Vegas pooling increment persists.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/phase6_group_sampling_sensitivity.csv",
+        "selector": {
+          "event_model": "historical_official",
+          "sampling": "independent",
+          "group_size": "8"
+        },
+        "columns": [
+          "p_aggregate_40",
+          "incremental_success_probability"
+        ]
+      },
+      {
+        "table": "outputs/tables/phase6_group_sampling_sensitivity.csv",
+        "selector": {
+          "event_model": "historical_official",
+          "sampling": "without_replacement",
+          "group_size": "8"
+        },
+        "columns": [
+          "p_aggregate_40",
+          "incremental_success_probability"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S09-05",
+    "video_sequence": "S09",
+    "proposed_statement": "Pooling consolidates remainders but creates no additional gross tickets.",
+    "evidence_class": "ticket_conservation_identity",
+    "source_report": "docs/PHASE5_GROUP_AND_TEAM_ECONOMICS.md",
+    "supporting_table": "outputs/tables/phase5_saturday_groups.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Potential unit capacity does not prove permitted transfers, claims or actual aggregation prevalence.",
+    "on_screen_qualification": "Potential unit capacity does not prove permitted transfers, claims or actual aggregation prevalence.",
+    "status": "conditional",
+    "evidence_cells": [],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S09-06",
+    "video_sequence": "S09",
+    "proposed_statement": "Unrestricted cross-attendee ticket pooling is a verified current permission.",
+    "evidence_class": "policy_gap",
+    "source_report": "docs/PHASE5_GROUP_AND_TEAM_ECONOMICS.md",
+    "supporting_table": "outputs/tables/phase6_operations.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Ticket-specific transfer/control rules were not established; general sharing provisions are conditional.",
+    "on_screen_qualification": "Ticket-specific transfer/control rules were not established; general sharing provisions are conditional.",
+    "status": "unresolved",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/phase6_operations.csv",
+        "selector": {
+          "operational_item": "badge_limits_transfers"
+        },
+        "columns": [
+          "finding",
+          "status"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Do not conflate ordinary friends, large groups and match manipulation."
+  },
+  {
+    "claim_id": "S10-01",
+    "video_sequence": "S10",
+    "proposed_statement": "Historical main-event registry overlap is about79% Friday,4% Saturday and71% Sunday.",
+    "evidence_class": "aggregate_official_ID_linkage",
+    "source_report": "docs/PHASE6_FIELD_COMPOSITION_AND_RECOMMENDATIONS.md",
+    "supporting_table": "outputs/tables/phase6_weekday_summary.csv",
+    "supporting_figure": "outputs/figures/phase6_field_composition.png",
+    "official_source": "https://locator.riftbound.uvsgames.com/events/502327; all eight official IDs in data/phase6/main_events.json; side sources in data/events.json",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Shares of side standings entries, exact identifiers; not physical attendance, skill or unique people across cities.",
+    "on_screen_qualification": "Shares of side standings entries, exact identifiers; not physical attendance, skill or unique people across cities.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/phase6_weekday_summary.csv",
+        "selector": {
+          "weekday": "friday"
+        },
+        "columns": [
+          "standings_entries",
+          "main_registry_linked",
+          "main_registry_fraction",
+          "unresolved_identity"
+        ]
+      },
+      {
+        "table": "outputs/tables/phase6_weekday_summary.csv",
+        "selector": {
+          "weekday": "saturday"
+        },
+        "columns": [
+          "standings_entries",
+          "main_registry_linked",
+          "main_registry_fraction",
+          "unresolved_identity"
+        ]
+      },
+      {
+        "table": "outputs/tables/phase6_weekday_summary.csv",
+        "selector": {
+          "weekday": "sunday"
+        },
+        "columns": [
+          "standings_entries",
+          "main_registry_linked",
+          "main_registry_fraction",
+          "unresolved_identity"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S10-02",
+    "video_sequence": "S10",
+    "proposed_statement": "Most main-linked Sunday entrants were below the main-event Day2 gate.",
+    "evidence_class": "aggregate_qualification_reconstruction",
+    "source_report": "docs/PHASE6_FIELD_COMPOSITION_AND_RECOMMENDATIONS.md",
+    "supporting_table": "outputs/tables/phase6_sunday_qualification.csv",
+    "supporting_figure": "",
+    "official_source": "https://locator.riftbound.uvsgames.com/events/502327; all eight official IDs in data/phase6/main_events.json; side sources in data/events.json",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Qualification inferred from published18-point gate and R8 standings; observed R9 pairings are separate.",
+    "on_screen_qualification": "Qualification inferred from published18-point gate and R8 standings; observed R9 pairings are separate.",
+    "status": "conditional",
+    "evidence_cells": [],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S10-03",
+    "video_sequence": "S10",
+    "proposed_statement": "Main-linked players have different observed cross-group match results within the same side events.",
+    "evidence_class": "descriptive_within_event_match_association",
+    "source_report": "docs/PHASE6_FIELD_COMPOSITION_AND_RECOMMENDATIONS.md",
+    "supporting_table": "outputs/tables/phase6_weekday_summary.csv",
+    "supporting_figure": "",
+    "official_source": "https://locator.riftbound.uvsgames.com/events/502327; all eight official IDs in data/phase6/main_events.json; side sources in data/events.json",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Selected participants and repeated matches; pooled win fractions do not estimate field skill or assign Vegas p.",
+    "on_screen_qualification": "Selected participants and repeated matches; pooled win fractions do not estimate field skill or assign Vegas p.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/phase6_weekday_summary.csv",
+        "selector": {
+          "weekday": "friday"
+        },
+        "columns": [
+          "cross_group_main_wins",
+          "cross_group_not_listed_wins",
+          "cross_group_draws",
+          "cross_group_main_decisive_win_fraction"
+        ]
+      },
+      {
+        "table": "outputs/tables/phase6_weekday_summary.csv",
+        "selector": {
+          "weekday": "saturday"
+        },
+        "columns": [
+          "cross_group_main_wins",
+          "cross_group_not_listed_wins",
+          "cross_group_draws",
+          "cross_group_main_decisive_win_fraction"
+        ]
+      },
+      {
+        "table": "outputs/tables/phase6_weekday_summary.csv",
+        "selector": {
+          "weekday": "sunday"
+        },
+        "columns": [
+          "cross_group_main_wins",
+          "cross_group_not_listed_wins",
+          "cross_group_draws",
+          "cross_group_main_decisive_win_fraction"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S10-04",
+    "video_sequence": "S10",
+    "proposed_statement": "Vegas’s championship begins Friday and leaves only semifinalists competing Sunday.",
+    "evidence_class": "official_RC_schedule",
+    "source_report": "docs/PHASE6_FIELD_COMPOSITION_AND_RECOMMENDATIONS.md",
+    "supporting_table": "outputs/tables/phase6_operations.csv",
+    "supporting_figure": "",
+    "official_source": "https://playriftbound.com/en-us/news/organizedplay/north-american-regional-championship-info/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Theoretical availability shifts; eliminated RC players need access and separately booked side entries.",
+    "on_screen_qualification": "Theoretical availability shifts; eliminated RC players need access and separately booked side entries.",
+    "status": "supported",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/phase6_operations.csv",
+        "selector": {
+          "operational_item": "RC_progression"
+        },
+        "columns": [
+          "finding"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S10-05",
+    "video_sequence": "S10",
+    "proposed_statement": "Friday is the weakest Vegas side-event field.",
+    "evidence_class": "unsupported_field_strength_ranking",
+    "source_report": "docs/PHASE6_FIELD_COMPOSITION_AND_RECOMMENDATIONS.md",
+    "supporting_table": "outputs/tables/phase6_composition.csv",
+    "supporting_figure": "",
+    "official_source": "https://playriftbound.com/en-us/news/organizedplay/north-american-regional-championship-info/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Not established: RC qualification, self-selection, other competitors and side entries remain unknown.",
+    "on_screen_qualification": "Not established: RC qualification, self-selection, other competitors and side entries remain unknown.",
+    "status": "unresolved",
+    "evidence_cells": [],
+    "correction_or_use_note": "Present Friday as potentially less exposed to active RC competitors, not easier matches."
+  },
+  {
+    "claim_id": "S11-01",
+    "video_sequence": "S11",
+    "proposed_statement": "Sunday Challenge averages10.625 tickets but gives only3.125% chance of40 from zero at p50.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/PHASE4_INDIVIDUAL_ACQUISITION.md",
+    "supporting_table": "outputs/tables/phase6_event_objectives.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Mean value and threshold acquisition are different objectives.",
+    "on_screen_qualification": "Mean value and threshold acquisition are different objectives.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/phase6_event_objectives.csv",
+        "selector": {
+          "event_id": "sunday-radiance-standard-challenge",
+          "hypothetical_p": "0.5"
+        },
+        "columns": [
+          "expected_tickets",
+          "p40_from_zero",
+          "tickets_per_entry_dollar",
+          "tickets_per_occupied_hour"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S11-02",
+    "video_sequence": "S11",
+    "proposed_statement": "Friday 2v2 averages11.875 tickets/team, hypothetically5.9375/person under equal allocation.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/PHASE5_GROUP_AND_TEAM_ECONOMICS.md",
+    "supporting_table": "outputs/tables/phase5_friday_comparison.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Team win probability50%; fee25/50 per person and individual division remain unresolved.",
+    "on_screen_qualification": "Team win probability50%; fee25/50 per person and individual division remain unresolved.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/phase5_friday_comparison.csv",
+        "selector": {
+          "event_id": "friday-radiance-2v2-team-challenge",
+          "entry_fee_person_usd": "25"
+        },
+        "columns": [
+          "expected_tickets_person",
+          "p40_person",
+          "occupied_hours"
+        ]
+      },
+      {
+        "table": "outputs/tables/phase5_friday_comparison.csv",
+        "selector": {
+          "event_id": "friday-radiance-2v2-team-challenge",
+          "entry_fee_person_usd": "50"
+        },
+        "columns": [
+          "expected_tickets_person",
+          "p40_person",
+          "occupied_hours"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S11-03",
+    "video_sequence": "S11",
+    "proposed_statement": "Friday Sealed plus Nexus averages9 personal tickets at75USD and6.5 occupied hours.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/PHASE5_GROUP_AND_TEAM_ECONOMICS.md",
+    "supporting_table": "outputs/tables/phase5_friday_comparison.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "More mean tickets/less time than equal-allocated Friday team at p50, but no40-from-zero tail; products unvalued.",
+    "on_screen_qualification": "More mean tickets/less time than equal-allocated Friday team at p50, but no40-from-zero tail; products unvalued.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/phase5_friday_comparison.csv",
+        "selector": {
+          "event_id": "friday_sealed_plus_nexus"
+        },
+        "columns": [
+          "expected_tickets_person",
+          "entry_fee_person_usd",
+          "occupied_hours",
+          "p40_person"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S12-01",
+    "video_sequence": "S12",
+    "proposed_statement": "The mixed reference reaches40 with11.93% probability,135USD entry spend and19.5 occupied hours.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/PHASE6_FIELD_COMPOSITION_AND_RECOMMENDATIONS.md",
+    "supporting_table": "outputs/tables/phase6_itineraries.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Conditional fixed schedule and hypothetical p50; booked seats, queues and prize settlement assumptions apply.",
+    "on_screen_qualification": "Conditional fixed schedule and hypothetical p50; booked seats, queues and prize settlement assumptions apply.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/phase6_itineraries.csv",
+        "selector": {
+          "itinerary_id": "mixed-p50"
+        },
+        "columns": [
+          "p40",
+          "modeled_entry_spend_usd",
+          "occupied_hours",
+          "full_plan_fee_exposure_usd"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S12-02",
+    "video_sequence": "S12",
+    "proposed_statement": "The adaptive finite-menu benchmark reaches18.84%, averaging175.64USD and21.16 occupied hours.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/PHASE6_FIELD_COMPOSITION_AND_RECOMMENDATIONS.md",
+    "supporting_table": "outputs/tables/phase6_itineraries.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Availability of future actions is unverified; not a guaranteed bookable itinerary or global optimum.",
+    "on_screen_qualification": "Availability of future actions is unverified; not a guaranteed bookable itinerary or global optimum.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/phase6_itineraries.csv",
+        "selector": {
+          "itinerary_id": "adaptive-benchmark-p50"
+        },
+        "columns": [
+          "p40",
+          "modeled_entry_spend_usd",
+          "occupied_hours"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S12-03",
+    "video_sequence": "S12",
+    "proposed_statement": "At a hypothetical70% across formats, mixed gives51.09% versus35.57% competitive-first.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/PHASE6_FIELD_COMPOSITION_AND_RECOMMENDATIONS.md",
+    "supporting_table": "outputs/tables/phase6_itineraries.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "No measured classification of real people; premier competition can be the objective regardless of threshold ranking.",
+    "on_screen_qualification": "No measured classification of real people; premier competition can be the objective regardless of threshold ranking.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/phase6_itineraries.csv",
+        "selector": {
+          "itinerary_id": "mixed-p70"
+        },
+        "columns": [
+          "p40",
+          "modeled_entry_spend_usd",
+          "occupied_hours"
+        ]
+      },
+      {
+        "table": "outputs/tables/phase6_itineraries.csv",
+        "selector": {
+          "itinerary_id": "competitive_first-p70"
+        },
+        "columns": [
+          "p40",
+          "modeled_entry_spend_usd",
+          "occupied_hours"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S12-04",
+    "video_sequence": "S12",
+    "proposed_statement": "Rebound qualification blocks the11AM Sunday Challenge.",
+    "evidence_class": "schedule_conflict",
+    "source_report": "docs/PHASE6_FIELD_COMPOSITION_AND_RECOMMENDATIONS.md",
+    "supporting_table": "outputs/tables/phase6_operations.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Do not assume late entry, post-elimination availability, refunds or early release.",
+    "on_screen_qualification": "Do not assume late entry, post-elimination availability, refunds or early release.",
+    "status": "supported",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/phase6_operations.csv",
+        "selector": {
+          "operational_item": "Sunday_conflict"
+        },
+        "columns": [
+          "finding",
+          "necessary_qualification"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S12-05",
+    "video_sequence": "S12",
+    "proposed_statement": "The equal-allocation Friday-team mixed example gives17.47% personal success and23.49 occupied hours.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/PHASE6_FIELD_COMPOSITION_AND_RECOMMENDATIONS.md",
+    "supporting_table": "outputs/tables/phase6_itineraries.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Expected selected entry spend131.56/156.56USD under25/50USD fee scenarios; full booking135/160; allocation unverified.",
+    "on_screen_qualification": "Expected selected entry spend131.56/156.56USD under25/50USD fee scenarios; full booking135/160; allocation unverified.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/phase6_itineraries.csv",
+        "selector": {
+          "itinerary_id": "friday-team-mixed-fee25"
+        },
+        "columns": [
+          "p40",
+          "modeled_entry_spend_usd",
+          "occupied_hours",
+          "full_plan_fee_exposure_usd"
+        ]
+      },
+      {
+        "table": "outputs/tables/phase6_itineraries.csv",
+        "selector": {
+          "itinerary_id": "friday-team-mixed-fee50"
+        },
+        "columns": [
+          "p40",
+          "modeled_entry_spend_usd",
+          "occupied_hours",
+          "full_plan_fee_exposure_usd"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S12-06",
+    "video_sequence": "S12",
+    "proposed_statement": "With20/25/30 tickets, Sunday Challenge reaches40 with18.75%/50%/50% at p50.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/PHASE6_FIELD_COMPOSITION_AND_RECOMMENDATIONS.md",
+    "supporting_table": "outputs/tables/phase6_close_to_40.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Gap-aware advice depends on the remaining schedule and advance registration.",
+    "on_screen_qualification": "Gap-aware advice depends on the remaining schedule and advance registration.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/phase6_close_to_40.csv",
+        "selector": {
+          "starting_tickets": "20",
+          "event_id": "sunday-radiance-standard-challenge",
+          "hypothetical_p": "0.5"
+        },
+        "columns": [
+          "p_reach_40"
+        ]
+      },
+      {
+        "table": "outputs/tables/phase6_close_to_40.csv",
+        "selector": {
+          "starting_tickets": "25",
+          "event_id": "sunday-radiance-standard-challenge",
+          "hypothetical_p": "0.5"
+        },
+        "columns": [
+          "p_reach_40"
+        ]
+      },
+      {
+        "table": "outputs/tables/phase6_close_to_40.csv",
+        "selector": {
+          "starting_tickets": "30",
+          "event_id": "sunday-radiance-standard-challenge",
+          "hypothetical_p": "0.5"
+        },
+        "columns": [
+          "p_reach_40"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S12-07",
+    "video_sequence": "S12",
+    "proposed_statement": "With35 tickets, Nexus succeeds31.25% and Sealed50% at p50.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/PHASE6_FIELD_COMPOSITION_AND_RECOMMENDATIONS.md",
+    "supporting_table": "outputs/tables/phase6_close_to_40.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "One casual pod and Trial cannot fill a five-ticket gap; choose using fee/time/product preference.",
+    "on_screen_qualification": "One casual pod and Trial cannot fill a five-ticket gap; choose using fee/time/product preference.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/phase6_close_to_40.csv",
+        "selector": {
+          "starting_tickets": "35",
+          "event_id": "friday-super-nexus-night",
+          "hypothetical_p": "0.5"
+        },
+        "columns": [
+          "p_reach_40",
+          "entry_usd",
+          "occupied_hours"
+        ]
+      },
+      {
+        "table": "outputs/tables/phase6_close_to_40.csv",
+        "selector": {
+          "starting_tickets": "35",
+          "event_id": "friday-radiance-sealed-deck",
+          "hypothetical_p": "0.5"
+        },
+        "columns": [
+          "p_reach_40",
+          "entry_usd",
+          "occupied_hours"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S12-08",
+    "video_sequence": "S12",
+    "proposed_statement": "With38 tickets, casual pod/Trial/Sealed give50%/87.5%/100% conditional threshold chance at p50.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/PHASE6_FIELD_COMPOSITION_AND_RECOMMENDATIONS.md",
+    "supporting_table": "outputs/tables/phase6_close_to_40.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Sealed’s two-ticket floor assumes completion and eligibility; none guarantees inventory or redemption.",
+    "on_screen_qualification": "Sealed’s two-ticket floor assumes completion and eligibility; none guarantees inventory or redemption.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/phase6_close_to_40.csv",
+        "selector": {
+          "starting_tickets": "38",
+          "event_id": "ode-standard-constructed",
+          "hypothetical_p": "0.5"
+        },
+        "columns": [
+          "p_reach_40",
+          "minimum_ticket_award_if_eligible",
+          "entry_usd",
+          "occupied_hours"
+        ]
+      },
+      {
+        "table": "outputs/tables/phase6_close_to_40.csv",
+        "selector": {
+          "starting_tickets": "38",
+          "event_id": "friday-champion-deck-trial",
+          "hypothetical_p": "0.5"
+        },
+        "columns": [
+          "p_reach_40",
+          "minimum_ticket_award_if_eligible",
+          "entry_usd",
+          "occupied_hours"
+        ]
+      },
+      {
+        "table": "outputs/tables/phase6_close_to_40.csv",
+        "selector": {
+          "starting_tickets": "38",
+          "event_id": "friday-radiance-sealed-deck",
+          "hypothetical_p": "0.5"
+        },
+        "columns": [
+          "p_reach_40",
+          "minimum_ticket_award_if_eligible",
+          "entry_usd",
+          "occupied_hours"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S12-09",
+    "video_sequence": "S12",
+    "proposed_statement": "With Sunday Challenge p=50%, Rebound’s standalone p40 break-even is about49.7%. The tiny p50 no-draw edge also reverses under the existing2% independent-draw sensitivity.",
+    "evidence_class": "exact_model",
+    "source_report": "docs/PHASE6_FIELD_COMPOSITION_AND_RECOMMENDATIONS.md",
+    "supporting_table": "outputs/tables/phase6_performance_thresholds.csv;outputs/tables/phase6_draw_robustness.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Same50USD fee, different time commitments; hypothetical p/draw assumptions, not a weekend optimum or field forecast.",
+    "on_screen_qualification": "Both cost50USD, but different time commitments; not a weekend optimum or forecast.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/phase6_performance_thresholds.csv",
+        "selector": {
+          "Sunday_Challenge_p": "0.5"
+        },
+        "columns": [
+          "Rebound_p_threshold_lower",
+          "Rebound_p_threshold_upper",
+          "Sunday_Challenge_p40"
+        ]
+      },
+      {
+        "table": "outputs/tables/phase6_draw_robustness.csv",
+        "selector": {
+          "event_id": "saturday-standard-rebound-day-1",
+          "competitive_draw_rate": "0.02"
+        },
+        "columns": [
+          "p_at_least_40"
+        ]
+      },
+      {
+        "table": "outputs/tables/phase6_draw_robustness.csv",
+        "selector": {
+          "event_id": "sunday-radiance-standard-challenge",
+          "competitive_draw_rate": "0.02"
+        },
+        "columns": [
+          "p_at_least_40"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S12-10",
+    "video_sequence": "S12",
+    "proposed_statement": "Scheduled entry needs advance purchase and a valid festival pass; current availability and exact cutoffs remain unknown.",
+    "evidence_class": "official_operations_plus_gap",
+    "source_report": "docs/PHASE6_FIELD_COMPOSITION_AND_RECOMMENDATIONS.md",
+    "supporting_table": "outputs/tables/phase6_operations.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Entry-only cost models exclude passes/fees; fallback booking can leave unused nonrefundable tickets.",
+    "on_screen_qualification": "Entry-only cost models exclude passes/fees; fallback booking can leave unused nonrefundable tickets.",
+    "status": "conditional",
+    "evidence_cells": [
+      {
+        "table": "outputs/tables/phase6_operations.csv",
+        "selector": {
+          "operational_item": "scheduled_registration"
+        },
+        "columns": [
+          "finding",
+          "status"
+        ]
+      },
+      {
+        "table": "outputs/tables/phase6_operations.csv",
+        "selector": {
+          "operational_item": "registration_stock"
+        },
+        "columns": [
+          "finding",
+          "status"
+        ]
+      },
+      {
+        "table": "outputs/tables/phase6_operations.csv",
+        "selector": {
+          "operational_item": "exact_registration_cutoffs"
+        },
+        "columns": [
+          "finding",
+          "status"
+        ]
+      },
+      {
+        "table": "outputs/tables/phase6_operations.csv",
+        "selector": {
+          "operational_item": "required_pass"
+        },
+        "columns": [
+          "finding",
+          "status"
+        ]
+      }
+    ],
+    "correction_or_use_note": "Use with the specified qualification."
+  },
+  {
+    "claim_id": "S13-01",
+    "video_sequence": "S13",
+    "proposed_statement": "The research establishes a comprehensive historical whole-weekend decline in metal accessibility.",
+    "evidence_class": "scope_limit",
+    "source_report": "docs/PHASE6_FIELD_COMPOSITION_AND_RECOMMENDATIONS.md",
+    "supporting_table": "docs/PHASE4_INDIVIDUAL_ACQUISITION.md;docs/PHASE5_GROUP_AND_TEAM_ECONOMICS.md",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Not established; no comparable historical whole-weekend optimizer, observed issuance or redemption baseline.",
+    "on_screen_qualification": "Not established; no comparable historical whole-weekend optimizer, observed issuance or redemption baseline.",
+    "status": "unresolved",
+    "evidence_cells": [],
+    "correction_or_use_note": "Conclude with demonstrated Saturday changes, lost competitive ODE upside and conditional practical choices."
+  },
+  {
+    "claim_id": "S13-02",
+    "video_sequence": "S13",
+    "proposed_statement": "The strongest result is lower matched-attendance Saturday opportunity and reduced competitive upside, with stronger pooling incentives for the first group threshold.",
+    "evidence_class": "cross_phase_synthesis",
+    "source_report": "docs/PHASE6_FIELD_COMPOSITION_AND_RECOMMENDATIONS.md",
+    "supporting_table": "outputs/tables/saturday_analytical_comparison.csv;outputs/tables/phase5_saturday_comparison.csv;outputs/tables/phase6_weekday_summary.csv",
+    "supporting_figure": "",
+    "official_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/esports/convergence-fest-side-events-and-the-encore-details/",
+    "required_assumptions": "Published schedules; model assumptions where numerical; no physical issuance/redemption inference.",
+    "spoken_qualification": "Keep field composition descriptive and actual whole-weekend redemption unresolved.",
+    "on_screen_qualification": "Keep field composition descriptive and actual whole-weekend redemption unresolved.",
+    "status": "conditional",
+    "evidence_cells": [],
+    "correction_or_use_note": "Use with the specified qualification."
+  }
+]

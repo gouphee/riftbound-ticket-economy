@@ -1,0 +1,106 @@
+[
+  {
+    "sequence": "S01",
+    "source_inputs": "phase6_operations: operational_item=redemption_threshold; finding/status",
+    "visual_comparison": "40-ticket threshold and owner-supplied footage",
+    "display_rounding": "40 tickets; no invented collection count",
+    "visible_assumptions": "Published catalog; no stock guarantee",
+    "do_not_assert": "Collection facts or universal weekend decline"
+  },
+  {
+    "sequence": "S02",
+    "source_inputs": "saturday_analytical_comparison: equal-512/official_placement; historical_*; conditional_historical_checkpoint_rows: R6/R7",
+    "visual_comparison": "Funded placement ladder, seven Swiss then Top8",
+    "display_rounding": "Tickets integers;128 slots;32 above40",
+    "visible_assumptions": "Funded prizes;Swiss seed is not final placement",
+    "do_not_assert": "Unfinished bracket as proof of split"
+  },
+  {
+    "sequence": "S03",
+    "source_inputs": "data/phase3a/vegas_rules.json; phase6_operations Sunday_conflict/Rebound_reserved_seats",
+    "visual_comparison": "6 rounds →12 points gate →5 rounds; full point ladder",
+    "display_rounding": "1024 cap;256 reserved;80 ceiling",
+    "visible_assumptions": "Eleven total rounds; no new Day2 entries",
+    "do_not_assert": "Obsolete ten-round payout timing"
+  },
+  {
+    "sequence": "S04",
+    "source_inputs": "saturday_analytical_comparison: historical_n/vegas_n; *_expected_entries_at_least_40; *_at_least_40_probability",
+    "visual_comparison": "Counts at different caps beside probability at matched N",
+    "display_rounding": "32 versus33.5 expected;6.25% versus3.27%",
+    "visible_assumptions": "512 versus1024 capacities;equal-skill/no-draw",
+    "do_not_assert": "Actual metals or finite-field joint forecast"
+  },
+  {
+    "sequence": "S05",
+    "source_inputs": "saturday_analytical_comparison: *_expected_total_tickets; *_expected_tickets_per_entrant",
+    "visual_comparison": "Total supply versus per-entrant supply",
+    "display_rounding": "4992 versus5795 expected;9.75 versus5.66",
+    "visible_assumptions": "Different caps for totals;matched512 for means",
+    "do_not_assert": "Expected total as theoretical maximum/issuance"
+  },
+  {
+    "sequence": "S06",
+    "source_inputs": "conditional_record_probabilities: p/d; exact5_1/exact8_2; wins tails; perfect checkpoints",
+    "visual_comparison": "Use existing difficulty figure; exact/tail/perfect panels",
+    "display_rounding": "Probabilities normally2 decimals;0.0977% needs4",
+    "visible_assumptions": "Checkpoints; p sensitivity; gate applied",
+    "do_not_assert": "Uniform cumulative difficulty across40–80%"
+  },
+  {
+    "sequence": "S07",
+    "source_inputs": "conditional_historical_record_cohorts; conditional_historical_hybrid_rewards; conditional_secured_cut_rewards; conditional_vegas_final_round_rewards",
+    "visual_comparison": "Existing conditional reward curve; split allocation separate from match outcomes",
+    "display_rounding": "57.14/212.11 hybrid;144 floor;216 anecdote;35/50/70 Vegas",
+    "visible_assumptions": "Observed cut conversion fixed;q50;not receipts",
+    "do_not_assert": "Universal split practice or split=draw"
+  },
+  {
+    "sequence": "S08",
+    "source_inputs": "phase5_historical_ode_offers; phase5_ode_comparison; phase4_queue_duration_sensitivity",
+    "visual_comparison": "Old competitive and already-existing casual payout distributions",
+    "display_rounding": "1.5/pod both;p50;12 versus3 ceilings;8pod primary",
+    "visible_assumptions": "BO3/BO1 controlled p;published times;availability",
+    "do_not_assert": "Casual offer newly introduced or per-pod=per-hour"
+  },
+  {
+    "sequence": "S09",
+    "source_inputs": "phase5_saturday_comparison; phase6_group_sampling_sensitivity; phase5_weekend_groups",
+    "visual_comparison": "First group threshold and per-person unit capacity as separate visuals",
+    "display_rounding": "2 decimals percentages;2 decimals percentage-point increments",
+    "visible_assumptions": "Without-replacement versus independent;policy hypothetical",
+    "do_not_assert": "Pooling creates tickets or implies manipulation"
+  },
+  {
+    "sequence": "S10",
+    "source_inputs": "phase6_weekday_summary: main_registry_fraction/cross_group_*; phase6_composition; phase6_sunday_qualification",
+    "visual_comparison": "New historical composition figure; separate RC progression schematic",
+    "display_rounding": "79%/4%/71%; performance fraction1 decimal with n",
+    "visible_assumptions": "Registry linkage;selection;no causality or Vegas skill ranking",
+    "do_not_assert": "Friday weakest or numerical RC side attendance forecast"
+  },
+  {
+    "sequence": "S11",
+    "source_inputs": "phase6_event_objectives: expected_tickets/tickets_per_entry_dollar/tickets_per_occupied_hour/maximum_ticket_award; phase5_friday_comparison",
+    "visual_comparison": "Compare objective-specific economics and included products",
+    "display_rounding": "Means2 decimals;fees whole USD;hours1 decimal",
+    "visible_assumptions": "Checkin/queue overhead included;products unvalued;team allocation conditional",
+    "do_not_assert": "Highest EV automatically best40-ticket strategy"
+  },
+  {
+    "sequence": "S12",
+    "source_inputs": "phase6_recommendation_matrix; phase6_itineraries; phase6_itinerary_events; phase6_close_to_40; phase6_performance_thresholds",
+    "visual_comparison": "Profile cards and a few dated Friday/Saturday/Sunday timelines",
+    "display_rounding": "Probability1 decimal;USD nearest dollar;hours1 decimal;threshold p0.1 point",
+    "visible_assumptions": "Advance booking/exposure;published durations;hypothetical p",
+    "do_not_assert": "Late fallback availability/refunds;TFT before Saturday noon"
+  },
+  {
+    "sequence": "S13",
+    "source_inputs": "phase6_claims statuses; PHASE6_FIELD_COMPOSITION_AND_RECOMMENDATIONS completion answers",
+    "visual_comparison": "Scope-aware conclusion and evidence limitations",
+    "display_rounding": "Reuse approved rounded values only",
+    "visible_assumptions": "Saturday finding versus unresolved whole weekend",
+    "do_not_assert": "New research phase, script or policy redesign"
+  }
+]

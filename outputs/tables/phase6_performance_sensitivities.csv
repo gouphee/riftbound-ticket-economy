@@ -1,0 +1,11 @@
+scenario_id,strategy,p_Rebound,p_Rebound_exact,p_Sunday_Challenge,p_Sunday_Challenge_exact,p_smaller_events,p_smaller_events_exact,p40,p40_exact,expected_entry_usd,expected_entry_usd_exact,occupied_hours,occupied_hours_exact,interpretation
+equal_50,mixed,0.5,1/2,0.5,1/2,0.5,1/2,0.11925506591796875,15631/131072,135.0,135,19.5,39/2,hypothetical_format_dependent_probabilities_not_inferred_from_composition
+equal_50,competitive_first,0.5,1/2,0.5,1/2,0.5,1/2,0.05322265625,109/2048,107.8125,1725/16,19.734375,1263/64,hypothetical_format_dependent_probabilities_not_inferred_from_composition
+Rebound40_other50,mixed,0.4,2/5,0.5,1/2,0.5,1/2,0.11925506591796875,15631/131072,135.0,135,19.5,39/2,hypothetical_format_dependent_probabilities_not_inferred_from_composition
+Rebound40_other50,competitive_first,0.4,2/5,0.5,1/2,0.5,1/2,0.0315744544,9867017/312500000,116.04,2901/25,19.9812,49953/2500,hypothetical_format_dependent_probabilities_not_inferred_from_composition
+Rebound60_other50,mixed,0.6,3/5,0.5,1/2,0.5,1/2,0.11925506591796875,15631/131072,135.0,135,19.5,39/2,hypothetical_format_dependent_probabilities_not_inferred_from_composition
+Rebound60_other50,competitive_first,0.6,3/5,0.5,1/2,0.5,1/2,0.1331568128,2600719/19531250,97.784,12223/125,19.43352,242919/12500,hypothetical_format_dependent_probabilities_not_inferred_from_composition
+both_competitive40_small50,mixed,0.4,2/5,0.4,2/5,0.5,1/2,0.05349625,42797/800000,135.0,135,19.5,39/2,hypothetical_format_dependent_probabilities_not_inferred_from_composition
+both_competitive40_small50,competitive_first,0.4,2/5,0.4,2/5,0.5,1/2,0.0143294464,139936/9765625,116.04,2901/25,19.9812,49953/2500,hypothetical_format_dependent_probabilities_not_inferred_from_composition
+competitive50_small60,mixed,0.5,1/2,0.5,1/2,0.6,3/5,0.1581976354304,3089797567/19531250000,135.0,135,19.5,39/2,hypothetical_format_dependent_probabilities_not_inferred_from_composition
+competitive50_small60,competitive_first,0.5,1/2,0.5,1/2,0.6,3/5,0.05322265625,109/2048,107.8125,1725/16,19.734375,1263/64,hypothetical_format_dependent_probabilities_not_inferred_from_composition

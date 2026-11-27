@@ -1,5 +1,28 @@
 # Research changes
 
+## 2026-11-26 — Phase 6 field composition and final synthesis
+
+- Verified clean start at committed conditional analysis `244515c`; protected
+  1,045 prior tracked artifacts. Collected eight official main registries,
+  R8/R13 checkpoints and first-Day-2 pairings into a separate raw ledger.
+- Added exact identifier linkage, conflicting-ID quarantine, missing-data and
+  registry reconciliation audits. Analytical outputs contain only aggregates.
+  Main overlap is 79.27% Friday / 3.98% Saturday / 70.85% Sunday; within-event
+  performance associations remain descriptive and do not assign Vegas skill.
+- Added focused recommendation/itinerary, event-objective, starting-balance and
+  performance-threshold tables using existing models. Separated selected spend,
+  scheduled booking exposure and planned ODE budget; retained team fee/allocation
+  sensitivities and existing draw/independent-sampling counterexamples.
+- Rechecked current schedules, registration and policy. Vendor stock/cutoffs
+  remain blocked by HTTP403; general rules PDF bytes match the reviewed version.
+  November23 championship-only updates are not applied to side events.
+- Added the 57-claim S01–S13 index, sequence data handoff, twenty machine tables
+  and one composition PNG/SVG pair. No payout rules, script, Remotion project,
+  player-rating system or whole-weekend historical conclusion was manufactured.
+- Added an isolated validation runner and linkage/aggregation/recommendation/
+  claim-consistency tests. The actual run passed 192 tests and all14 commands;
+  all1,045 protected prior files remained unchanged, with isolated logs/hashes.
+
 ## 2026-11-26 — Conditional performance and prize splits
 
 - Captured 16 complete historical R6/R7 standings groups into a separate ledger;

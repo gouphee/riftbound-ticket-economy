@@ -18,6 +18,7 @@
     "src/riftbound_tickets/charts/__init__.py": "22b3cc0b55667f02a25e5b837b6cace9cfcd9c35e619f3c499cc4fb2fb566b67",
     "src/riftbound_tickets/charts/aggregation.py": "b954618b2b739cd5b9c5bf654e9567aa5ebbf549ec22500ce1d3e075a787f4ec",
     "src/riftbound_tickets/charts/conditional_rewards.py": "57c04484fb5827715ae0c6504e48a48262ecbb5f5df966c8fe429cc300b0a243",
+    "src/riftbound_tickets/charts/field_composition.py": "c9336703f7d9ddf790d98fa84b33430848c62725b13090d1a03ac818d913721b",
     "src/riftbound_tickets/charts/historical.py": "f8ed2d498b8c95eefc1d8f3367318978c24f3b46b09903b885bde57010690203",
     "src/riftbound_tickets/charts/individual.py": "34dd22454dd1fec340d427e4cf6662cd7389cf9f2077ab1cd36fa68e97e10539",
     "src/riftbound_tickets/charts/saturday_analytical.py": "fd791d6751fdcd9c26d1985eb439877ffff79f542aa7a5151892efad5c324055",
@@ -31,9 +32,11 @@
     "src/riftbound_tickets/collectors/phase3a_sources.py": "53a9ce7abc9f6413837076ddb346b69d296bfdca16e9ac82c12bfd6cef59231b",
     "src/riftbound_tickets/collectors/phase4_sources.py": "36d6599fdfb238f0e8cede5ddd8fafa6de975ce440a9dbe6f351ca178e97597e",
     "src/riftbound_tickets/collectors/phase5_sources.py": "87078a1810d63ce47031344eb23b8d7b10c34cb72389ace5d783f302377dd630",
+    "src/riftbound_tickets/collectors/phase6_sources.py": "bec1aeb5612b02454278c101c1152982d285f37c470c7e642cff9a40595d4d7f",
     "src/riftbound_tickets/collectors/schedules.py": "b49519fbd007fedc512c22c8c8156624df50425ae079647b8d68977f1e1d7b5d",
     "src/riftbound_tickets/conditional_rewards.py": "56cc2e2de5b7d0f19f36ac410332fefa9f8e79d1ba893edb1dbd0f91c47cec9f",
     "src/riftbound_tickets/draws.py": "cbf8e0f4bc352591bba5c369e22259f1ee7e9e1ebfa6e83806603a29792cadc9",
+    "src/riftbound_tickets/field_composition.py": "b6a2f2c0e855ed8180967d561e788ece789f190a8c09a9dae2362f8649d6a391",
     "src/riftbound_tickets/models/__init__.py": "65db20e495efef4231233dd672d07c9f37b96c61e61102c130ca24646ed80dd1",
     "src/riftbound_tickets/models/aggregation.py": "f94bb0ee592c8fd712bcca75d8138009ab68e3802976f14ca6687dabdb02e1a6",
     "src/riftbound_tickets/models/conditional_rewards.py": "ee4e86e9108fcfc4a40507368e15f86869a31ace22b3ab95a8e04e3863456b78",
@@ -49,7 +52,10 @@
     "src/riftbound_tickets/phase3b.py": "80f2d66fa1f4c1328b6b6e4ff961e54bd7288b1f277a8d60b6099b7d877082c0",
     "src/riftbound_tickets/phase4.py": "53ee0ef41c98a8511f70499a910e6f6699303cf596659b13ec16353e374b6db2",
     "src/riftbound_tickets/phase5.py": "1e4dc964d201c858edc758c89c5744c23cb007f175c491e2b2db4b3ac0debc20",
+    "src/riftbound_tickets/phase6.py": "1c0ef789bcd664d6de7eeaa31dcfd4de0bcefecab9a8ea2af4f0ac07932d8d2c",
+    "src/riftbound_tickets/phase6_claims.py": "89d3997858d693374c19d274712c8e310d9272f1c75f72fc40fead7576f0f9aa",
     "src/riftbound_tickets/pipeline.py": "48992535d219623d3577473fef97b8d6f7773f41d0ff04896767fde8e608d215",
+    "src/riftbound_tickets/recommendations.py": "d3f162389f6f62c3460cd1487ef2806bdeea0908cbe7df70267bf766f4fcf1b7",
     "src/riftbound_tickets/validation.py": "2425efa016e5a216af8112b864912a4d18e71d8b891025079d0d62f375cf09f2"
   }
 }

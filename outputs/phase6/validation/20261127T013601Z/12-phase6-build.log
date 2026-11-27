@@ -1,0 +1,22 @@
+{
+  "phase6_main_feasibility.csv": 8,
+  "phase6_identity_audit.csv": 32,
+  "phase6_composition.csv": 53,
+  "phase6_cross_group_matches.csv": 24,
+  "phase6_main_performance_distribution.csv": 144,
+  "phase6_sunday_qualification.csv": 8,
+  "phase6_side_overlap.csv": 24,
+  "phase6_weekday_summary.csv": 3,
+  "phase6_side_performance_distribution.csv": 315,
+  "phase6_itineraries.csv": 12,
+  "phase6_itinerary_events.csv": 44,
+  "phase6_close_to_40.csv": 170,
+  "phase6_event_objectives.csv": 34,
+  "phase6_performance_sensitivities.csv": 10,
+  "phase6_performance_thresholds.csv": 4,
+  "phase6_recommendation_matrix.csv": 9,
+  "phase6_operations.csv": 17,
+  "phase6_group_sampling_sensitivity.csv": 16,
+  "phase6_draw_robustness.csv": 4,
+  "phase6_claims.csv": 57
+}

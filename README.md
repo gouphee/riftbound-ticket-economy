@@ -10,6 +10,33 @@ bye/match evidence, and each city's historical payout tables. It reconstructs
 published ticket entitlements. **Actual physical ticket issuance is unverified:**
 no claim/distribution ledger was recovered, so verified-issuance fields are blank.
 
+## Phase 6 final research and production handoff
+
+[Field composition and recommendations](docs/PHASE6_FIELD_COMPOSITION_AND_RECOMMENDATIONS.md)
+links the eight official main-event registries to historical side standings.
+Main-event overlap is **79.27% Friday / 3.98% Saturday / 70.85% Sunday**;
+Saturday is lower in every city. This supports a participation mechanism,
+not a causal skill ranking or a forecast that Friday will be weakest in Vegas.
+
+The [authoritative claim index](docs/VIDEO_CLAIMS.md) supplies **57 claims for
+S01–S13**, exact source-cell selectors, qualifications and explicit unsupported
+claims. [The production data handoff](docs/VIDEO_DATA_HANDOFF.md) identifies
+reusable inputs and display rounding. Twenty `phase6_*.csv` tables cover aggregate
+composition/performance, recommendations, dated itineraries, gap-aware supplements,
+performance/draw sensitivities, operations and claims. One new
+[composition figure](outputs/figures/phase6_field_composition.png) has PNG/SVG
+versions. Existing graphics and research remain unchanged.
+
+Recommendations distinguish selected entry spend, scheduled booking exposure
+and ODE budgets. Registration stock/cutoffs, team allocation/fee units and
+ticket-specific pooling/redemption rules remain unresolved. The title needs
+explicit Saturday/premier-route scope; whole-weekend historical decline remains
+unestablished. No script or Remotion implementation is included.
+
+```sh
+python3.12 scripts/validate_phase6.py
+```
+
 ## Conditional performance and historical prize splits
 
 [The additional analysis](docs/CONDITIONAL_PERFORMANCE_AND_SPLITS.md) separates

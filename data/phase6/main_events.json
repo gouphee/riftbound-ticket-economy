@@ -1,0 +1,50 @@
+[
+  {
+    "city_key": "atlanta",
+    "official_event_id": 502327,
+    "discovery_url": "https://locator.riftbound.uvsgames.com/events/502327",
+    "discovery_method": "bounded_official_locator_web_search_exact_city_and_Regional_Qualifier"
+  },
+  {
+    "city_key": "sydney",
+    "official_event_id": 559231,
+    "discovery_url": "https://locator.riftbound.uvsgames.com/events/559231",
+    "discovery_method": "bounded_official_locator_web_search_exact_city_and_Regional_Qualifier"
+  },
+  {
+    "city_key": "vancouver",
+    "official_event_id": 600265,
+    "discovery_url": "https://locator.riftbound.uvsgames.com/events/600265",
+    "discovery_method": "bounded_official_locator_web_search_exact_city_and_Regional_Qualifier"
+  },
+  {
+    "city_key": "utrecht",
+    "official_event_id": 667904,
+    "discovery_url": "https://locator.riftbound.uvsgames.com/events/667904",
+    "discovery_method": "bounded_official_locator_web_search_exact_city_and_Regional_Qualifier"
+  },
+  {
+    "city_key": "hartford",
+    "official_event_id": 683264,
+    "discovery_url": "https://locator.riftbound.uvsgames.com/events/683264",
+    "discovery_method": "bounded_official_locator_web_search_exact_city_and_Regional_Qualifier"
+  },
+  {
+    "city_key": "barcelona",
+    "official_event_id": 857452,
+    "discovery_url": "https://locator.riftbound.uvsgames.com/events/857452",
+    "discovery_method": "bounded_official_locator_web_search_exact_city_and_Regional_Qualifier"
+  },
+  {
+    "city_key": "singapore",
+    "official_event_id": 889532,
+    "discovery_url": "https://locator.riftbound.uvsgames.com/events/889532",
+    "discovery_method": "bounded_official_locator_web_search_exact_city_and_Regional_Qualifier"
+  },
+  {
+    "city_key": "los-angeles",
+    "official_event_id": 889549,
+    "discovery_url": "https://locator.riftbound.uvsgames.com/events/889549",
+    "discovery_method": "bounded_official_locator_web_search_exact_city_and_Regional_Qualifier"
+  }
+]

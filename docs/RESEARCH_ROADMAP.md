@@ -2,6 +2,24 @@
 
 The research proceeds in auditable stages. Historical observations, counterfactual calculations, and behavioral simulations must remain separate data products.
 
+## 2026-11-26 Phase 6 — final authorized research synthesis
+
+[Phase 6](PHASE6_FIELD_COMPOSITION_AND_RECOMMENDATIONS.md) completes the bounded
+main-event feasibility/linkage analysis, selected within-event performance
+comparisons, practical recommendation matrix, representative itineraries and
+final claim audit. Eight official main-event IDs and stable identifiers support
+aggregate composition; no ratings, fuzzy name joins or individual histories are
+published. Twenty tables and one distinct composition figure preserve previous
+research. Availability changes do not establish the weakest Vegas day.
+
+[VIDEO_CLAIMS.md](VIDEO_CLAIMS.md) is the authoritative S01–S13 evidence index;
+[VIDEO_DATA_HANDOFF.md](VIDEO_DATA_HANDOFF.md) is the separate production handoff.
+The final substantial research task ends here. S01–S08 narration exists outside
+this repository and was not inspected or replaced. No further research phase,
+Remotion work, script, private-player investigation or policy redesign is
+authorized by this completion. Older next-task statements below are historical
+records, superseded by this status.
+
 ## 2026-11-26 additional conditional-performance analysis
 
 [Conditional performance and prize splits](CONDITIONAL_PERFORMANCE_AND_SPLITS.md)

@@ -1,10 +1,66 @@
 # Project handoff
 
-Updated **2026-11-26 America/Indianapolis after the conditional-performance add-on**. Read `AGENTS.md`, inspect
+Updated **2026-11-26 after Phase 6 final research synthesis**. Read `AGENTS.md`, inspect
 `git status`, and distinguish recorded executions from newly run checks.
-Phase 4 is committed at `4c59142`; Phase 5 at `c596588`. The additional analysis
-is left for review without commit or push. The next task is **competitive field-composition assessment and
-final recommendation synthesis**, not video scripting or production.
+The clean starting HEAD was `244515c` (conditional add-on), after Phase 4
+`4c59142` and Phase 5 `c596588`. Phase 6 changes are left for review without
+commit or push. **The authorized final substantial research phase is complete.**
+Do not start another research phase or implement production without instruction.
+
+## Current production handoff
+
+Read [PHASE6_FIELD_COMPOSITION_AND_RECOMMENDATIONS.md](PHASE6_FIELD_COMPOSITION_AND_RECOMMENDATIONS.md),
+[VIDEO_CLAIMS.md](VIDEO_CLAIMS.md) and [VIDEO_DATA_HANDOFF.md](VIDEO_DATA_HANDOFF.md).
+There are 57 claims across S01–S13, exact source-cell selectors/values and explicit
+supported/conditional/anecdotal/unresolved/contradicted statuses. Unresolved or
+contradicted claims are marked DO_NOT_ASSERT. Separate S01–S08 narration was not
+inspected or rewritten; no script, Remotion implementation or graphics redesign
+was made. The working title requires explicit Saturday/premier-route scope.
+
+Main-event linkage was feasible for all eight cities: 15,420 roster entries,
+R8/R13 standings and R9 pairings. Main registry overlap among side standings is
+**9,172/11,571 Friday (79.27%), 126/3,165 Saturday (3.98%), 4,191/5,915 Sunday
+(70.85%)**. All eight cities show lower Saturday overlap. Six side rows remain
+unresolved after exact-ID conflict quarantine; no display-name matching or
+individual performance histories are published. Sunday main-linked entries are
+**4,048 below / 143 meeting** the published 18-point gate; 142 have R9 pairings.
+Within-event decisive cross-group main-linked wins are **60.07% / 52.41% /
+56.13%** by weekday. These are selected descriptive associations, not causal
+field-strength estimates or Vegas win probabilities. Historical RQs were open;
+Vegas RC requires qualification. Do not call Friday the weakest field.
+
+Practical references: mixed p50 **11.93% / $135 / 19.5 occupied hours**;
+competitive-first **5.32% / $107.81 selected-entry expectation / 19.73 hours**,
+with $125 scheduled booking exposure if reserving the fallback. Mixed's $135
+full plan comprises $125 scheduled entries plus $10 ODE budget. The adaptive
+18.84% benchmark is conditional on future actions, with an unverified total
+branch-booking cost and a $200 model cap. Friday equal-allocated team/mixed gives
+17.47% at $131.56/$156.56 selected spend and 23.49 hours; fee/ownership remain
+scenarios, with $135/$160 full-plan exposure including ODE budget. Team play
+replaces Friday Nexus. Qualifying for Rebound blocks Sunday Challenge.
+
+At 38 tickets, p50 one-pod Constructed / Trial / Sealed supplements reach40 with
+50% / 87.5% / 100% conditional chances. Sealed's two-ticket floor assumes
+completion/eligibility; no inventory/redemption promise. At 35, a casual pod or
+Trial cannot fill five. No fixed strategy is universally best: Rebound p60
+against other-event p50 reverses the mixed/competitive-first ranking. The tiny
+standalone p50 no-draw Rebound edge also reverses under the preserved 2% draw
+sensitivity. These are hypothetical probabilities, not inferred from composition.
+
+Twenty `phase6_*.csv` tables include dated event offsets, sources and operational
+unknowns. One new 1920×1080 PNG/SVG illustrates composition; reuse earlier figures.
+Tixr returned403, so seats, exact cutoffs, team fee/allocation, ODE last launches,
+ticket-specific sharing/redemption restrictions and physical claims remain
+unresolved. Fresh general-rules PDF bytes match Phase5; the November23 update is
+explicitly RC-only. Do not promote preserved all-weekend TFT scenarios.
+
+Run `python3.12 scripts/validate_phase6.py`; read the actual report and logs in
+`outputs/tables/phase6_execution_validation.json` and `outputs/phase6/validation/`.
+The new preservation manifest protects 1,045 prior files from `244515c`.
+The actual Phase6 run passed **192 tests and all14 commands**; all1,045 protected
+files stayed unchanged. The new composition figure was visually reviewed.
+Earlier phase summaries below remain historical context; their next-task wording
+is superseded by this final synthesis.
 
 ## Conditional-performance add-on
 
@@ -198,7 +254,6 @@ including the pre-rebuild stale-schema failure, remain available. Rerun checks
 after future edits; this records the completed run rather than promising later
 execution results.
 
-Next complete field-composition assessment and final recommendation synthesis.
-Do not begin scripting/production, a full historical weekend optimizer, private
-player identification, misconduct investigation, ticket-transaction strategies
-or comprehensive policy redesign without the next authorized task.
+The historical Phase5 next-task boundary has now been completed by Phase6.
+No additional research, scripting/production implementation, player investigation,
+ticket-transaction strategies or comprehensive policy redesign is started here.
